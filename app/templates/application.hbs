@@ -2,17 +2,13 @@
 
 {{!-- https://www.quackit.com/html/html_editors/scratchpad/?example=/css/flexbox/examples/flexbox_website_layout_2 --}}
 <div class="flex flex-col w-full h-full">
-  <header class="flex bg-teal-100">
-    <h1 class="text-3xl">Tulsa Neighborhood Explorer</h1>
-  </header>
+  <Header class="z-10" />
   <div class="flex flex-row h-full">
-    <div class="basis-1/5">
+    <div class="basis-1/4">
       <MapboxGl @initOptions={{hash hash=true}} class='map-container'/>
     </div>
-    <div class="basis-4/5">
-      Content
+    <div class="basis-3/4 border-l-8 p-10">
+      {{outlet}}
     </div>
   </div>
 </div>
-
-{{outlet}}

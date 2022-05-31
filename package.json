@@ -48,6 +48,7 @@
     "ember-mapbox-gl": "kturney/ember-mapbox-gl",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-page-title": "^6.2.2",
+    "ember-power-select": "^5.0.4",
     "ember-qunit": "^5.1.4",
     "ember-resolver": "^8.0.2",
     "ember-source": "~3.27.2",
@@ -74,5 +75,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "d3-dsv": "^3.0.1"
   }
 }

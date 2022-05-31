@@ -1,0 +1,9 @@
+<PowerSelect
+  class="m-10 max-w-full box-border"
+  @searchEnabled={{true}}
+  @options={{@list}}
+  @selected={{this.selected}}
+  @onChange={{this.transitionTo}} as |name|
+>
+  {{name}}
+</PowerSelect>
