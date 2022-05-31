@@ -1,9 +1,8 @@
 <MapboxGl @initOptions={{hash hash=true}} class='map-container' as |map|>
-  <Map::CompositeLayer
-    @map={{map}}
-    @source={{hash type='geojson' data=@neighborhoods promoteId='id'}} as |nsaBoundaries|
+  <map.source
+    @options={{hash type='geojson' data=@neighborhoods promoteId='id'}} as |source|
   >
-    <nsaBoundaries.layer
+    <source.layer
       @layer={{hash
         type='fill'
         paint=(hash
@@ -12,13 +11,12 @@
         )
       }} as |layer|
     >
-      <Map::HoverableLayer
+      <Map::FeaturePointer
         @map={{map}}
         @layerId={{layer.id}}
-        @sourceId={{nsaBoundaries.source.id}} as |feature|
       />
-    </nsaBoundaries.layer>
-    <nsaBoundaries.layer
+    </source.layer>
+    <source.layer
       @layer={{hash
         type='line'
         paint=(hash
@@ -27,7 +25,7 @@
         )
       }}
     />
-    <nsaBoundaries.layer
+    <source.layer
       @layer={{hash
         type='symbol'
         paint=(hash
@@ -43,5 +41,5 @@
         )
       }}
     />
-  </Map::CompositeLayer>
+  </map.source>
 </MapboxGl>

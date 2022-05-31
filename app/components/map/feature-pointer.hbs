@@ -1,0 +1,10 @@
+<@map.on
+  @event='mousemove'
+  @layerId={{@layerId}}
+  @action={{this.onLayerHover}}
+/>
+<@map.on
+  @event='mouseleave'
+  @layerId={{@layerId}}
+  @action={{this.onLayerMouseOut}}
+/>
