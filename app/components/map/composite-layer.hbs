@@ -1,0 +1,20 @@
+<@map.source
+  @options={{@source}} as |source|
+>
+  {{#if @layer}}
+    <source.layer
+      @layer={{@layer}}
+      as |layer|
+    >
+      {{yield (hash
+        layer=source.layer
+        source=source)
+      }}
+    </source.layer>
+  {{else}}
+    {{yield (hash
+      layer=source.layer
+      source=source)
+    }}
+  {{/if}}
+</@map.source>

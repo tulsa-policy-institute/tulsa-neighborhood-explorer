@@ -5,7 +5,9 @@
   <Header class="z-10" />
   <div class="flex flex-row h-full">
     <div class="basis-1/4">
-      <MapboxGl @initOptions={{hash hash=true}} class='map-container'/>
+      <NeighborhoodMap
+        @neighborhoods={{this.model.neighborhoodsGeoJson}}
+      />
     </div>
     <div class="basis-3/4 border-l-8 p-10">
       {{outlet}}

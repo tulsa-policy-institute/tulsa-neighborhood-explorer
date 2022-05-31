@@ -1,0 +1,47 @@
+<MapboxGl @initOptions={{hash hash=true}} class='map-container' as |map|>
+  <Map::CompositeLayer
+    @map={{map}}
+    @source={{hash type='geojson' data=@neighborhoods promoteId='id'}} as |nsaBoundaries|
+  >
+    <nsaBoundaries.layer
+      @layer={{hash
+        type='fill'
+        paint=(hash
+          fill-color='DodgerBlue'
+          fill-opacity=0.2
+        )
+      }} as |layer|
+    >
+      <Map::HoverableLayer
+        @map={{map}}
+        @layerId={{layer.id}}
+        @sourceId={{nsaBoundaries.source.id}} as |feature|
+      />
+    </nsaBoundaries.layer>
+    <nsaBoundaries.layer
+      @layer={{hash
+        type='line'
+        paint=(hash
+          line-width=1
+          line-color='#ae561f'
+        )
+      }}
+    />
+    <nsaBoundaries.layer
+      @layer={{hash
+        type='symbol'
+        paint=(hash
+          text-color='rgba(66, 66, 66, 1)'
+          text-halo-width=2
+          text-halo-color='white'
+          text-opacity=0.75
+        )
+        layout=(hash
+          text-field='{neighborhood}'
+          text-allow-overlap=false
+          symbol-placement='point'
+        )
+      }}
+    />
+  </Map::CompositeLayer>
+</MapboxGl>
