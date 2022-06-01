@@ -6,6 +6,9 @@ export default class ProfileRoute extends Route {
   @service
   mainMap;
 
+  @service
+  media;
+
   model(params) {
     const { neighborhoods } = this.modelFor('application');
 
@@ -20,7 +23,9 @@ export default class ProfileRoute extends Route {
     const neighborhoodBounds = bbox(feature);
 
     this.mainMap.run((map) => {
-      map.fitBounds(neighborhoodBounds, { padding: 75 });
+      map.fitBounds(neighborhoodBounds, {
+        padding: this.media.isMobile ? 0 : 75,
+      });
     });
   }
 }
