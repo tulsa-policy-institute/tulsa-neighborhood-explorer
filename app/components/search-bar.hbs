@@ -3,7 +3,9 @@
   @searchEnabled={{true}}
   @options={{@list}}
   @selected={{this.selected}}
-  @onChange={{this.transitionTo}} as |name|
+  @searchField="neighborhood"
+  @placeholder="Click here to type or select your neighborhood..."
+  @onChange={{this.transitionTo}} as |neighborhood|
 >
-  {{name}}
+  {{neighborhood.neighborhood}}
 </PowerSelect>

@@ -1,4 +1,5 @@
 import Route from '@ember/routing/route';
+import { dasherize } from '@ember/string';
 import fetch from 'fetch';
 
 const CARTO_URL = 'https://wilburnforce.carto.com:443/api/v2/sql';
@@ -6,6 +7,7 @@ const SQL_Query = `
   SELECT
     g.*,
     g.cartodb_id as id,
+    g.map_id,
     s.equal_interval_score,
     s.lu_1_0_to_5,
     s.lu_2_0_to_5,
@@ -27,6 +29,15 @@ const CARTO_QUERY = `${CARTO_URL}?q=${SQL_Query}&format=geojson`;
 export default class ApplicationRoute extends Route {
   async model() {
     const neighborhoodsGeoJson = await (await fetch(CARTO_QUERY)).json();
+    neighborhoodsGeoJson.features.forEach((n) => {
+      n.properties = {
+        slug: `${dasherize(n.properties.neighborhood || '')}-${
+          n.properties.map_id
+        }`,
+        ...n.properties,
+      };
+    });
+
     const neighborhoods = neighborhoodsGeoJson.features.map(
       (n) => n.properties
     );

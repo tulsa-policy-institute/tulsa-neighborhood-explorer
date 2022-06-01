@@ -1,7 +1,6 @@
 {{page-title "Tulsa Neighborhood Explorer"}}
 
-{{!-- https://www.quackit.com/html/html_editors/scratchpad/?example=/css/flexbox/examples/flexbox_website_layout_2 --}}
-<div class="flex flex-col w-full h-full">
+<div class="flex flex-col box-border w-full h-full">
   <Header class="z-10" />
   <div class="flex flex-row h-full">
     <div class="basis-1/4">
@@ -9,7 +8,7 @@
         @neighborhoods={{this.model.neighborhoodsGeoJson}}
       />
     </div>
-    <div class="basis-3/4 border-l-8 p-10">
+    <div class="basis-3/4 border-l-8 p-10 overflow-scroll">
       {{outlet}}
     </div>
   </div>

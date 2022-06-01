@@ -1,4 +1,6 @@
-<MapboxGl @initOptions={{hash hash=true}} class='map-container' as |map|>
+<MapboxGl
+  @mapLoaded={{this.didLoad}}
+  class='map-container' as |map|>
   <map.source
     @options={{hash type='geojson' data=@neighborhoods promoteId='id'}} as |source|
   >
@@ -47,4 +49,6 @@
       }}
     />
   </map.source>
+
+  {{yield map}}
 </MapboxGl>

@@ -7,7 +7,7 @@ export default class SearchBarComponent extends Component {
   router;
 
   @action
-  transitionTo(neighborhoodName) {
-    this.router.transitionTo(`/profiles/${neighborhoodName}`);
+  transitionTo(neighborhood) {
+    this.router.transitionTo(`/profiles/${neighborhood.slug}`);
   }
 }
