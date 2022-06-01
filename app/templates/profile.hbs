@@ -2,6 +2,21 @@
 
 <h1 class="text-2xl">{{this.model.neighborhood}}</h1>
 
-<img src="/images/indicators.png" />
+<p>
+  <b>The {{this.model.neighborhood}} Neighborhood Statistical Area</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore aperiam odit voluptatibus velit qui optio quam exercitationem incidunt animi rem voluptate necessitatibus, nostrum obcaecati enim, ullam itaque et pariatur.
+</p>
+
+<div class="flex flex-wrap">
+  {{#each this.keys as |key|}}
+    {{#let (get this.model (concat key '_0_to_5')) as |value|}}
+      <div class="basis-1/4">
+        <RankingCircle
+          @value={{value}}
+        />
+        {{get this.dictionary key}}
+      </div>
+    {{/let}}
+  {{/each}}
+</div>
 
 {{outlet}}

@@ -20,7 +20,7 @@ export default class ProfileRoute extends Route {
     const neighborhoodBounds = bbox(feature);
 
     this.mainMap.run((map) => {
-      map.fitBounds(neighborhoodBounds, { padding: 50 });
+      map.fitBounds(neighborhoodBounds, { padding: 75 });
     });
   }
 }
