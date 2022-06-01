@@ -79,6 +79,7 @@
   },
   "dependencies": {
     "@turf/bbox": "^6.5.0",
-    "d3-dsv": "^3.0.1"
+    "d3-dsv": "^3.0.1",
+    "ember-cli-netlify": "^0.4.1"
   }
 }
