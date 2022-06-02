@@ -18,61 +18,26 @@ html, body {
 /* Progress Circle */
 /* TODO: Move to nested!! */
 
-.circle-wrap {
-  width: 150px;
-  height: 150px;
-  background: #b2b2b2;
-  border-radius: 50%;
-  position: relative;
+
+.widget {
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.circle-wrap .circle .mask,
-.circle-wrap .circle .fill {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  border-radius: 50%;
+.progress-bar {
+  fill: green;
 }
 
-.circle-wrap .circle .mask {
-  clip: rect(0px, 150px, 150px, 75px);
+.progress-bar-bg {
+  fill: #fff;
 }
 
-.circle-wrap .inside-circle {
-  width: 122px;
-  height: 122px;
-  border-radius: 50%;
-  background: #ffffff;
-  line-height: 120px;
-  text-align: center;
-  margin-top: 14px;
-  margin-left: 14px;
-  color: #1e51dc;
-  position: absolute;
-  z-index: 100;
-  font-weight: 700;
-  font-size: 2em;
-}
-
-/* color animation */
-
-/* 3rd progress bar */
-.mask .fill {
-  clip: rect(0px, 75px, 150px, 0px);
-  background-color: #22ed4e;
-}
-
-.mask.full,
-.circle .fill {
-  animation: fill ease-in-out 3s;
-  transform: rotate(var(--to));
-}
-
-@keyframes fill{
-  0% {
-    transform: rotate(var(--from));
-  }
-  100% {
-    transform: rotate(var(--to));
-  }
+.progress-label {
+  fill: #aaa;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-anchor: middle;
+  dominant-baseline: central;
 }

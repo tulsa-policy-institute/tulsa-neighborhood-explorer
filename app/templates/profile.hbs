@@ -1,12 +1,101 @@
 {{page-title this.model.neighborhood}}
 
+<this.mainMap.map.source
+  @options={{hash
+    type='geojson'
+    data=this.model.feature
+    promoteId='id'
+  }} as |source|
+>
+  <source.layer
+    @layer={{hash
+      type='fill'
+      paint=(hash
+        fill-color='DodgerBlue'
+        fill-opacity=0.4
+      )
+    }}
+  />
+</this.mainMap.map.source>
+
 <h1 class="text-2xl">{{this.model.neighborhood}}</h1>
 
 <p>
   <b>The {{this.model.neighborhood}} Neighborhood Statistical Area</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore aperiam odit voluptatibus velit qui optio quam exercitationem incidunt animi rem voluptate necessitatibus, nostrum obcaecati enim, ullam itaque et pariatur.
 </p>
 
-<div class="flex flex-wrap">
+<br />
+
+<div class="flex flex-col md:flex-row md:space-x-4">
+  <div class="flex-col md:basis-1/5 md:space-y-4">
+    <div class="bg-bone/[0.4]">
+      <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+        Overall Score
+      </h3>
+      <div class="p-2">
+        <h2 class="text-national-flag-blue text-8xl text-center">
+          {{this.model.__FAKE__overall_score}}
+        </h2>
+        based on a composite score including Strategic Planning Screening
+      </div>
+    </div>
+    <div class="bg-bone/[0.4]">
+      <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+        Group
+      </h3>
+      <div class="p-2">
+        <h2 class="text-national-flag-blue text-8xl text-center">
+          {{this.model.__FAKE__group}}
+        </h2>
+        based on the overall score, with 1 being the highest priority group
+      </div>
+    </div>
+  </div>
+  <div class="bg-bone/[0.4] md:basis-2/5">
+    <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+      Top Performing
+    </h3>
+    <div class="p-2 md:flex-col h-full">
+      <div class="flex flex-col md:flex-row">
+        <div class="md:basis-1/3">
+          <div>
+            <RankingCircle
+              @value={{this.model.lu_1_0_to_5}}
+            />
+            <h2>Access to Schools</h2>
+          </div>
+        </div>
+        <div class="md:basis-1/3">
+          <div>
+            <RankingCircle
+              @value={{this.model.lu_2_0_to_5}}
+            />
+            <h2>Access to Healthcare</h2>
+          </div>
+        </div>
+        <div class="md:basis-1/3">
+          <div>
+            <RankingCircle
+              @value={{this.model.lu_3_0_to_5}}
+            />
+            <h2>Access to Social Services</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-bone/[0.4] md:basis-2/5">
+    <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+      Lowest Performing
+    </h3>
+    <div class="p-2">
+
+    </div>
+  </div>
+</div>
+
+{{!-- List all the indicators! --}}
+{{!-- <div class="flex flex-wrap">
   {{#each this.keys as |key|}}
     {{#let (get this.model (concat key '_0_to_5')) as |value|}}
       <div class="basis-1/4">
@@ -17,6 +106,12 @@
       </div>
     {{/let}}
   {{/each}}
-</div>
+</div> --}}
+
+{{!-- Experimenting with pulling Census data from the API... --}}
+{{!-- There's a limit of 50 variables! --}}
+{{!-- <CensusData as |results|>
+  {{filter-for-profile-tracts results this.model.normalizedTractIDs}}
+</CensusData> --}}
 
 {{outlet}}

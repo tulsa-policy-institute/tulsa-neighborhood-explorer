@@ -10,16 +10,23 @@ export default class ProfileRoute extends Route {
   media;
 
   model(params) {
-    const { neighborhoods } = this.modelFor('application');
+    const { neighborhoods, neighborhoodsGeoJson } =
+      this.modelFor('application');
+    const feature = neighborhoodsGeoJson.features.find(
+      (n) => n.properties.slug === params.id
+    );
 
-    return neighborhoods.find((n) => n.slug === params.id);
+    return {
+      feature,
+      ...neighborhoods.find((n) => n.slug === params.id),
+    };
   }
 
-  afterModel({ slug }) {
-    const { neighborhoodsGeoJson } = this.modelFor('application');
-    const feature = neighborhoodsGeoJson.features.find(
-      (n) => n.properties.slug === slug
-    );
+  afterModel({ feature }) {
+    this.zoomToProfileGeography(feature);
+  }
+
+  zoomToProfileGeography(feature) {
     const neighborhoodBounds = bbox(feature);
 
     this.mainMap.run((map) => {

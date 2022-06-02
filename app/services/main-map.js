@@ -1,8 +1,10 @@
 import Service from '@ember/service';
+import { tracked } from '@glimmer/tracking';
 
 export default class MainMapService extends Service {
   queue = [];
 
+  @tracked
   map = null;
 
   setMap(map) {
@@ -11,13 +13,16 @@ export default class MainMapService extends Service {
     if (this.queue.length) {
       const lastCallback = this.queue.pop();
 
-      lastCallback(this.map);
+      const { instance } = this.map;
+      lastCallback(instance);
     }
   }
 
   run(callback) {
     if (this.map) {
-      callback(this.map);
+      const { instance } = this.map;
+
+      callback(instance);
     } else {
       this.queue.push(callback);
     }

@@ -18,6 +18,6 @@ export default class NeighborhoodMap extends Component {
 
   @action
   didLoad(map) {
-    this.mainMap.setMap(map);
+    // this.mainMap.setMap(map);
   }
 }

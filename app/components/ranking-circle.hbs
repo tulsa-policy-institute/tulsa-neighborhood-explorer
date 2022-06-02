@@ -1,13 +1,7 @@
-<div class="circle-wrap" style="--from:0deg; --to:{{this.valueInDegrees}}deg;">
-  <div class="circle">
-    <div class="mask full">
-      <div class="fill"></div>
-    </div>
-    <div class="mask half">
-      <div class="fill"></div>
-    </div>
-    <div class="inside-circle">
-      {{if @value @value 'N/A'}}
-    </div>
-  </div>
+<div
+  class='widget min-h-[100px] min-w-[100px]'
+  ...attributes
+  {{did-insert this.radialProgress}}
+  {{did-update this.update @value}}
+>
 </div>

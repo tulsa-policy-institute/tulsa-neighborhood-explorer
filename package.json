@@ -31,6 +31,7 @@
     "autoprefixer": "^10.4.7",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
+    "d3": "^7.4.4",
     "ember-auto-import": "^2.4.2",
     "ember-cli": "~4.4.0",
     "ember-cli-app-version": "^5.0.0",

@@ -1,6 +1,8 @@
 <MapboxGl
   @mapLoaded={{this.didLoad}}
   class='map-container' as |map|>
+  {{run this.mainMap 'setMap' map}}
+
   <map.source
     @options={{hash type='geojson' data=@neighborhoods promoteId='id'}} as |source|
   >

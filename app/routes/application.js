@@ -26,17 +26,38 @@ const SQL_Query = `
 `;
 const CARTO_QUERY = `${CARTO_URL}?q=${SQL_Query}&format=geojson`;
 
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+
+  return Math.floor(Math.random() * (max - min) + min);
+}
+
 export default class ApplicationRoute extends Route {
   async model() {
-    const neighborhoodsGeoJson = await (await fetch(CARTO_QUERY)).json();
-    neighborhoodsGeoJson.features.forEach((n) => {
-      n.properties = {
-        slug: `${dasherize(n.properties.neighborhood || '')}-${
-          n.properties.map_id
-        }`,
-        ...n.properties,
-      };
-    });
+    const data = await (await fetch(CARTO_QUERY)).json();
+
+    const neighborhoodsGeoJson = {
+      type: 'FeatureCollection',
+      features: data.features.map((n) => {
+        return {
+          ...n,
+          properties: {
+            slug: `${dasherize(n.properties.neighborhood || '')}-${
+              n.properties.map_id
+            }`,
+            normalizedTractIDs: n.properties.tracts_201
+              .split(',')
+              .map((id) => id.trim()),
+            ...n.properties,
+
+            // TODO: replace with real values!!!
+            __FAKE__overall_score: Math.random().toFixed(1),
+            __FAKE__group: getRandomInt(1, 4),
+          },
+        };
+      }),
+    };
 
     const neighborhoods = neighborhoodsGeoJson.features.map(
       (n) => n.properties
@@ -45,7 +66,6 @@ export default class ApplicationRoute extends Route {
     return {
       neighborhoodsGeoJson,
       neighborhoods,
-      list: neighborhoods.map((n) => n.neighborhood),
     };
   }
 }
