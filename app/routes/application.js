@@ -48,7 +48,7 @@ export default class ApplicationRoute extends Route {
             }`,
             normalizedTractIDs: n.properties.tracts_201
               .split(',')
-              .map((id) => id.trim()),
+              .map((id) => parseFloat(id.trim()).toString()),
             ...n.properties,
 
             // TODO: replace with real values!!!

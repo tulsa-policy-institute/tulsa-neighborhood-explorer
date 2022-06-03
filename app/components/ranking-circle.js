@@ -36,7 +36,7 @@ export default class RankingCircle extends Component {
 
     this.mainArcPath = this.svg
       .append('path')
-      .attr('class', 'progress-bar')
+      .attr('fill', this.args.barColor || 'green')
       .attr(
         'transform',
         `translate(${this.size.width / 2},${this.size.height / 2})`
@@ -44,7 +44,7 @@ export default class RankingCircle extends Component {
 
     this.svg
       .append('circle')
-      .attr('class', 'progress-bar')
+      .attr('fill', this.args.barColor || 'green')
       .attr(
         'transform',
         `translate(${this.size.width / 2},${
@@ -57,7 +57,7 @@ export default class RankingCircle extends Component {
 
     this.end = this.svg
       .append('circle')
-      .attr('class', 'progress-bar')
+      .attr('fill', this.args.barColor || 'green')
       .attr(
         'transform',
         `translate(${this.size.width / 2},${

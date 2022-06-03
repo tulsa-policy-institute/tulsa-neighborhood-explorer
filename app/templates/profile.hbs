@@ -18,12 +18,53 @@
   />
 </this.mainMap.map.source>
 
-<h1 class="text-2xl">{{this.model.neighborhood}}</h1>
+<div class="top-0 w-full">
+  <h1 class="text-6xl">{{this.model.neighborhood}}</h1>
+  <div class="bg-gray-50">
+    <ul class="flex flex-row">
+      <li class="p-5 hover:bg-gray-100 font-bold cursor-pointer">Indicators</li>
+      <li class="p-5 hover:bg-gray-100 font-bold cursor-pointer">Built Environment</li>
+      <li class="p-5 hover:bg-gray-100 font-bold cursor-pointer">Floodplain</li>
+      <li class="p-5 hover:bg-gray-100 font-bold cursor-pointer">Community</li>
+      <li class="p-5 hover:bg-gray-100 font-bold cursor-pointer">Board</li>
+      <li class="p-5 hover:bg-gray-100 font-bold cursor-pointer">Projects</li>
+      <li class="p-5 hover:bg-gray-100 font-bold cursor-pointer">Resources</li>
+    </ul>
+  </div>
+</div>
 
 <p>
   <b>The {{this.model.neighborhood}} Neighborhood Statistical Area</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore aperiam odit voluptatibus velit qui optio quam exercitationem incidunt animi rem voluptate necessitatibus, nostrum obcaecati enim, ullam itaque et pariatur.
 </p>
 
+<CensusData as |results|>
+  {{#let (filter-for-profile-tracts results this.model.normalizedTractIDs) as |data|}}
+    <div class="flex flex-color md:flex-row md:space-x-4">
+      <div class="basis-1/3">
+        <div class="bg-bone/[0.4]">
+          <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+            Population
+          </h3>
+          <div class="p-2">
+            <h2 class="text-national-flag-blue text-7xl text-center">
+              {{#if data.B01001_001E}}
+                {{format-number data.B01001_001E}}
+              {{else}}
+                N/A
+              {{/if}}
+            </h2>
+            <p class="text-center">ACS 5-Year 2020</p>
+          </div>
+        </div>
+      </div>
+      <div class="basis-1/3">
+        <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+          Density
+        </h3>
+      </div>
+    </div>
+  {{/let}}
+</CensusData>
 <br />
 
 <div class="flex flex-col md:flex-row md:space-x-4">
@@ -33,7 +74,7 @@
         Overall Score
       </h3>
       <div class="p-2">
-        <h2 class="text-national-flag-blue text-8xl text-center">
+        <h2 class="text-national-flag-blue text-7xl text-center">
           {{this.model.__FAKE__overall_score}}
         </h2>
         based on a composite score including Strategic Planning Screening
@@ -44,7 +85,7 @@
         Group
       </h3>
       <div class="p-2">
-        <h2 class="text-national-flag-blue text-8xl text-center">
+        <h2 class="text-national-flag-blue text-7xl text-center">
           {{this.model.__FAKE__group}}
         </h2>
         based on the overall score, with 1 being the highest priority group
@@ -63,6 +104,7 @@
               @value={{this.model.lu_1_0_to_5}}
             />
             <h2>Access to Schools</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div class="basis-1/3">
@@ -71,6 +113,7 @@
               @value={{this.model.lu_2_0_to_5}}
             />
             <h2>Access to Healthcare</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div class="basis-1/3">
@@ -79,6 +122,7 @@
               @value={{this.model.lu_3_0_to_5}}
             />
             <h2>Access to Social Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
       </div>
@@ -89,7 +133,38 @@
       Lowest Performing
     </h3>
     <div class="p-2">
-
+      <div class="flex flex-row">
+        <div class="basis-1/3">
+          <div>
+            <RankingCircle
+              @barColor="red"
+              @value={{this.model.lu_4_0_to_5}}
+            />
+            <h2>Access to Schools</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="basis-1/3">
+          <div>
+            <RankingCircle
+              @barColor="red"
+              @value={{this.model.lu_5_0_to_5}}
+            />
+            <h2>Access to Healthcare</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="basis-1/3">
+          <div>
+            <RankingCircle
+              @barColor="red"
+              @value={{this.model.lu_6_0_to_5}}
+            />
+            <h2>Access to Social Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -107,11 +182,5 @@
     {{/let}}
   {{/each}}
 </div> --}}
-
-{{!-- Experimenting with pulling Census data from the API... --}}
-{{!-- There's a limit of 50 variables! --}}
-{{!-- <CensusData as |results|>
-  {{filter-for-profile-tracts results this.model.normalizedTractIDs}}
-</CensusData> --}}
 
 {{outlet}}
