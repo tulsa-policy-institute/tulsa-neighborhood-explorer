@@ -58,7 +58,9 @@ export default class LandUseMapComponent extends Component {
 
     this.distribution = Object.entries(group)
       .map((grouping, idx, array) => {
-        return [grouping[0], grouping[1].length];
+        const totalArea = grouping[1].reduce((acc, curr) => acc + curr.properties['Shape__Area'], 0);
+
+        return [grouping[0], totalArea];
       })
       .map((grouping, idx, array) => {
         const total = array.reduce((acc, curr) => acc + curr[1], 0);
