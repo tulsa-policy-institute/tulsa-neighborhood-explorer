@@ -35,34 +35,52 @@
   <b>The {{this.model.neighborhood}} Neighborhood Statistical Area</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore aperiam odit voluptatibus velit qui optio quam exercitationem incidunt animi rem voluptate necessitatibus, nostrum obcaecati enim, ullam itaque et pariatur.
 </p>
 
-<CensusData as |results|>
-  {{#let (filter-for-profile-tracts results this.model.normalizedTractIDs) as |data|}}
+{{#let (filter-for-profile-tracts this.model.acs this.model.normalizedTractIDs) as |data20|}}
+  {{#let (filter-for-profile-tracts this.model.acs15 this.model.normalizedTractIDs) as |data15|}}
     <div class="flex flex-color md:flex-row md:space-x-4">
-      <div class="basis-1/3">
+      <div class="basis-1/2">
         <div class="bg-bone/[0.4]">
           <h3 class="bg-bone text-national-flag-blue font-bold p-2">
             Population
           </h3>
           <div class="p-2">
-            <h2 class="text-national-flag-blue text-7xl text-center">
-              {{#if data.B01001_001E}}
-                {{format-number data.B01001_001E}}
+            <h2 class="text-national-flag-blue text-5xl text-center">
+              {{#if data20.B01001_001E}}
+                {{format-number data20.B01001_001E}}
               {{else}}
                 N/A
               {{/if}}
             </h2>
             <p class="text-center">ACS 5-Year 2020</p>
           </div>
+          <div class="p-2">
+            <h2 class="text-national-flag-blue text-5xl text-center">
+              {{#if data15.B01001_001E}}
+                {{format-number data15.B01001_001E}}
+              {{else}}
+                N/A
+              {{/if}}
+            </h2>
+            <p class="text-center">ACS 5-Year 2015</p>
+          </div>
         </div>
       </div>
-      <div class="basis-1/3">
+      <div class="basis-1/2">
         <h3 class="bg-bone text-national-flag-blue font-bold p-2">
-          Density
+          Land Use
         </h3>
+        <div class="md:flex-col h-full">
+          <LandUseMap
+            @bounds={{this.model.neighborhoodBounds}}
+            @feature={{this.model.feature}}
+            as |distribution|
+          />
+        </div>
       </div>
     </div>
   {{/let}}
-</CensusData>
+{{/let}}
+
 <br />
 
 <div class="flex flex-col md:flex-row md:space-x-4">
@@ -166,6 +184,8 @@
     </div>
   </div>
 </div>
+
+<br />
 
 {{!-- List all the indicators! --}}
 {{!-- <div class="flex flex-wrap">

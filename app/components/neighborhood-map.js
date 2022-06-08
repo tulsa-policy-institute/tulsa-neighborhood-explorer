@@ -15,9 +15,4 @@ export default class NeighborhoodMap extends Component {
 
     this.router.transitionTo(`/profiles/${feature.properties.slug}`);
   }
-
-  @action
-  didLoad(map) {
-    // this.mainMap.setMap(map);
-  }
 }

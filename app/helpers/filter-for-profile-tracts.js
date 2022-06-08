@@ -1,7 +1,6 @@
 import { helper } from '@ember/component/helper';
 
 export default helper(function filterForProfileTracts([results, tracts]) {
-  console.log(tracts);
   return results
     .filter((r) => tracts.includes(r['NAME']))
     .reduce((acc, curr) => {
