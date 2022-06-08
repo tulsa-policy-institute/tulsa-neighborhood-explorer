@@ -41,3 +41,10 @@ html, body {
   text-anchor: middle;
   dominant-baseline: central;
 }
+
+.categories li:before {
+  content:"■";
+  font-size:15x;
+  vertical-align:middle;
+  color: var(--category-color);
+}

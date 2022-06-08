@@ -3,26 +3,6 @@
   class="w-full h-[200px]" as |map|
 >
   {{map.call 'fitBounds' @bounds (hash padding=20)}}
-
-  <map.source
-    @options={{hash
-      type='geojson'
-      data=@feature
-      promoteId='id'
-    }} as |source|
-  >
-    <source.layer
-      @layer={{hash
-        type='line'
-        paint=(hash
-          line-width=3
-          line-color='#000'
-          line-dasharray=(array 3 2)
-          line-opacity=0.6
-        )
-      }}
-    />
-  </map.source>
   <map.source
     @options={{this.source}}
     as |source|
@@ -53,6 +33,24 @@
         @action={{this.aggregate}}
       />
     </source.layer>
+  </map.source>
+  <map.source
+    @options={{hash
+      type='geojson'
+      data=@feature
+      promoteId='id'
+    }} as |source|
+  >
+    <source.layer
+      @layer={{hash
+        type='line'
+        paint=(hash
+          line-width=3
+          line-color='#000'
+          line-dasharray=(array 3 2)
+        )
+      }}
+    />
   </map.source>
 </MapboxGl>
 

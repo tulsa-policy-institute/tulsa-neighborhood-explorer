@@ -56,8 +56,16 @@ export default class LandUseMapComponent extends Component {
       return r;
     }, {});
 
-    this.distribution = Object.entries(group).map((grouping) => {
-      return [grouping[0], grouping[1].length];
-    });
+    this.distribution = Object.entries(group)
+      .map((grouping, idx, array) => {
+        return [grouping[0], grouping[1].length];
+      })
+      .map((grouping, idx, array) => {
+        const total = array.reduce((acc, curr) => acc + curr[1], 0);
+        const categoryColor = colors[colors.findIndex(el => el === grouping[0]) + 1];
+
+        return [...grouping, (grouping[1] / total * 100).toFixed(0), categoryColor];
+      })
+      .sort((a, b) => b[1] - a[1]);
   }
 }

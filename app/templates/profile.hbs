@@ -37,7 +37,7 @@
 
 {{#let (filter-for-profile-tracts this.model.acs this.model.normalizedTractIDs) as |data20|}}
   {{#let (filter-for-profile-tracts this.model.acs15 this.model.normalizedTractIDs) as |data15|}}
-    <div class="flex flex-color md:flex-row md:space-x-4">
+    <div class="flex flex-col md:flex-row md:space-x-4">
       <div class="basis-1/2">
         <div class="bg-bone/[0.4]">
           <h3 class="bg-bone text-national-flag-blue font-bold p-2">
@@ -65,7 +65,7 @@
           </div>
         </div>
       </div>
-      <div class="basis-1/2">
+      <div class="basis-1/2 relative">
         <h3 class="bg-bone text-national-flag-blue font-bold p-2">
           Land Use
         </h3>
@@ -74,7 +74,18 @@
             @bounds={{this.model.neighborhoodBounds}}
             @feature={{this.model.feature}}
             as |distribution|
-          />
+          >
+            {{#if distribution}}
+              <div class="absolute bottom-1 left-1 bg-bone/50 p-1">
+                <ul class="list-none list-inside categories">
+                  {{#each distribution as |type|}}
+                    {{log type}}
+                    <li class="text-xs" style="--category-color: {{type.[3]}};"><b>{{type.[0]}}</b>: {{type.[2]}}%</li>
+                  {{/each}}
+                </ul>
+              </div>
+            {{/if}}
+          </LandUseMap>
         </div>
       </div>
     </div>
