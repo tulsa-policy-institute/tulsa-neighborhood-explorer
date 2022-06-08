@@ -5,6 +5,10 @@ export default class ProfileController extends Controller {
   @service
   mainMap;
 
+  showAssessment = false;
+
+  queryParams = ['showAssessment']
+
   dictionary = {
     lu_1: 'Access to Schools',
     lu_2: 'Access to Healthcare',

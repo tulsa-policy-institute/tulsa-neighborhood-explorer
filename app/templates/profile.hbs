@@ -98,105 +98,107 @@
 
   <br />
 
-  <div class="flex flex-col md:flex-row md:space-x-4">
-    <div class="flex-col md:basis-1/5 md:space-y-4">
-      <div class="bg-bone/[0.4]">
+  {{#if this.showAssessment}}
+    <div class="flex flex-col md:flex-row md:space-x-4">
+      <div class="flex-col md:basis-1/5 md:space-y-4">
+        <div class="bg-bone/[0.4]">
+          <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+            Overall Score
+          </h3>
+          <div class="p-2">
+            <h2 class="text-national-flag-blue text-7xl text-center">
+              {{this.model.__FAKE__overall_score}}
+            </h2>
+            based on a composite score including Strategic Planning Screening
+          </div>
+        </div>
+        <div class="bg-bone/[0.4]">
+          <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+            Group
+          </h3>
+          <div class="p-2">
+            <h2 class="text-national-flag-blue text-7xl text-center">
+              {{this.model.__FAKE__group}}
+            </h2>
+            based on the overall score, with 1 being the highest priority group
+          </div>
+        </div>
+      </div>
+      <div class="bg-bone/[0.4] md:basis-2/5">
         <h3 class="bg-bone text-national-flag-blue font-bold p-2">
-          Overall Score
+          Top Performing
+        </h3>
+        <div class="p-2 md:flex-col h-full">
+          <div class="flex flex-row">
+            <div class="basis-1/3">
+              <div>
+                <RankingCircle
+                  @value={{this.model.lu_1_0_to_5}}
+                />
+                <h2>Access to Schools</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="basis-1/3">
+              <div>
+                <RankingCircle
+                  @value={{this.model.lu_2_0_to_5}}
+                />
+                <h2>Access to Healthcare</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="basis-1/3">
+              <div>
+                <RankingCircle
+                  @value={{this.model.lu_3_0_to_5}}
+                />
+                <h2>Access to Social Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-bone/[0.4] md:basis-2/5">
+        <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+          Lowest Performing
         </h3>
         <div class="p-2">
-          <h2 class="text-national-flag-blue text-7xl text-center">
-            {{this.model.__FAKE__overall_score}}
-          </h2>
-          based on a composite score including Strategic Planning Screening
-        </div>
-      </div>
-      <div class="bg-bone/[0.4]">
-        <h3 class="bg-bone text-national-flag-blue font-bold p-2">
-          Group
-        </h3>
-        <div class="p-2">
-          <h2 class="text-national-flag-blue text-7xl text-center">
-            {{this.model.__FAKE__group}}
-          </h2>
-          based on the overall score, with 1 being the highest priority group
-        </div>
-      </div>
-    </div>
-    <div class="bg-bone/[0.4] md:basis-2/5">
-      <h3 class="bg-bone text-national-flag-blue font-bold p-2">
-        Top Performing
-      </h3>
-      <div class="p-2 md:flex-col h-full">
-        <div class="flex flex-row">
-          <div class="basis-1/3">
-            <div>
-              <RankingCircle
-                @value={{this.model.lu_1_0_to_5}}
-              />
-              <h2>Access to Schools</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="flex flex-row">
+            <div class="basis-1/3">
+              <div>
+                <RankingCircle
+                  @barColor="red"
+                  @value={{this.model.lu_4_0_to_5}}
+                />
+                <h2>Access to Schools</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
             </div>
-          </div>
-          <div class="basis-1/3">
-            <div>
-              <RankingCircle
-                @value={{this.model.lu_2_0_to_5}}
-              />
-              <h2>Access to Healthcare</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="basis-1/3">
+              <div>
+                <RankingCircle
+                  @barColor="red"
+                  @value={{this.model.lu_5_0_to_5}}
+                />
+                <h2>Access to Healthcare</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
             </div>
-          </div>
-          <div class="basis-1/3">
-            <div>
-              <RankingCircle
-                @value={{this.model.lu_3_0_to_5}}
-              />
-              <h2>Access to Social Services</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="basis-1/3">
+              <div>
+                <RankingCircle
+                  @barColor="red"
+                  @value={{this.model.lu_6_0_to_5}}
+                />
+                <h2>Access to Social Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="bg-bone/[0.4] md:basis-2/5">
-      <h3 class="bg-bone text-national-flag-blue font-bold p-2">
-        Lowest Performing
-      </h3>
-      <div class="p-2">
-        <div class="flex flex-row">
-          <div class="basis-1/3">
-            <div>
-              <RankingCircle
-                @barColor="red"
-                @value={{this.model.lu_4_0_to_5}}
-              />
-              <h2>Access to Schools</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="basis-1/3">
-            <div>
-              <RankingCircle
-                @barColor="red"
-                @value={{this.model.lu_5_0_to_5}}
-              />
-              <h2>Access to Healthcare</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="basis-1/3">
-            <div>
-              <RankingCircle
-                @barColor="red"
-                @value={{this.model.lu_6_0_to_5}}
-              />
-              <h2>Access to Social Services</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  {{/if}}
 </div>
