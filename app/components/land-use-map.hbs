@@ -1,8 +1,18 @@
 <MapboxGl
-  @initOptions={{hash bounds=@bounds}}
+  @initOptions={{hash
+    bounds=@bounds
+    scrollZoom=false
+    dragPan=false
+    doubleClickZoom=false
+  }}
   class="w-full h-[200px]" as |map|
 >
   {{map.call 'fitBounds' @bounds (hash padding=20)}}
+
+  <Map::NavigationControl
+    @map={{map.instance}}
+  />
+
   <map.source
     @options={{this.source}}
     as |source|

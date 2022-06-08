@@ -76,7 +76,7 @@
             as |distribution|
           >
             {{#if distribution}}
-              <div class="absolute bottom-1 left-1 bg-bone/50 p-1">
+              <div class="absolute bottom-1 left-1 bg-bone/50 p-1 hover:opacity-5 transition delay-100">
                 <ul class="list-none list-inside categories">
                   {{#each distribution as |type|}}
                     <li class="text-xs" style="--category-color: {{type.[3]}};"><b>{{type.[0]}}</b>: {{type.[2]}}%</li>

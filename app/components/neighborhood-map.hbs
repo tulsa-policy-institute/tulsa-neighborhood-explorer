@@ -2,6 +2,10 @@
   class='map-container' as |map|>
   {{run this.mainMap 'setMap' map}}
 
+  <Map::NavigationControl
+    @map={{map.instance}}
+  />
+
   <map.source
     @options={{hash type='geojson' data=@neighborhoods promoteId='id'}} as |source|
   >
