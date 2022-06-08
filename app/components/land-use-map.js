@@ -1,10 +1,7 @@
 import Component from '@glimmer/component';
-import maplibregl from 'maplibre-gl';
-import pmtiles from 'pmtiles';
 import { action } from '@ember/object';
 import intersects from '@turf/boolean-intersects';
 import { tracked } from '@glimmer/tracking';
-import { throttle } from '@ember/runloop';
 
 const colors = [
   'match',
@@ -26,13 +23,6 @@ const colors = [
 ];
 
 export default class LandUseMapComponent extends Component {
-  constructor(...args) {
-    super(...args);
-
-    const cache = new pmtiles.ProtocolCache();
-    maplibregl.addProtocol('pmtiles', cache.protocol);
-  }
-
   @tracked
   distribution;
 
