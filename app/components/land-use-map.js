@@ -2,8 +2,8 @@ import Component from '@glimmer/component';
 import { action } from '@ember/object';
 import intersects from '@turf/boolean-intersects';
 import { tracked } from '@glimmer/tracking';
-import area from '@turf/area'
-import areaIntersect from '@turf/intersect'
+import area from '@turf/area';
+import areaIntersect from '@turf/intersect';
 
 const colors = [
   'match',
@@ -73,10 +73,9 @@ export default class LandUseMapComponent extends Component {
 
     this.distribution = Object.entries(group)
       .map((grouping) => {
-        console.log(grouping[1]);
-
         const totalArea = grouping[1].reduce(
-          (acc, curr) => acc + area(areaIntersect(curr.geometry, this.args.feature)),
+          (acc, curr) =>
+            acc + area(areaIntersect(curr.geometry, this.args.feature)),
           0
         );
 

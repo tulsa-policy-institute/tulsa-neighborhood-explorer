@@ -2,6 +2,7 @@ import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
 import bbox from '@turf/bbox';
 import fetch from 'fetch';
+import { filterForProfileTracts } from '../helpers/filter-for-profile-tracts';
 
 export default class ProfileRoute extends Route {
   @service
@@ -10,6 +11,12 @@ export default class ProfileRoute extends Route {
   @service
   media;
 
+  queryParams = {
+    showAssessment: {
+      sticky: true
+    },
+  };
+
   async model(params) {
     const { neighborhoods, neighborhoodsGeoJson } =
       this.modelFor('application');
@@ -17,16 +24,13 @@ export default class ProfileRoute extends Route {
       (n) => n.properties.slug === params.id
     );
 
-    const acs20 = await (await fetch('/census/data/2020/acs/acs5.json')).json();
-    const acs15 = await (await fetch('/census/data/2015/acs/acs5.json')).json();
     const neighborhoodBounds = bbox(feature);
+    const neighborhood = neighborhoods.find((n) => n.slug === params.id);
 
     return {
       feature,
-      acs: acs20,
-      acs15,
       neighborhoodBounds,
-      ...neighborhoods.find((n) => n.slug === params.id),
+      ...neighborhood,
     };
   }
 

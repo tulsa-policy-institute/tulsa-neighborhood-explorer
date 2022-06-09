@@ -1,13 +1,16 @@
 import Controller from '@ember/controller';
 import { inject as service } from '@ember/service';
+import config from '../config/environment';
+
+const { environment } = config;
 
 export default class ProfileController extends Controller {
   @service
   mainMap;
 
-  showAssessment = false;
+  showAssessment = (environment === 'development') ? true : false;
 
-  queryParams = ['showAssessment']
+  queryParams = ['showAssessment'];
 
   dictionary = {
     lu_1: 'Access to Schools',

@@ -1,11 +1,12 @@
 import { helper } from '@ember/component/helper';
 
-export default helper(function filterForProfileTracts([results, tracts]) {
+export function filterForProfileTracts([results, tracts]) {
   return results
     .filter((r) => tracts.includes(r['NAME']))
     .reduce((acc, curr) => {
       const estKeys = Object.keys(curr).filter(
-        (k) => k.charAt(k.length - 1) === 'E' && k.includes('_')
+        (k) =>
+          (k.charAt(k.length - 1) === 'E' && k.includes('_')) || k.includes('P')
       );
 
       estKeys.forEach((key) => {
@@ -18,4 +19,6 @@ export default helper(function filterForProfileTracts([results, tracts]) {
 
       return acc;
     }, {});
-});
+}
+
+export default helper(filterForProfileTracts);

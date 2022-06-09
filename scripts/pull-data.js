@@ -1,5 +1,5 @@
-import fetch from 'node-fetch';
-import { mkdir, writeFile } from 'fs';
+const fetch = require('node-fetch');
+const { mkdir, writeFile } = require('fs');
 
 const run = async (opts) => {
   const { path, variables } = opts;
@@ -68,26 +68,30 @@ const run = async (opts) => {
   });
 };
 
-run({
-  path: 'data/2015/acs/acs5',
-  variables: ['B01001_001E'],
-});
-run({
-  path: 'data/2020/acs/acs5',
-  variables: ['B01001_001E'],
-});
 // run({
 //   path: 'data/2015/acs/acs5',
 //   variables: ['B01001_001E'],
 // });
 // run({
-//   path: 'data/2020/dec/pl',
-//   variables: ['P1_001N'],
+//   path: 'data/2020/acs/acs5',
+//   variables: ['B01001_001E'],
 // });
 // run({
-//   path: 'data/2010/dec/sf1',
-//   variables: ['P001001'],
+//   path: 'data/2015/acs/acs5',
+//   variables: ['B01001_001E'],
 // });
+run({
+  path: 'data/2020/dec/pl',
+  variables: ['P1_001N'],
+});
+run({
+  path: 'data/2010/dec/pl',
+  variables: ['P001001'],
+});
+run({
+  path: 'data/2000/dec/pl',
+  variables: ['PL001001'],
+});
 
 // sex by age
 // B01001_002E

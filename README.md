@@ -54,3 +54,14 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## ETLs
+
+```bash
+ogr2ogr tmp/parcels.geojson \
+  -f GeoJSON "https://map9.incog.org/arcgis9wa/rest/services/Parcels_TulsaCo/FeatureServer/1/query?where=objectid%3E0&outfields=*&f=json" ESRIJSON \
+  -s_srs EPSG:3857
+  -t_srs EPSG:4326
+
+ogr2ogr -f CSV tmp/parcels.csv tmp/parcels.geojson
+```

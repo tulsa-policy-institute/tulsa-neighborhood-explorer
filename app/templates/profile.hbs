@@ -2,7 +2,10 @@
 
 <div class="top-0 w-full">
   <div class="px-5">
-    <h1 class="text-lg md:text-6xl">{{this.model.neighborhood}}</h1>
+    <h1 class="text-lg md:py-2 md:text-6xl">{{this.model.neighborhood}}</h1>
+    <p class="text-sm">
+      Census Tracts: {{join this.model.normalizedTractIDs ', '}}
+    </p>
   </div>
   <div class="bg-gray-50">
     <div class="px-5">
@@ -39,62 +42,80 @@
   <p>
     <b>The {{this.model.neighborhood}} Neighborhood Statistical Area</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore aperiam odit voluptatibus velit qui optio quam exercitationem incidunt animi rem voluptate necessitatibus, nostrum obcaecati enim, ullam itaque et pariatur.
   </p>
-
-  {{#let (filter-for-profile-tracts this.model.acs this.model.normalizedTractIDs) as |data20|}}
-    {{#let (filter-for-profile-tracts this.model.acs15 this.model.normalizedTractIDs) as |data15|}}
-      <div class="flex flex-col md:flex-row md:space-x-4">
-        <div class="basis-1/2">
-          <div class="bg-bone/[0.4]">
-            <h3 class="bg-bone text-national-flag-blue font-bold p-2">
-              Population
-            </h3>
-            <div class="p-2">
-              <h2 class="text-national-flag-blue text-5xl text-center">
-                {{#if data20.B01001_001E}}
-                  {{format-number data20.B01001_001E}}
-                {{else}}
-                  N/A
-                {{/if}}
-              </h2>
-              <p class="text-center">ACS 5-Year 2020</p>
-            </div>
-            <div class="p-2">
-              <h2 class="text-national-flag-blue text-5xl text-center">
-                {{#if data15.B01001_001E}}
-                  {{format-number data15.B01001_001E}}
-                {{else}}
-                  N/A
-                {{/if}}
-              </h2>
-              <p class="text-center">ACS 5-Year 2015</p>
-            </div>
-          </div>
+  <div class="flex flex-col md:flex-row md:space-x-4">
+    <div class="basis-1/2 bg-bone/[0.4]">
+      <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+        Population
+      </h3>
+      <div class="flex flex-col md:flex-row md:justify-center">
+        <div class="p-2">
+          <h2 class="text-national-flag-blue text-5xl text-center">
+            {{#if this.model.census2000.PL001001}}
+              {{format-number this.model.census2000.PL001001}}
+            {{else}}
+              N/A
+            {{/if}}
+          </h2>
+          <p class="text-center">Census 2000</p>
         </div>
-        <div class="basis-1/2 relative">
-          <h3 class="bg-bone text-national-flag-blue font-bold p-2">
-            Land Use
-          </h3>
-          <div class="md:flex-col h-full">
-            <LandUseMap
-              @bounds={{this.model.neighborhoodBounds}}
-              @feature={{this.model.feature}}
-              as |distribution|
-            >
-              {{#if distribution}}
-                <div class="absolute bottom-1 left-1 bg-bone/50 p-1 hover:opacity-5 transition delay-100">
-                  <ul class="list-none list-inside categories">
-                    {{#each distribution as |type|}}
-                      <li class="text-xs" style="--category-color: {{type.[3]}};"><b>{{type.[0]}}</b>: {{type.[2]}}%</li>
-                    {{/each}}
-                  </ul>
-                </div>
-              {{/if}}
-            </LandUseMap>
-          </div>
+        <div class="p-2">
+          <h2 class="text-national-flag-blue text-5xl text-center">
+            {{#if this.model.census2010.P001001}}
+              {{format-number this.model.census2010.P001001}}
+            {{else}}
+              N/A
+            {{/if}}
+          </h2>
+          <p class="text-center">Census 2010</p>
+        </div>
+        <div class="p-2">
+          <h2 class="text-national-flag-blue text-5xl text-center">
+            {{#if this.model.census2020.P1_001N}}
+              {{format-number this.model.census2020.P1_001N}}
+            {{else}}
+              N/A
+            {{/if}}
+          </h2>
+          <p class="text-center">Census 2020</p>
         </div>
       </div>
-    {{/let}}
-  {{/let}}
+    </div>
+    <div class="basis-1/2 bg-bone/[0.4]">
+      <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+        Area & Density
+      </h3>
+      <div class="p-2">
+        More stats
+      </div>
+    </div>
+  </div>
+
+  <br />
+
+  <div class="flex flex-col md:flex-row md:space-x-4 w-full">
+    <div class="basis-full">
+      <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+        Land Use
+      </h3>
+      <div class="md:flex-col h-full relative">
+        <LandUseMap
+          @bounds={{this.model.neighborhoodBounds}}
+          @feature={{this.model.feature}}
+          as |distribution|
+        >
+          {{#if distribution}}
+            <div class="absolute top-1 left-1 bg-bone/50 p-1 hover:opacity-5 transition delay-100 overflow-hidden">
+              <ul class="list-none list-inside categories">
+                {{#each distribution as |type|}}
+                  <li class="text-sm" style="--category-color: {{type.[3]}};"><b>{{type.[0]}}</b>: {{type.[2]}}%</li>
+                {{/each}}
+              </ul>
+            </div>
+          {{/if}}
+        </LandUseMap>
+      </div>
+    </div>
+  </div>
 
   <br />
 
