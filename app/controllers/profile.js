@@ -8,7 +8,7 @@ export default class ProfileController extends Controller {
   @service
   mainMap;
 
-  showAssessment = (environment === 'development') ? true : false;
+  showAssessment = environment === 'development' ? true : false;
 
   queryParams = ['showAssessment'];
 

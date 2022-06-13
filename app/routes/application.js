@@ -68,9 +68,18 @@ export default class ApplicationRoute extends Route {
             __FAKE__overall_score: Math.random().toFixed(1),
             __FAKE__group: getRandomInt(1, 4),
 
-            census2000: filterForProfileTracts([census2000, normalizedTractIDs]),
-            census2010: filterForProfileTracts([census2010, normalizedTractIDs]),
-            census2020: filterForProfileTracts([census2020, normalizedTractIDs]),
+            census2000: filterForProfileTracts([
+              census2000,
+              normalizedTractIDs,
+            ]),
+            census2010: filterForProfileTracts([
+              census2010,
+              normalizedTractIDs,
+            ]),
+            census2020: filterForProfileTracts([
+              census2020,
+              normalizedTractIDs,
+            ]),
           },
         };
       }),

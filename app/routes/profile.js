@@ -13,7 +13,7 @@ export default class ProfileRoute extends Route {
 
   queryParams = {
     showAssessment: {
-      sticky: true
+      sticky: true,
     },
   };
 

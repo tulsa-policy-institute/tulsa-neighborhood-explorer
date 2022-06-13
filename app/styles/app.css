@@ -48,3 +48,7 @@ html, body {
   vertical-align:middle;
   color: var(--category-color);
 }
+
+.bb-text {
+  @apply text-sm;
+}
