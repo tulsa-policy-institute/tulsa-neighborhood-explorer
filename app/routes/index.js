@@ -2,7 +2,7 @@ import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
 import config from '../config/environment';
 
-const { 'mapbox-gl': mapboxGlConfig } = config;
+const { 'maplibre-gl': maplibreGlConfig } = config;
 
 export default class IndexRoute extends Route {
   @service
@@ -15,8 +15,8 @@ export default class IndexRoute extends Route {
   afterModel() {
     this.mainMap.run((map) => {
       map.flyTo({
-        center: mapboxGlConfig.map.center,
-        zoom: mapboxGlConfig.map.zoom,
+        center: maplibreGlConfig.map.center,
+        zoom: maplibreGlConfig.map.zoom,
       });
     });
   }

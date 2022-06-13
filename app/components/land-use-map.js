@@ -46,6 +46,7 @@ export default class LandUseMapComponent extends Component {
   get source() {
     return {
       type: 'vector',
+      maxzoom: 14,
       tiles: [
         'pmtiles://https://storage.googleapis.com/tpi-pmtiles/landuse.pmtiles/{z}/{x}/{y}',
       ],
@@ -62,6 +63,7 @@ export default class LandUseMapComponent extends Component {
   @action
   aggregate(e) {
     const { features } = e;
+
     const neighborhoodFeatures = features.filter((f) => {
       return intersects(this.args.feature, f.geometry);
     });

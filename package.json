@@ -47,7 +47,7 @@
     "ember-export-application-global": "^2.0.1",
     "ember-fetch": "^8.1.1",
     "ember-load-initializers": "^2.1.2",
-    "ember-maplibre-gl": "git://github.com/codefortulsa/ember-maplibre-gl#8fa0c334d3ffbdb2f9c572a2ae87b037ccf77625",
+    "ember-maplibre-gl": "codefortulsa/ember-maplibre-gl",
     "ember-page-title": "^7.0.0",
     "ember-power-select": "^5.0.4",
     "ember-qunit": "^5.1.5",

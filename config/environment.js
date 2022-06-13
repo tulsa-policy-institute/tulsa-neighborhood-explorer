@@ -22,7 +22,7 @@ module.exports = function (environment) {
       // when it is created
     },
 
-    'mapbox-gl': {
+    'maplibre-gl': {
       accessToken:
         'pk.eyJ1Ijoid21hdHRnYXJkbmVyIiwiYSI6ImNrdmJvZHlobmFwZHEycG1hMndtNHd0Y2MifQ.JWKGif2DQFgXI4EAvzEVTA',
       map: {

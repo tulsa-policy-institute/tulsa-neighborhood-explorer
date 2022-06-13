@@ -57,6 +57,7 @@ Specify what it takes to deploy your app.
 
 ## ETLs
 
+# Parcels
 ```bash
 ogr2ogr tmp/parcels.geojson \
   -f GeoJSON "https://map9.incog.org/arcgis9wa/rest/services/Parcels_TulsaCo/FeatureServer/1/query?where=objectid%3E0&outfields=*&f=json" ESRIJSON \
@@ -64,4 +65,6 @@ ogr2ogr tmp/parcels.geojson \
   -t_srs EPSG:4326
 
 ogr2ogr -f CSV tmp/parcels.csv tmp/parcels.geojson
+
+csv2arrow tmp/parcels.csv tmp/parcels.arrow
 ```
