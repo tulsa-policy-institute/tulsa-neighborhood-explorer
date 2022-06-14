@@ -73,7 +73,7 @@ run({
   variables: [
     // total
     'B05003_003E', // https://api.census.gov/data/2020/acs/acs5/variables/B05003_003E.json
-    
+
     // under 18
     'B05003_014E', // https://api.census.gov/data/2020/acs/acs5/variables/B05003_014E.json
     'B05003_001E', // https://api.census.gov/data/2020/acs/acs5/variables/B05003_001E.json
