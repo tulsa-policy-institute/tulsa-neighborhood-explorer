@@ -52,3 +52,7 @@ html, body {
 .bb-text {
   @apply text-sm font-bold;
 }
+
+.bb-line {
+  stroke-width: 0.4rem;
+}

@@ -1,0 +1,61 @@
+<MaplibreGl
+  @initOptions={{hash
+    bounds=@bounds
+    scrollZoom=false
+    dragPan=false
+    doubleClickZoom=false
+  }}
+  class="w-full h-[200px]" as |map|
+>
+  {{map.call 'fitBounds' @bounds (hash padding=20)}}
+
+  <Map::NavigationControl
+    @map={{map.instance}}
+  />
+  <map.source
+    @options={{this.source}}
+    as |source|
+  >
+    <source.layer
+      @layer={{hash
+        id='zoning'
+        source-layer="zoning"
+        type='fill'
+        paint=(hash
+          fill-color=this.colors
+          fill-opacity=0.4
+        )
+      }} as |layer|
+    >
+      <Map::FeaturePointer
+        @map={{map}}
+        @layerId={{layer.id}}
+      />
+      <map.on
+        @event='idle'
+        @layerId={{layer.id}}
+        @action={{this.aggregate}}
+      />
+    </source.layer>
+  </map.source>
+  <map.source
+    @options={{hash
+      type='geojson'
+      data=@feature
+      promoteId='id'
+    }} as |source|
+  >
+    <source.layer
+      @layer={{hash
+        type='line'
+        paint=(hash
+          line-width=3
+          line-color='#000'
+          line-dasharray=(array 3 2)
+        )
+      }}
+    />
+  </map.source>
+</MaplibreGl>
+
+{{yield this.distribution}}

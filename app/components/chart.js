@@ -29,7 +29,7 @@ export default class ChartComponent extends Component {
         type: 'spline',
         labels: {
           format: {
-            Population: (x, id, i, test) => {
+            Population: (x, id, i) => {
               const [, ...all] = this.data;
               let change = all[i - 1]
                 ? calculateChange(all[i], all[i - 1])

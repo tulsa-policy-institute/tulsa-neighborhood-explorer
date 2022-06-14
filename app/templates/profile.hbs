@@ -109,6 +109,35 @@
 
   <br />
 
+  <div class="flex flex-col md:flex-row md:space-x-4 w-full">
+    <div class="basis-full">
+      <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+        Zoning
+      </h3>
+      <div class="md:flex-col h-full relative">
+        <ZoningMap
+          @bounds={{this.model.neighborhoodBounds}}
+          @feature={{this.model.feature}}
+          as |distribution|
+        >
+          {{#if distribution}}
+            <div class="absolute top-1 left-1 bg-bone/50 p-1 hover:opacity-5 transition delay-100 overflow-hidden">
+              <ul class="list-none list-inside categories">
+                {{#each distribution as |type|}}
+                  {{#if (gt type.[2] 0)}}
+                    <li class="text-sm" style="--category-color: {{type.[3]}};"><b>{{type.[0]}}</b>: {{type.[2]}}%</li>
+                  {{/if}}
+                {{/each}}
+              </ul>
+            </div>
+          {{/if}}
+        </ZoningMap>
+      </div>
+    </div>
+  </div>
+
+  <br/>
+
   {{#if this.showAssessment}}
     <div class="flex flex-col md:flex-row md:space-x-4">
       <div class="flex-col md:basis-1/5 md:space-y-4">

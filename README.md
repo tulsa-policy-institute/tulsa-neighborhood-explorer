@@ -68,3 +68,15 @@ ogr2ogr -f CSV tmp/parcels.csv tmp/parcels.geojson
 
 csv2arrow tmp/parcels.csv tmp/parcels.arrow
 ```
+
+# Zoning
+```bash
+ogr2ogr tmp/zoning.geojson \
+  -f GeoJSON "https://map9.incog.org/arcgis9wa/rest/services/Zoning_TulsaCo/FeatureServer/0/query?where=objectid%3E0&outfields=*&f=json" ESRIJSON -t_srs EPSG:4326
+
+tippecanoe -zg -o tmp/zoning.mbtiles --drop-densest-as-needed --extend-zooms-if-still-dropping tmp/zoning.geojson --force
+
+# Output PMTiles
+pmtiles-convert tmp/zoning.mbtiles tmp/zoning.pmtiles --overwrite
+```
+
