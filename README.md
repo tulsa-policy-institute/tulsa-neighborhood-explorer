@@ -80,3 +80,14 @@ tippecanoe -zg -o tmp/zoning.mbtiles --drop-densest-as-needed --extend-zooms-if-
 pmtiles-convert tmp/zoning.mbtiles tmp/zoning.pmtiles --overwrite
 ```
 
+# Facilities
+Public Schools - https://map9.incog.org/arcgis9wa/rest/services/Tulsa_Area_Schools/FeatureServer/2
+Public Libraries - https://map9.incog.org/arcgis9wa/rest/services/Tulsa_Area_Libraries/FeatureServer/0
+Hospitals and Clinics
+Parks - https://map9.incog.org/arcgis9wa/rest/services/TMA_Parks/FeatureServer/12
+Recreation Centers - https://map9.incog.org/arcgis9wa/rest/services/Rec_Centers/FeatureServer/3
+Sidewalks - https://map9.incog.org/arcgis9wa/rest/services/Sidewalks_TMA/FeatureServer/4
+Pending Cases {
+  TMAPC - https://map9.incog.org/arcgis9wa/rest/services/TMAPC_PendingCases/FeatureServer/0
+  BOA - https://map9.incog.org/arcgis9wa/rest/services/BOA_PendingCases/FeatureServer/0
+}

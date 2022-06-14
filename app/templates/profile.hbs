@@ -136,6 +136,35 @@
     </div>
   </div>
 
+  <br />
+
+  <div class="flex flex-col md:flex-row md:space-x-4 w-full">
+    <div class="basis-full">
+      <h3 class="bg-bone text-national-flag-blue font-bold p-2">
+        Facilities
+      </h3>
+      <div class="md:flex-col h-full relative">
+        <FacilitiesMap
+          @bounds={{this.model.neighborhoodBounds}}
+          @feature={{this.model.feature}}
+          as |distribution|
+        >
+          {{#if distribution}}
+            <div class="absolute top-1 left-1 bg-bone/50 p-1 hover:opacity-5 transition delay-100 overflow-hidden">
+              <ul class="list-none list-inside categories">
+                {{#each distribution as |type|}}
+                  {{#if (gt type.[1] 0)}}
+                    <li class="text-sm" style="--category-color: {{type.[2]}};"><b>{{type.[0]}}</b>: {{type.[1]}}</li>
+                  {{/if}}
+                {{/each}}
+              </ul>
+            </div>
+          {{/if}}
+        </FacilitiesMap>
+      </div>
+    </div>
+  </div>
+
   <br/>
 
   {{#if this.showAssessment}}

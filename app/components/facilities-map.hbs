@@ -1,0 +1,82 @@
+<MaplibreGl
+  @initOptions={{hash
+    bounds=@bounds
+    scrollZoom=false
+    dragPan=false
+    doubleClickZoom=false
+  }}
+  class="w-full h-[200px]" as |map|
+>
+  {{map.call 'fitBounds' @bounds (hash padding=20)}}
+
+  <Map::NavigationControl
+    @map={{map.instance}}
+  />
+
+  <map.on
+    @event='idle'
+    @action={{this.aggregate}}
+  />
+
+  {{#each this.sources as |url|}}
+    <map.source
+      @options={{hash
+        type='geojson'
+        data=url.[1]
+      }} as |source|
+    >
+      <source.layer
+        @layer={{hash
+          id=url.[0]
+          type='circle'
+          paint=(hash
+            circle-radius=5
+            circle-color=(get this.colors url.[0])
+          )
+        }} as |layer|
+      >
+        <Map::FeaturePointer
+          @map={{map}}
+          @layerId={{layer.id}}
+        />
+        <map.on
+          @event='mouseover'
+          @layerId={{layer.id}}
+          @action={{this.hovered}}
+        />
+        <map.on
+          @event='mouseleave'
+          @layerId={{layer.id}}
+          @action={{this.mouseleave}}
+        />
+        {{#if this.popupCoordinates}}
+          <map.popup @lngLat={{this.popupCoordinates.lngLat}}>
+            Type: {{this.popupCoordinates.features.[0].layer.id}}<br/>
+            {{this.popupCoordinates.features.[0].properties}}
+          </map.popup>
+        {{/if}}
+      </source.layer>
+    </map.source>
+  {{/each}}
+
+  <map.source
+    @options={{hash
+      type='geojson'
+      data=@feature
+      promoteId='id'
+    }} as |source|
+  >
+    <source.layer
+      @layer={{hash
+        type='line'
+        paint=(hash
+          line-width=3
+          line-color='#000'
+          line-dasharray=(array 3 2)
+        )
+      }}
+    />
+  </map.source>
+</MaplibreGl>
+
+{{yield this.distribution}}
