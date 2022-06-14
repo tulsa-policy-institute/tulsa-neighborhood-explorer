@@ -1,5 +1,7 @@
 {{page-title this.model.neighborhood}}
 
+{{log this.model}}
+
 <div class="top-0 w-full">
   <div class="px-5">
     <h1 class="text-lg md:py-2 md:text-6xl">{{this.model.neighborhood}}</h1>
@@ -61,8 +63,19 @@
       <h3 class="bg-bone text-national-flag-blue font-bold p-2">
         Area & Density
       </h3>
-      <div class="p-2">
-        More stats
+      <div class="p-2 flex flex-row">
+        <div class="basis-1/2 text-center">
+            <h2 class="text-national-flag-blue text-5xl">
+              {{format-number (to-fixed this.model.sq_miles 2)}}
+            </h2>
+            Square Miles
+        </div>
+        <div class="basis-1/2 text-center">
+          <h2 class="text-national-flag-blue text-5xl">
+            {{format-number (to-fixed (divide this.model.census2020.P1_001N this.model.sq_miles) 0)}}
+          </h2>
+          persons per sq mi
+        </div>
       </div>
     </div>
   </div>

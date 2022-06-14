@@ -50,5 +50,5 @@ html, body {
 }
 
 .bb-text {
-  @apply text-sm;
+  @apply text-sm font-bold;
 }
