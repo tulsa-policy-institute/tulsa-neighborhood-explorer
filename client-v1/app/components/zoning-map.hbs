@@ -2,8 +2,6 @@
   @initOptions={{hash
     bounds=@bounds
     scrollZoom=false
-    dragPan=false
-    doubleClickZoom=false
   }}
   class="w-full h-[200px]" as |map|
 >
@@ -18,8 +16,8 @@
   >
     <source.layer
       @layer={{hash
-        id='landuse_incog'
-        source-layer="landuse"
+        id='zoning'
+        source-layer="zoning"
         type='fill'
         paint=(hash
           fill-color=this.colors
@@ -31,11 +29,11 @@
         @map={{map}}
         @layerId={{layer.id}}
       />
-      <map.on
-        @event='click'
+      <Map::Tooltip
+        @map={{map}}
         @layerId={{layer.id}}
-        @action={{this.handleClick}}
-      />
+      >
+      </Map::Tooltip>
       <map.on
         @event='idle'
         @layerId={{layer.id}}

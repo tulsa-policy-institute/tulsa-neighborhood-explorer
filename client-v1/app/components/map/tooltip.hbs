@@ -1,0 +1,14 @@
+<@map.on
+  @event='mouseenter'
+  @layerId={{@layerId}}
+  @action={{this.onLayerHover}}
+/>
+<@map.on
+  @event='mouseleave'
+  @layerId={{@layerId}}
+  @action={{this.onLayerMouseOut}}
+/>
+
+{{#if this.hoveredFeature}}{{/if}}
+<div class="absolute" style="left: "></div>
+{{yield}}

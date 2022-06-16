@@ -2,8 +2,6 @@
   @initOptions={{hash
     bounds=@bounds
     scrollZoom=false
-    dragPan=false
-    doubleClickZoom=false
   }}
   class="w-full h-[200px]" as |map|
 >
@@ -18,8 +16,8 @@
   >
     <source.layer
       @layer={{hash
-        id='zoning'
-        source-layer="zoning"
+        id='landuse_incog'
+        source-layer="landuse"
         type='fill'
         paint=(hash
           fill-color=this.colors
@@ -30,6 +28,11 @@
       <Map::FeaturePointer
         @map={{map}}
         @layerId={{layer.id}}
+      />
+      <map.on
+        @event='click'
+        @layerId={{layer.id}}
+        @action={{this.handleClick}}
       />
       <map.on
         @event='idle'

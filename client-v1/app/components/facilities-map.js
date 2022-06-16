@@ -14,6 +14,7 @@ export default class LandUseMapComponent extends Component {
     schools: 'rgba(0, 77, 168, 255)',
     libraries: 'rgba(255, 127, 127, 255)',
     recreation: 'rgba(197, 0, 255, 255)',
+    parks: 'rgba(197, 0, 255, 255)',
     'tmapc-cases': 'purple',
     'boa-cases': 'purple',
   };
@@ -30,6 +31,10 @@ export default class LandUseMapComponent extends Component {
     [
       'recreation',
       'https://map9.incog.org/arcgis9wa/rest/services/Rec_Centers/FeatureServer/3/query?where=(1=1)&outfields=*&f=geojson',
+    ],
+    [
+      'parks',
+      'https://opendata.arcgis.com/api/v3/datasets/7c9e920124d941cfa449365b1838d88b_0/downloads/data?format=geojson&spatialRefId=4326',
     ],
     [
       'tmapc-cases',
