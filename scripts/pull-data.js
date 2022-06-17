@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+const axios = require('axios');
 const { mkdir, writeFile } = require('fs');
 
 const run = async (opts) => {
@@ -17,7 +17,7 @@ const run = async (opts) => {
   let queryURI = `${URI}?get=${cols}&for=tract:*&in=state:${state}&in=county:${county}&key=${API_KEY}`;
 
   const fetchData = async () => {
-    return (await fetch(queryURI)).json();
+    return (await axios(queryURI)).data;
   };
 
   const normalizeResults = (data) => {
@@ -52,7 +52,7 @@ const run = async (opts) => {
 
   const data = await fetchData();
   const normalizedData = normalizeResults(data);
-  const directory = `public/census/${path.split('/').slice(0, -1).join('/')}`;
+  const directory = `client-v2/public/census/${path.split('/').slice(0, -1).join('/')}`;
   const fileName = path.split('/').pop();
 
   mkdir(directory, { recursive: true }, (e) => {

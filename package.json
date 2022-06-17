@@ -1,0 +1,15 @@
+{
+  "name": "tulsa-neighborhood-explorer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://allthesignals@github.com/tulsa-policy-institute/tulsa-neighborhood-explorer.git",
+  "author": "Matt Gardner <wilburnforce@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "pull:data": "node ./scripts/pull-data.js"
+  },
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "node-fetch": "^3.2.6"
+  }
+}
