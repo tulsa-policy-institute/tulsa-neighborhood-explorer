@@ -5,9 +5,9 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 
 class ThematicMap extends maplibregl.Map {
   addLayer(...args) {
-    const [{ id, theme }] = args;
+    const [{ id, interactions }] = args;
 
-    if (theme && theme.hover) {
+    if (interactions && interactions.hover) {
       this.on('mouseenter', id, () => {
         this.getCanvas().style.cursor = 'pointer'
       });
@@ -17,8 +17,8 @@ class ThematicMap extends maplibregl.Map {
       });
     }
 
-    if (theme && theme.onClick) {
-      this.on('click', id, theme.onClick);
+    if (interactions && interactions.onClick) {
+      this.on('click', id, interactions.onClick);
     }
 
     return super.addLayer(...args);
@@ -45,7 +45,7 @@ function Map({
       center: [-95.9688, 36.1314],
       minZoom,
       maxZoom,
-    }, [minZoom, maxZoom]);
+    });
 
     map.on('load', () => {
       onLoad(map);
@@ -54,9 +54,9 @@ function Map({
     });
 
     return () => {
-      map.remove()
+      map.remove();
     }
-  });
+  }, []);
 
   return (
     <div

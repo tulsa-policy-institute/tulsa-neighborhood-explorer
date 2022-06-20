@@ -1,5 +1,3 @@
-export default function dasherize (string) {
-  return string.replace(/[A-Z]/g, function(char, index) {
-    return (index !== 0 ? '-' : '') + char.toLowerCase();
-  }).replace(' ', '');
-};
+import dasherize from 'lodash.kebabcase';
+
+export default dasherize;

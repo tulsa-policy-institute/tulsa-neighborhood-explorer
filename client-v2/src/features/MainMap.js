@@ -7,10 +7,12 @@ import { useNavigate } from "react-router-dom";
 // this withholds rendering unless there's data... preventing a double render...
 // but what's a better solution? so that the map can load while the other data
 // loads...
-function MainMap({ neighborhoods }) {
+function MainMap({ neighborhoods, onLoad }) {
   const navigate = useNavigate();
 
   const didLoad = (map) => {
+    onLoad(map);
+
     map.addSource('neighborhoods', {
       type: 'geojson',
       data: neighborhoods,
@@ -24,7 +26,7 @@ function MainMap({ neighborhoods }) {
         'fill-color': 'DodgerBlue',
         'fill-opacity': 0.2,
       },
-      theme: {
+      interactions: {
         hover: true,
         onClick: (e) => {
           const [feature] = e.features;
