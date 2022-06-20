@@ -1,12 +1,15 @@
 import React from 'react';
 import Map from '../ui/Map';
+import { useNavigate } from "react-router-dom";
 
 // issue: it re-renders the map because the data changes (fair)
 // but, the jsx doesn't depend on the data, the didLoad callback does
 // this withholds rendering unless there's data... preventing a double render...
 // but what's a better solution? so that the map can load while the other data
 // loads...
-function MainMap({ neighborhoods, onClick }) {
+function MainMap({ neighborhoods }) {
+  const navigate = useNavigate();
+
   const didLoad = (map) => {
     map.addSource('neighborhoods', {
       type: 'geojson',
@@ -26,7 +29,7 @@ function MainMap({ neighborhoods, onClick }) {
         onClick: (e) => {
           const [feature] = e.features;
 
-          onClick(feature);
+          navigate(`/profiles/${feature.properties.slug}`);
         },
       },
     });
