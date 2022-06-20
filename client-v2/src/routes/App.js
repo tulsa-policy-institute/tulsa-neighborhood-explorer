@@ -40,7 +40,7 @@ function App() {
           <div className="basis-3/4 border-l-8 max-h-full overflow-scroll">
             <Routes>
               <Route path="/" element={<Index />} />
-              <Route path="/profiles/:slug" element={<Profile data={data} />} />
+              <Route path="/profiles/:slug" element={(mapInstance && data.neighborhoods) && <Profile data={data} />} />
             </Routes>
           </div>
         </div>

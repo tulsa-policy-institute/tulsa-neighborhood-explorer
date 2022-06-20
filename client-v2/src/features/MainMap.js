@@ -1,6 +1,8 @@
-import React from 'react';
-import Map from '../ui/Map';
+import React, { createContext } from 'react';
 import { useNavigate } from "react-router-dom";
+import Map from '../ui/Map';
+
+export const MapContext = createContext();
 
 // issue: it re-renders the map because the data changes (fair)
 // but, the jsx doesn't depend on the data, the didLoad callback does
@@ -11,11 +13,10 @@ function MainMap({ neighborhoods, onLoad }) {
   const navigate = useNavigate();
 
   const didLoad = (map) => {
-    onLoad(map);
-
     map.addSource('neighborhoods', {
       type: 'geojson',
       data: neighborhoods,
+      promoteId: 'id',
     });
 
     map.addLayer({
@@ -24,7 +25,12 @@ function MainMap({ neighborhoods, onLoad }) {
       type: 'fill',
       paint: {
         'fill-color': 'DodgerBlue',
-        'fill-opacity': 0.2,
+        'fill-opacity': [
+          'case',
+          ['boolean', ['feature-state', 'selected'], false],
+          0.4,
+          0.2,
+        ],
       },
       interactions: {
         hover: true,
@@ -37,7 +43,7 @@ function MainMap({ neighborhoods, onLoad }) {
     });
 
     map.addLayer({
-      id: 'neighborhoodLines',
+      id: 'neighborhood-lines',
       source: 'neighborhoods',
       type: 'line',
       paint: {
@@ -62,6 +68,8 @@ function MainMap({ neighborhoods, onLoad }) {
         'symbol-placement': 'point',
       },
     });
+
+    onLoad(map);
   };
 
   return <>
@@ -71,4 +79,4 @@ function MainMap({ neighborhoods, onLoad }) {
   </>;
 };
 
-export default React.memo(MainMap);
+export default MainMap;
