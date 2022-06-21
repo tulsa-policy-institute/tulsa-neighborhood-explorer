@@ -11,6 +11,8 @@ export const MapContext = createContext();
 // loads...
 
 // TODO: https://www.patterns.dev/posts/provider-pattern/
+// TODO: consider using dummy data and set-data for null state: 
+//   https://github.com/chriswhong/nyc-311-digest/blob/36d041768438c28c6bc71372cf0da7b40787137b/src/features/report/ReportMapElements.js#L16
 function MainMap({ neighborhoods, onLoad }) {
   const navigate = useNavigate();
 
