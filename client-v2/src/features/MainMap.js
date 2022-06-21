@@ -9,6 +9,8 @@ export const MapContext = createContext();
 // this withholds rendering unless there's data... preventing a double render...
 // but what's a better solution? so that the map can load while the other data
 // loads...
+
+// TODO: https://www.patterns.dev/posts/provider-pattern/
 function MainMap({ neighborhoods, onLoad }) {
   const navigate = useNavigate();
 

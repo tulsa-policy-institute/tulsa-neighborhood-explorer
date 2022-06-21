@@ -13,6 +13,7 @@ function App() {
   const [mapInstance, setMapInstance] = useState(null);
 
   useEffect(() => {
+    // TODO https://swr.vercel.app vs https://react-query.tanstack.com
     getNeighborhoodProfiles(setData);
   }, []);
 

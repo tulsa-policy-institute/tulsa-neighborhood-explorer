@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import { useParams } from "react-router-dom";
+import bbox from '@turf/bbox';
 import { MapContext } from './App';
 
 function Profile({ data }) {
@@ -11,12 +12,18 @@ function Profile({ data }) {
     const feature = neighborhoodsGeoJson.features.find(
       (n) => n.properties.slug === slug
     );
+    const neighborhoodBounds = bbox(feature);
 
     map.setFeatureState({
       source: 'neighborhoods',
       id: feature.properties.id,
     }, {
       selected: true,
+    });
+
+    map.fitBounds(neighborhoodBounds, {
+      // TODO: add mobile detection
+      // padding: this.media.isMobile ? 0 : 75,
     });
 
     return () => {
@@ -30,7 +37,7 @@ function Profile({ data }) {
   }, [slug, neighborhoodsGeoJson, map]);
 
   const neighborhood = neighborhoods.find(n => n.slug === slug);
-  console.log(neighborhood)
+
   return <>
     <div className="top-0 w-full">
       <div className="px-5">
