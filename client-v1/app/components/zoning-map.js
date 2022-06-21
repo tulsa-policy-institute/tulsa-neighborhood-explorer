@@ -68,7 +68,7 @@ export default class LandUseMapComponent extends Component {
       type: 'vector',
       maxzoom: 11,
       tiles: [
-        'pmtiles://https://storage.googleapis.com/tpi-pmtiles/zoning.pmtiles/{z}/{x}/{y}',
+        'pmtiles://https://tulsa-policy-institute.s3.us-west-2.amazonaws.com/zoning.pmtiles/{z}/{x}/{y}',
       ],
     };
   }
