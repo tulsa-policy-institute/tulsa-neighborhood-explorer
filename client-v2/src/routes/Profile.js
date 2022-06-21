@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import { useParams } from "react-router-dom";
 import bbox from '@turf/bbox';
+import { isMobile } from 'react-device-detect';
 import { MapContext } from './App';
 
 function Profile({ data }) {
@@ -23,7 +24,7 @@ function Profile({ data }) {
 
     map.fitBounds(neighborhoodBounds, {
       // TODO: add mobile detection
-      // padding: this.media.isMobile ? 0 : 75,
+      padding: isMobile ? 0 : 75,
     });
 
     return () => {
