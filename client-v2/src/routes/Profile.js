@@ -44,7 +44,7 @@ function Profile({ data }) {
       <div className="px-5">
         <h1 className="text-lg md:py-2 md:text-6xl">{neighborhood.neighborhood}</h1>
         <p className="text-sm">
-          {neighborhood.normalizedTractIDs.join(', ')}
+          Census Tracts: {neighborhood.normalizedTractIDs.join(', ')}
         </p>
       </div>
       <div className="bg-gray-50">
@@ -58,6 +58,11 @@ function Profile({ data }) {
           </ul>
         </div>
       </div>
+    </div>
+    <div className="p-5 md:p-7">
+      <p>
+        <b>The {neighborhood.neighborhood} Neighborhood Statistical Area</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore aperiam odit voluptatibus velit qui optio quam exercitationem incidunt animi rem voluptate necessitatibus, nostrum obcaecati enim, ullam itaque et pariatur.
+      </p>
     </div>
   </>
 }

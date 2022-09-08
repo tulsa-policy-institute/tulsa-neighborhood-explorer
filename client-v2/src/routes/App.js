@@ -5,6 +5,7 @@ import getNeighborhoodProfiles from '../util/getNeighborhoodProfiles';
 import MainMap from '../features/MainMap';
 import Index from './Index';
 import Profile from './Profile';
+import SearchBar from '../features/SearchBar';
 
 export const MapContext = createContext();
 
@@ -32,15 +33,15 @@ function App() {
               onLoad={didLoad}
             />
             <div className="absolute top-1 w-full md:top-10 md:p-1">
-              {/* <SearchBar
+              <SearchBar
                 className="m-2"
-                @list={{this.model.neighborhoods}}
-              /> */}
+                list={data.neighborhoods}
+              />
             </div>
           </div>
           <div className="basis-3/4 border-l-8 max-h-full overflow-scroll">
             <Routes>
-              <Route path="/" element={<Index />} />
+              <Route path="/" element={<Index neighborhoods={data.neighborhoods} />} />
               <Route path="/profiles/:slug" element={(mapInstance && data.neighborhoods) && <Profile data={data} />} />
             </Routes>
           </div>

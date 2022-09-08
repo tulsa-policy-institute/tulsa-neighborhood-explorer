@@ -1,4 +1,6 @@
-function Index() {
+import SearchBar from "../features/SearchBar";
+
+function Index({ neighborhoods }) {
   return <div className="flex flex-col p-5 md:p-7">  
     <div className="basis-full">
       <h2 className="text-3xl">
@@ -7,9 +9,9 @@ function Index() {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore aperiam odit voluptatibus velit qui optio quam exercitationem incidunt animi rem voluptate necessitatibus, nostrum obcaecati enim, ullam itaque et pariatur.
       </p>
-      {/* <SearchBar
-        @list={{this.model.neighborhoods}}
-      /> */}
+      <SearchBar
+        list={neighborhoods}
+      />
     </div>
     <div className="basis-full">
       <h1 className="text-xl">Explore</h1>
