@@ -9,21 +9,23 @@ const SQL_Query = `
     g.*,
     g.cartodb_id as id,
     g.map_id,
-    s.equal_interval_score,
-    s.lu_1_0_to_5,
-    s.lu_2_0_to_5,
-    s.lu_3_0_to_5,
-    s.lu_4_0_to_5,
-    s.lu_5_0_to_5,
-    s.lu_6_0_to_5,
-    s.lu_7_0_to_5,
-    s.lu_8_0_to_5,
-    s.lu_9_0_to_5,
-    s.lu_10_0_to_5,
-    s.lu_11_0_to_5,
-    s.lu_12_0_to_5
-  FROM tpo_nha_scores s
-  INNER JOIN nsa_boundaries g ON s.nid = g.map_id
+    s.overall_score,
+    s.overall_rank,
+    s.overall_health_percentile,
+    s.top_performing_1,
+    s.tp1_score,
+    s.top_performing_2,
+    s.tp2_score,
+    s.top_performing_3,
+    s.tp3_score,
+    s.lowest_performing_3,
+    s.lp3_score,
+    s.lowest_performing_2,
+    s.lp2_score,
+    s.lowest_performing_1,
+    s.lp1_score
+  FROM tpo_nci_scores s
+  INNER JOIN nsa_boundaries g ON s.map_id = g.map_id
 `;
 const CARTO_QUERY = `${CARTO_URL}?q=${SQL_Query}&format=geojson`;
 

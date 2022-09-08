@@ -13,6 +13,5 @@ export default class MapTooltipComponent extends Component {
   }
 
   @action
-  onLayerMouseOut() {
-  }
+  onLayerMouseOut() {}
 }
