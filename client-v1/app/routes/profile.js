@@ -1,8 +1,6 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
 import bbox from '@turf/bbox';
-import fetch from 'fetch';
-import { filterForProfileTracts } from '../helpers/filter-for-profile-tracts';
 
 export default class ProfileRoute extends Route {
   @service
