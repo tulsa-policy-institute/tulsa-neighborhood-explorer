@@ -7,7 +7,11 @@ export default class ApplicationRoute extends Route {
   async model() {
     // const data = await (await fetch(CARTO_QUERY)).json();
     const data = await (await fetch('/data/nsa_boundaries.json')).json();
-    const assessments = await (await fetch('/data/tpo_nci_scores.json')).json();
+    const assessments = await (
+      await fetch(
+        'https://raw.githubusercontent.com/tulsa-policy-institute/tulsa-neighborhood-explorer/master/data/assessments.min.json'
+      )
+    ).json();
 
     const census2000 = await (
       await fetch('/census/data/2000/dec/pl.json')
