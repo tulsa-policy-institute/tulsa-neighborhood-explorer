@@ -1657,6 +1657,7 @@
     "lp2_description": "Community data indicates limited access to places of worship and social clubs. Population growth, voter registration, and access to social services are average, and access to internet is good.",
     "overview": "The Woodland Hills Neighborhood Statistical Area is located in south Tulsa. It includes census tracts 74.10, 74.11, 76.17, 76.45, and 76.46, and covers 3.95 square miles. Developed in the 1980s, the area is composed of single-family residences, apartment complexes, and retirement communities. Regional-scale retail, religious assembly, and medical complexes can be found on and near its main arterials. Oklahoma State Highway 64 runs through the area, providing access to north Tulsa. The neighborhood is home to Woodland Hills Mall, two Union Public Schools, the Oilers Ice Center, and two Tulsa Parks. It is close to the Tulsa Community College Southeast Campus, and Hillcrest and Saint Francis South Hospitals.  ",
     "lowest_performing_3": "Parks & Recreation",
+    "tp3_description": "Transportation data indicates good access to motor vehicles. Collisions involving cyclist and pedestrians are low. Access to trails and sidewalks is average, while access to transit and bike infrastructure is limited. ",
     "lp1_description": "Housing and Neighborhood data indicates high rates of violent crimes and evictions. Housing density, occupancy, and presence of cost burdened owners and renters is average. Number of police calls are average.",
     "neighborhood": "Woodland Hills",
     "lp1_score": 1.03,
@@ -1664,14 +1665,13 @@
     "overall_health_percentile": "Average",
     "lowest_performing_2": "Public Services",
     "top_performing_3": "Transportation",
+    "tp2_description": "Land use data indicates good access to retail, eating places, financial services, arts & entertainment venues, and healthy food sources. Access to parks, healthcare, schools, and social services is average.",
     "lowest_performing_1": "Communities",
     "lp3_score": 1.33,
     "top_performing_1": "Economic Development",
     "lp2_score": 1.16,
     "overall_score": 2.44,
-    "map_id": 76,
-    "tp3_description": "Transportation data indicates good access to motor vehicles. Collisions involving cyclist and pedestrians are low. Access to trails and sidewalks is average, while access to transit and bike infrastructure is limited. ",
-    "tp2_description": "Land use data indicates good access to retail, eating places, financial services, arts & entertainment venues, and healthy food sources. Access to parks, healthcare, schools, and social services is average."
+    "map_id": 76
   },
   {
     "id": "recn1LnZEUxCIKbA4",
