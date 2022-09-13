@@ -355,7 +355,7 @@
   },
   {
     "id": "recnlnU6rbEJvRA4z",
-    "overall_rank": 54,
+    "overall_rank": 49,
     "tp1_description": "Data indicates good access to parks, retail, places of worship, and healthy food sources. Access to eating places, financial services, and schools is average, while access to social clubs and arts & entertainment venues is limited.",
     "tp2_score": 3.124009404,
     "tp1_score": 3.485388807,
@@ -377,8 +377,8 @@
     "lp3_score": 2.357239762,
     "top_performing_1": "Land Use",
     "lp2_score": 2.158130045,
-    "overall_score": 1.57,
-    "map_id": 54
+    "map_id": 54,
+    "overall_score": 1.9
   },
   {
     "id": "recWyGeloRVIcOr2J",
