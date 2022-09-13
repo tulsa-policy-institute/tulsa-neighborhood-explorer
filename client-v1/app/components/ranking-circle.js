@@ -113,16 +113,16 @@ export default class RankingCircle extends Component {
         };
       });
 
-    this.percentLabel
-      .transition()
-      .duration(transitionDuration)
-      .tween('bla', () => {
-        return (t) => {
-          this.percentLabel.text(
-            Math.round(startValue + (progressPercent - startValue) * t)
-          );
-        };
-      });
+    this.percentLabel.text(this.args.value?.toFixed(1));
+
+    // this.percentLabel
+    //   .transition()
+    //   .duration(transitionDuration)
+    //   .tween('bla', () => {
+    //     return (t) => {
+
+    //     };
+    //   });
 
     this.value = progressPercent;
   }
