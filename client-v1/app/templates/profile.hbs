@@ -1,12 +1,6 @@
 {{page-title this.model.neighborhood}}
 
 <div class="top-0 w-full">
-  <div class="px-5">
-    <h1 class="text-lg md:py-2 md:text-6xl">{{this.model.neighborhood}}</h1>
-    <p class="text-sm">
-      Census Tract(s): {{join this.model.normalizedTractIDs ', '}}
-    </p>
-  </div>
   <div class="bg-gray-50">
     <div class="px-5">
       <ul class="flex flex-col md:flex-row">
@@ -19,6 +13,13 @@
     </div>
   </div>
 </div>
+
+  <div class="px-5 md:py-2">
+    <h1 class="text-lg md:text-6xl">{{this.model.neighborhood}}</h1>
+    <p class="text-sm">
+      Census Tract(s): {{join this.model.normalizedTractIDs ', '}}
+    </p>
+  </div>
 
 <p class="px-5 md:px-7">
   {{this.model.overview}}
@@ -115,33 +116,24 @@
         </h3>
         <div class="p-2 md:flex-col h-full">
           <div class="flex flex-col md:flex-row space-x-4">
-            <div class="basis-1/3 p-1">
-              <div>
-                <RankingCircle
-                  @value={{this.model.tp1_score}}
-                />
-                <h2 class="text-lg">{{this.model.top_performing_1}}</h2>
-                <p class="text-sm">{{this.model.tp1_description}}</p>
-              </div>
-            </div>
-            <div class="basis-1/3 p-1">
-              <div>
-                <RankingCircle
-                  @value={{this.model.tp2_score}}
-                />
-                <h2 class="text-lg">{{this.model.top_performing_2}}</h2>
-                <p class="text-sm">{{this.model.tp2_description}}</p>
-              </div>
-            </div>
-            <div class="basis-1/3 p-1">
-              <div>
-                <RankingCircle
-                  @value={{this.model.tp3_score}}
-                />
-                <h2 class="text-lg">{{this.model.top_performing_3}}</h2>
-                <p class="text-sm">{{this.model.tp3_description}}</p>
-              </div>
-            </div>
+            <PerformerIndicator
+              @color="green"
+              @score={{this.model.tp1_score}}
+              @indicatorName={{this.model.top_performing_1}}
+              @diagnosis={{this.model.tp1_description}}
+            />
+            <PerformerIndicator
+              @color="green"
+              @score={{this.model.tp2_score}}
+              @indicatorName={{this.model.top_performing_2}}
+              @diagnosis={{this.model.tp2_description}}
+            />
+            <PerformerIndicator
+              @color="green"
+              @score={{this.model.tp3_score}}
+              @indicatorName={{this.model.top_performing_3}}
+              @diagnosis={{this.model.tp3_description}}
+            />
           </div>
         </div>
       </div>
@@ -151,36 +143,24 @@
         </h3>
         <div class="p-2">
           <div class="flex flex-col md:flex-row space-x-4">
-            <div class="basis-1/3 p-1">
-              <div>
-                <RankingCircle
-                  @barColor="red"
-                  @value={{this.model.lp1_score}}
-                />
-                <h2 class="text-lg">{{this.model.lowest_performing_1}}</h2>
-                <p class="text-sm">{{this.model.lp1_description}}</p>
-              </div>
-            </div>
-            <div class="basis-1/3 p-1">
-              <div>
-                <RankingCircle
-                  @barColor="red"
-                  @value={{this.model.lp2_score}}
-                />
-                <h2 class="text-lg">{{this.model.lowest_performing_2}}</h2>
-                <p class="text-sm">{{this.model.lp2_description}}</p>
-              </div>
-            </div>
-            <div class="basis-1/3 p-1">
-              <div>
-                <RankingCircle
-                  @barColor="red"
-                  @value={{this.model.lp3_score}}
-                />
-                <h2 class="text-lg">{{this.model.lowest_performing_3}}</h2>
-                <p class="text-sm">{{this.model.lp3_description}}</p>
-              </div>
-            </div>
+            <PerformerIndicator
+              @color="red"
+              @score={{this.model.lp3_score}}
+              @indicatorName={{this.model.lowest_performing_3}}
+              @diagnosis={{this.model.lp3_description}}
+            />
+            <PerformerIndicator
+              @color="red"
+              @score={{this.model.lp2_score}}
+              @indicatorName={{this.model.lowest_performing_2}}
+              @diagnosis={{this.model.lp2_description}}
+            />
+            <PerformerIndicator
+              @color="red"
+              @score={{this.model.lp1_score}}
+              @indicatorName={{this.model.lowest_performing_1}}
+              @diagnosis={{this.model.lp1_description}}
+            />
           </div>
         </div>
       </div>
