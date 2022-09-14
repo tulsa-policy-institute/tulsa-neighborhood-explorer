@@ -9,7 +9,7 @@ const AIRTABLE = {
   domain: 'https://api.airtable.com',
   path: '/v0/app1NCBoO4bqE2Swv/',
   tables: ['Assessments'],
-  view: 'Grid view',
+  view: 'Neighborhoods',
   key: process.env.AIRTABLE_API_KEY,
 }
 
