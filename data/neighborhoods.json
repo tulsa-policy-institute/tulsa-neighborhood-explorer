@@ -17,6 +17,11 @@
     "top_performing_1": "Transportation",
     "overall_score": 0.69,
     "map_id": 67,
+    "cartodb_id": 79,
+    "tracts_201": "90.08",
+    "tracts_202": "90.08",
+    "res_units": 1924,
+    "sq_miles": 1.987428,
     "normalizedTractIDs": [
       "90.08"
     ],
@@ -50,6 +55,11 @@
     "lp2_score": 0.94,
     "overall_score": 1.9,
     "map_id": 31,
+    "cartodb_id": 76,
+    "tracts_201": "66",
+    "tracts_202": "66",
+    "res_units": 1081,
+    "sq_miles": 10.88101,
     "normalizedTractIDs": [
       "66"
     ],
@@ -83,6 +93,11 @@
     "lp2_score": 1.91,
     "overall_score": 0.9,
     "map_id": 11,
+    "cartodb_id": 2,
+    "tracts_201": "5",
+    "tracts_202": "5",
+    "res_units": 1197,
+    "sq_miles": 0.673563,
     "normalizedTractIDs": [
       "5"
     ],
@@ -116,6 +131,11 @@
     "lp2_score": 1.71,
     "overall_score": 2.89,
     "map_id": 27,
+    "cartodb_id": 58,
+    "tracts_201": "17",
+    "tracts_202": "17",
+    "res_units": 1272,
+    "sq_miles": 0.891005,
     "normalizedTractIDs": [
       "17"
     ],
@@ -149,6 +169,11 @@
     "lp2_score": 1.44,
     "overall_score": 1.06,
     "map_id": 60,
+    "cartodb_id": 55,
+    "tracts_201": "90.04 (part), 90.06, 90.07 (part)",
+    "tracts_202": "90.06, 90.10, 90.12, 90.14",
+    "res_units": 5637,
+    "sq_miles": 2.471829,
     "normalizedTractIDs": [
       "90.06",
       "90.1",
@@ -185,6 +210,11 @@
     "lp2_score": 1.81,
     "overall_score": 3.77,
     "map_id": 49,
+    "cartodb_id": 44,
+    "tracts_201": "42",
+    "tracts_202": "42",
+    "res_units": 1412,
+    "sq_miles": 0.997587,
     "normalizedTractIDs": [
       "42"
     ],
@@ -217,6 +247,11 @@
     "lp2_score": 1.33,
     "overall_score": 1.24,
     "map_id": 3,
+    "cartodb_id": 21,
+    "tracts_201": "79, 91.01",
+    "tracts_202": "79, 91.01",
+    "res_units": 3170,
+    "sq_miles": 5.968428,
     "normalizedTractIDs": [
       "79",
       "91.01"
@@ -251,6 +286,11 @@
     "lp2_score": 1.23,
     "overall_score": 2.02,
     "map_id": 21,
+    "cartodb_id": 53,
+    "tracts_201": "29, 30, 88",
+    "tracts_202": "29, 30, 88",
+    "res_units": 3190,
+    "sq_miles": 4.523648,
     "normalizedTractIDs": [
       "29",
       "30",
@@ -286,6 +326,11 @@
     "lp2_score": 1.09,
     "overall_score": 0.54,
     "map_id": 17,
+    "cartodb_id": 63,
+    "tracts_201": "13",
+    "tracts_202": "13",
+    "res_units": 858,
+    "sq_miles": 0.844389,
     "normalizedTractIDs": [
       "13"
     ],
@@ -319,6 +364,11 @@
     "lp2_score": 2.42,
     "overall_score": 4.65,
     "map_id": 37,
+    "cartodb_id": 51,
+    "tracts_201": "33, 34",
+    "tracts_202": "33, 34",
+    "res_units": 2400,
+    "sq_miles": 0.977099,
     "normalizedTractIDs": [
       "33",
       "34"
@@ -353,6 +403,11 @@
     "lp2_score": 1.96,
     "overall_score": 1.46,
     "map_id": 43,
+    "cartodb_id": 15,
+    "tracts_201": "73.1",
+    "tracts_202": "73.1",
+    "res_units": 1361,
+    "sq_miles": 0.999345,
     "normalizedTractIDs": [
       "73.1"
     ],
@@ -380,6 +435,11 @@
     "lp2_score": 1.45,
     "overall_score": 0.67,
     "map_id": 16,
+    "cartodb_id": 64,
+    "tracts_201": "12",
+    "tracts_202": "12",
+    "res_units": 677,
+    "sq_miles": 1.193665,
     "normalizedTractIDs": [
       "12"
     ],
@@ -413,6 +473,11 @@
     "lp2_score": 0.62,
     "overall_score": 1.99,
     "map_id": 68,
+    "cartodb_id": 40,
+    "tracts_201": "90.03 (part), 90.09 (part)",
+    "tracts_202": "90.17, 90.19",
+    "res_units": 2866,
+    "sq_miles": 5.063346,
     "normalizedTractIDs": [
       "90.17",
       "90.19"
@@ -443,6 +508,11 @@
     "lp2_score": 1.99,
     "overall_score": 4.35,
     "map_id": 23,
+    "cartodb_id": 70,
+    "tracts_201": "25",
+    "tracts_202": "25",
+    "res_units": 2755,
+    "sq_miles": 1.480191,
     "normalizedTractIDs": [
       "25"
     ],
@@ -476,6 +546,11 @@
     "lp2_score": 2.35,
     "overall_score": 2,
     "map_id": 10,
+    "cartodb_id": 73,
+    "tracts_201": "6, 7, 10",
+    "tracts_202": "114, 10",
+    "res_units": 2263,
+    "sq_miles": 1.542452,
     "normalizedTractIDs": [
       "114",
       "10"
@@ -510,6 +585,11 @@
     "lp2_score": 2.25,
     "overall_score": 4.32,
     "map_id": 56,
+    "cartodb_id": 35,
+    "tracts_201": "43.02",
+    "tracts_202": "43.02",
+    "res_units": 1801,
+    "sq_miles": 0.987695,
     "normalizedTractIDs": [
       "43.02"
     ],
@@ -543,6 +623,11 @@
     "lp2_score": 1.07,
     "overall_score": 1.61,
     "map_id": 45,
+    "cartodb_id": 18,
+    "tracts_201": "73.08",
+    "tracts_202": "73.08",
+    "res_units": 1335,
+    "sq_miles": 9.057209,
     "normalizedTractIDs": [
       "73.08"
     ],
@@ -582,6 +667,11 @@
     "lp2_score": 2.158130045,
     "overall_score": 1.9,
     "map_id": 54,
+    "cartodb_id": 13,
+    "tracts_201": "73.05 (part), 73.06, 73.12",
+    "tracts_202": "73.06, 73.12, 73.13",
+    "res_units": 5023,
+    "sq_miles": 2.473237,
     "normalizedTractIDs": [
       "73.06",
       "73.12",
@@ -617,6 +707,11 @@
     "lp2_score": 1.13,
     "overall_score": 1.52,
     "map_id": 34,
+    "cartodb_id": 33,
+    "tracts_201": "46",
+    "tracts_202": "46",
+    "res_units": 1721,
+    "sq_miles": 0.644516,
     "normalizedTractIDs": [
       "46"
     ],
@@ -650,6 +745,11 @@
     "lp2_score": 2.13,
     "overall_score": 4.16,
     "map_id": 39,
+    "cartodb_id": 49,
+    "tracts_201": "37",
+    "tracts_202": "37",
+    "res_units": 1431,
+    "sq_miles": 0.998479,
     "normalizedTractIDs": [
       "37"
     ],
@@ -680,6 +780,11 @@
     "top_performing_1": "Environment & Natural Resources",
     "overall_score": 1.41,
     "map_id": 47,
+    "cartodb_id": 67,
+    "tracts_201": "304.02",
+    "tracts_202": "304.02",
+    "res_units": 1660,
+    "sq_miles": 30.927297,
     "normalizedTractIDs": [
       "304.02"
     ],
@@ -711,6 +816,11 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.46,
     "map_id": 6,
+    "cartodb_id": 5,
+    "tracts_201": "80.01",
+    "tracts_202": "80.01",
+    "res_units": 764,
+    "sq_miles": 1.736319,
     "normalizedTractIDs": [
       "80.01"
     ],
@@ -744,6 +854,11 @@
     "lp2_score": 0.94,
     "overall_score": 1.06,
     "map_id": 33,
+    "cartodb_id": 48,
+    "tracts_201": "49",
+    "tracts_202": "49",
+    "res_units": 1004,
+    "sq_miles": 3.555993,
     "normalizedTractIDs": [
       "49"
     ],
@@ -777,6 +892,11 @@
     "lp2_score": 1.41,
     "overall_score": 1.73,
     "map_id": 2,
+    "cartodb_id": 69,
+    "tracts_201": "9400.06",
+    "tracts_202": "9400.06",
+    "res_units": 2539,
+    "sq_miles": 2.898082,
     "normalizedTractIDs": [
       "9400.06"
     ],
@@ -808,6 +928,11 @@
     "lp2_score": 2.2,
     "overall_score": 3.38,
     "map_id": 75,
+    "cartodb_id": 9,
+    "tracts_201": "76.15, 76.16, 76.19, 76.20",
+    "tracts_202": "76.15, 76.16, 76.19, 76.47, 76.48",
+    "res_units": 7693,
+    "sq_miles": 4.008304,
     "normalizedTractIDs": [
       "76.15",
       "76.16",
@@ -845,6 +970,11 @@
     "lp2_score": 1.15,
     "overall_score": 3.09,
     "map_id": 74,
+    "cartodb_id": 74,
+    "tracts_201": "76.12, 76.14",
+    "tracts_202": "76.12, 76.14",
+    "res_units": 1986,
+    "sq_miles": 1.995318,
     "normalizedTractIDs": [
       "76.12",
       "76.14"
@@ -879,6 +1009,11 @@
     "lp2_score": 1.42,
     "overall_score": 1.22,
     "map_id": 7,
+    "cartodb_id": 27,
+    "tracts_201": "62",
+    "tracts_202": "62",
+    "res_units": 1428,
+    "sq_miles": 1.759966,
     "normalizedTractIDs": [
       "62"
     ],
@@ -912,6 +1047,11 @@
     "lp2_score": 2.06,
     "overall_score": 3.36,
     "map_id": 51,
+    "cartodb_id": 30,
+    "tracts_201": "53",
+    "tracts_202": "53",
+    "res_units": 2192,
+    "sq_miles": 0.999198,
     "normalizedTractIDs": [
       "53"
     ],
@@ -945,6 +1085,11 @@
     "lp2_score": 1.82,
     "overall_score": 3.42,
     "map_id": 78,
+    "cartodb_id": 8,
+    "tracts_201": "76.29, 76.32, 76.33, 76.39",
+    "tracts_202": "76.29, 76.32, 76.33, 76.39",
+    "res_units": 6444,
+    "sq_miles": 4.009137,
     "normalizedTractIDs": [
       "76.29",
       "76.32",
@@ -981,6 +1126,11 @@
     "lp2_score": 1.81,
     "overall_score": 3.29,
     "map_id": 22,
+    "cartodb_id": 65,
+    "tracts_201": "27",
+    "tracts_202": "27",
+    "res_units": 1301,
+    "sq_miles": 1.634598,
     "normalizedTractIDs": [
       "27"
     ],
@@ -1014,6 +1164,11 @@
     "lp2_score": 1.6,
     "overall_score": 2.8,
     "map_id": 25,
+    "cartodb_id": 56,
+    "tracts_201": "20, 21",
+    "tracts_202": "20, 21",
+    "res_units": 2215,
+    "sq_miles": 0.893362,
     "normalizedTractIDs": [
       "20",
       "21"
@@ -1048,6 +1203,11 @@
     "lp2_score": 1.35,
     "overall_score": 1.21,
     "map_id": 73,
+    "cartodb_id": 43,
+    "tracts_201": "76.25, 76.41, 76.42",
+    "tracts_202": "76.41, 76.42, 76.50",
+    "res_units": 4961,
+    "sq_miles": 1.975782,
     "normalizedTractIDs": [
       "76.41",
       "76.42",
@@ -1081,6 +1241,11 @@
     "lp2_score": 1.66,
     "overall_score": 0.92,
     "map_id": 29,
+    "cartodb_id": 4,
+    "tracts_201": "82, 83",
+    "tracts_202": "82, 83",
+    "res_units": 1610,
+    "sq_miles": 2.007027,
     "normalizedTractIDs": [
       "82",
       "83"
@@ -1121,6 +1286,11 @@
     "lp2_score": 1.86,
     "overall_score": 2.54,
     "map_id": 41,
+    "cartodb_id": 22,
+    "tracts_201": "71.01",
+    "tracts_202": "71.01",
+    "res_units": 1948,
+    "sq_miles": 1.004526,
     "normalizedTractIDs": [
       "71.01"
     ],
@@ -1154,6 +1324,11 @@
     "lp2_score": 1.19,
     "overall_score": 0.92,
     "map_id": 8,
+    "cartodb_id": 37,
+    "tracts_201": "2",
+    "tracts_202": "2",
+    "res_units": 680,
+    "sq_miles": 2.639323,
     "normalizedTractIDs": [
       "2"
     ],
@@ -1187,6 +1362,11 @@
     "lp2_score": 1.51,
     "overall_score": 1.76,
     "map_id": 53,
+    "cartodb_id": 61,
+    "tracts_201": "73.05 (part), 85.01",
+    "tracts_202": "73.14, 85.01",
+    "res_units": 3066,
+    "sq_miles": 1.512307,
     "normalizedTractIDs": [
       "73.14",
       "85.01"
@@ -1221,6 +1401,11 @@
     "lp2_score": 1.26,
     "overall_score": 0.19,
     "map_id": 13,
+    "cartodb_id": 17,
+    "tracts_201": "3",
+    "tracts_202": "3",
+    "res_units": 1510,
+    "sq_miles": 0.993457,
     "normalizedTractIDs": [
       "3"
     ],
@@ -1254,6 +1439,11 @@
     "lp2_score": 2.95,
     "overall_score": 5,
     "map_id": 36,
+    "cartodb_id": 34,
+    "tracts_201": "32, 45",
+    "tracts_202": "32, 45",
+    "res_units": 1991,
+    "sq_miles": 1.261963,
     "normalizedTractIDs": [
       "32",
       "45"
@@ -1287,6 +1477,11 @@
     "lp2_score": 1.63,
     "overall_score": 0.62,
     "map_id": 19,
+    "cartodb_id": 59,
+    "tracts_201": "16",
+    "tracts_202": "16",
+    "res_units": 2250,
+    "sq_miles": 1.128333,
     "normalizedTractIDs": [
       "16"
     ],
@@ -1320,6 +1515,11 @@
     "lp2_score": 2.15,
     "overall_score": 3.61,
     "map_id": 50,
+    "cartodb_id": 46,
+    "tracts_201": "39",
+    "tracts_202": "39",
+    "res_units": 2272,
+    "sq_miles": 0.996462,
     "normalizedTractIDs": [
       "39"
     ],
@@ -1359,6 +1559,11 @@
     "lp2_score": 1.686176409,
     "overall_score": 2.54,
     "map_id": 28,
+    "cartodb_id": 20,
+    "tracts_201": "72",
+    "tracts_202": "72",
+    "res_units": 1675,
+    "sq_miles": 0.877783,
     "normalizedTractIDs": [
       "72"
     ],
@@ -1392,6 +1597,11 @@
     "lp2_score": 1.58,
     "overall_score": 1.11,
     "map_id": 20,
+    "cartodb_id": 28,
+    "tracts_201": "60",
+    "tracts_202": "60",
+    "res_units": 1860,
+    "sq_miles": 1.126732,
     "normalizedTractIDs": [
       "60"
     ],
@@ -1425,6 +1635,11 @@
     "lp2_score": 1.73,
     "overall_score": 1.63,
     "map_id": 42,
+    "cartodb_id": 19,
+    "tracts_201": "71.02, 73.04",
+    "tracts_202": "71.02, 73.04",
+    "res_units": 2771,
+    "sq_miles": 1.990458,
     "normalizedTractIDs": [
       "71.02",
       "73.04"
@@ -1459,6 +1674,11 @@
     "lp2_score": 1.23,
     "overall_score": 0.66,
     "map_id": 15,
+    "cartodb_id": 75,
+    "tracts_201": "59",
+    "tracts_202": "59",
+    "res_units": 1122,
+    "sq_miles": 18.474972,
     "normalizedTractIDs": [
       "59"
     ],
@@ -1492,6 +1712,11 @@
     "lp2_score": 1.51,
     "overall_score": 1.43,
     "map_id": 14,
+    "cartodb_id": 12,
+    "tracts_201": "1, 111",
+    "tracts_202": "113",
+    "res_units": 1116,
+    "sq_miles": 13.396935,
     "normalizedTractIDs": [
       "113"
     ],
@@ -1521,6 +1746,11 @@
     "lp2_score": 1.59,
     "overall_score": 1.05,
     "map_id": 4,
+    "cartodb_id": 29,
+    "tracts_201": "57",
+    "tracts_202": "57",
+    "res_units": 987,
+    "sq_miles": 1.651582,
     "normalizedTractIDs": [
       "57"
     ],
@@ -1554,6 +1784,11 @@
     "lp2_score": 0.16,
     "overall_score": 1.75,
     "map_id": 1,
+    "cartodb_id": 68,
+    "tracts_201": "9400.05",
+    "tracts_202": "9400.05",
+    "res_units": 1690,
+    "sq_miles": 50.651351,
     "normalizedTractIDs": [
       "9400.05"
     ],
@@ -1585,6 +1820,11 @@
     "lp2_score": 1.26,
     "overall_score": 1.86,
     "map_id": 64,
+    "cartodb_id": 24,
+    "tracts_201": "69.05, 86",
+    "tracts_202": "69.05, 86",
+    "res_units": 4456,
+    "sq_miles": 2.001087,
     "normalizedTractIDs": [
       "69.05",
       "86"
@@ -1619,6 +1859,11 @@
     "lp2_score": 1.92,
     "overall_score": 3.29,
     "map_id": 63,
+    "cartodb_id": 31,
+    "tracts_201": "51, 52",
+    "tracts_202": "51, 52",
+    "res_units": 2496,
+    "sq_miles": 1.953506,
     "normalizedTractIDs": [
       "51",
       "52"
@@ -1653,6 +1898,11 @@
     "lp2_score": 1.55,
     "overall_score": 2.14,
     "map_id": 24,
+    "cartodb_id": 42,
+    "tracts_201": "23.01",
+    "tracts_202": "23.01",
+    "res_units": 1379,
+    "sq_miles": 1.01039,
     "normalizedTractIDs": [
       "23.01"
     ],
@@ -1684,6 +1934,11 @@
     "lp2_score": 1.86,
     "overall_score": 3.76,
     "map_id": 57,
+    "cartodb_id": 78,
+    "tracts_201": "41.01",
+    "tracts_202": "41.01",
+    "res_units": 1008,
+    "sq_miles": 0.997598,
     "normalizedTractIDs": [
       "41.01"
     ],
@@ -1717,6 +1972,11 @@
     "lp2_score": 1.87,
     "overall_score": 2.64,
     "map_id": 32,
+    "cartodb_id": 39,
+    "tracts_201": "47, 48",
+    "tracts_202": "47, 48",
+    "res_units": 2783,
+    "sq_miles": 2.571751,
     "normalizedTractIDs": [
       "47",
       "48"
@@ -1751,6 +2011,11 @@
     "lp2_score": 1.69,
     "overall_score": 2.23,
     "map_id": 66,
+    "cartodb_id": 25,
+    "tracts_201": "69.06, 69.07",
+    "tracts_202": "69.06, 69.07",
+    "res_units": 2325,
+    "sq_miles": 2.008292,
     "normalizedTractIDs": [
       "69.06",
       "69.07"
@@ -1785,6 +2050,11 @@
     "lp2_score": 2.01,
     "overall_score": 4.36,
     "map_id": 38,
+    "cartodb_id": 50,
+    "tracts_201": "35, 36",
+    "tracts_202": "35, 36",
+    "res_units": 2266,
+    "sq_miles": 1.000383,
     "normalizedTractIDs": [
       "35",
       "36"
@@ -1819,6 +2089,11 @@
     "lp2_score": 1.94,
     "overall_score": 2.58,
     "map_id": 9,
+    "cartodb_id": 1,
+    "tracts_201": "8, 9",
+    "tracts_202": "8, 9",
+    "res_units": 1330,
+    "sq_miles": 0.90159,
     "normalizedTractIDs": [
       "8",
       "9"
@@ -1853,6 +2128,11 @@
     "lp2_score": 1.94,
     "overall_score": 4.53,
     "map_id": 35,
+    "cartodb_id": 52,
+    "tracts_201": "31",
+    "tracts_202": "31",
+    "res_units": 2156,
+    "sq_miles": 0.569773,
     "normalizedTractIDs": [
       "31"
     ],
@@ -1886,6 +2166,11 @@
     "lp2_score": 1.4,
     "overall_score": 1.95,
     "map_id": 70,
+    "cartodb_id": 26,
+    "tracts_201": "68.01, 68.03, 68.04, 76.08, 76.09",
+    "tracts_202": "68.01, 68.03, 68.04, 76.08, 76.43, 76.44",
+    "res_units": 9099,
+    "sq_miles": 3.016823,
     "normalizedTractIDs": [
       "68.01",
       "68.03",
@@ -1924,6 +2209,11 @@
     "lp2_score": 1.63,
     "overall_score": 0.86,
     "map_id": 18,
+    "cartodb_id": 60,
+    "tracts_201": "14, 15",
+    "tracts_202": "14, 15",
+    "res_units": 3916,
+    "sq_miles": 2.25002,
     "normalizedTractIDs": [
       "14",
       "15"
@@ -1958,6 +2248,11 @@
     "lp2_score": 2.43,
     "overall_score": 3.7,
     "map_id": 62,
+    "cartodb_id": 32,
+    "tracts_201": "50.01, 50.02",
+    "tracts_202": "50.01, 50.02",
+    "res_units": 3182,
+    "sq_miles": 1.61179,
     "normalizedTractIDs": [
       "50.01",
       "50.02"
@@ -1992,6 +2287,11 @@
     "lp2_score": 0.63,
     "overall_score": 2.94,
     "map_id": 80,
+    "cartodb_id": 10,
+    "tracts_201": "76.36, 76.37, 76.38",
+    "tracts_202": "76.36, 76.38, 76.53, 76.54",
+    "res_units": 5441,
+    "sq_miles": 8.060609,
     "normalizedTractIDs": [
       "76.36",
       "76.38",
@@ -2028,6 +2328,11 @@
     "lp2_score": 1.78,
     "overall_score": 3.09,
     "map_id": 79,
+    "cartodb_id": 36,
+    "tracts_201": "75.08 (part), 75.24, 76.30",
+    "tracts_202": "75.27, 75.28, 75.30, 76.30",
+    "res_units": 4673,
+    "sq_miles": 4.964476,
     "normalizedTractIDs": [
       "75.27",
       "75.28",
@@ -2060,6 +2365,11 @@
     "lp2_score": 2,
     "overall_score": 3.51,
     "map_id": 71,
+    "cartodb_id": 11,
+    "tracts_201": "69.01, 76.11, 76.13, 87",
+    "tracts_202": "69.01, 76.11, 76.13, 87",
+    "res_units": 6497,
+    "sq_miles": 4.041125,
     "normalizedTractIDs": [
       "69.01",
       "76.11",
@@ -2096,6 +2406,11 @@
     "lp2_score": 1.85,
     "overall_score": 2.1,
     "map_id": 59,
+    "cartodb_id": 23,
+    "tracts_201": "70, 85.02, 90.04 (part)",
+    "tracts_202": "70, 85.02, 90.11",
+    "res_units": 4580,
+    "sq_miles": 3.511134,
     "normalizedTractIDs": [
       "70",
       "85.02",
@@ -2131,6 +2446,11 @@
     "lp2_score": 1.32,
     "overall_score": 0.06,
     "map_id": 12,
+    "cartodb_id": 3,
+    "tracts_201": "4",
+    "tracts_202": "4",
+    "res_units": 1622,
+    "sq_miles": 0.98822,
     "normalizedTractIDs": [
       "4"
     ],
@@ -2164,6 +2484,11 @@
     "lp2_score": 0.53,
     "overall_score": 1.62,
     "map_id": 46,
+    "cartodb_id": 66,
+    "tracts_201": "304.03, 304.05",
+    "tracts_202": "304.03, 304.08",
+    "res_units": 1689,
+    "sq_miles": 7.025769,
     "normalizedTractIDs": [
       "304.03",
       "304.08"
@@ -2198,6 +2523,11 @@
     "lp2_score": 0.49,
     "overall_score": 2.46,
     "map_id": 61,
+    "cartodb_id": 71,
+    "tracts_201": "90.07 (part), 90.09",
+    "tracts_202": "90.13, 90.15, 90.16, 90.18",
+    "res_units": 4380,
+    "sq_miles": 5.989299,
     "normalizedTractIDs": [
       "90.13",
       "90.15",
@@ -2230,6 +2560,11 @@
     "lp2_score": 2.41,
     "overall_score": 3.44,
     "map_id": 65,
+    "cartodb_id": 77,
+    "tracts_201": "69.02, 69.03",
+    "tracts_202": "69.02, 69.03",
+    "res_units": 2821,
+    "sq_miles": 1.998235,
     "normalizedTractIDs": [
       "69.02",
       "69.03"
@@ -2264,6 +2599,11 @@
     "lp2_score": 1.95,
     "overall_score": 2.77,
     "map_id": 52,
+    "cartodb_id": 62,
+    "tracts_201": "84",
+    "tracts_202": "84",
+    "res_units": 1678,
+    "sq_miles": 1.004574,
     "normalizedTractIDs": [
       "84"
     ],
@@ -2297,6 +2637,11 @@
     "lp2_score": 1.42,
     "overall_score": 0.91,
     "map_id": 44,
+    "cartodb_id": 14,
+    "tracts_201": "73.11",
+    "tracts_202": "73.11",
+    "res_units": 1051,
+    "sq_miles": 1.876023,
     "normalizedTractIDs": [
       "73.11"
     ],
@@ -2330,6 +2675,11 @@
     "lp2_score": 0.87,
     "overall_score": 2.89,
     "map_id": 72,
+    "cartodb_id": 72,
+    "tracts_201": "67.05 (part)",
+    "tracts_202": "67.12, 67.13",
+    "res_units": 1851,
+    "sq_miles": 5.95568,
     "normalizedTractIDs": [
       "67.12",
       "67.13"
@@ -2360,6 +2710,11 @@
     "lp2_score": 0.97,
     "overall_score": 1.88,
     "map_id": 69,
+    "cartodb_id": 38,
+    "tracts_201": "67.01, 67.05 (part)",
+    "tracts_202": "67.01, 67.11",
+    "res_units": 2551,
+    "sq_miles": 5.759744,
     "normalizedTractIDs": [
       "67.01",
       "67.11"
@@ -2394,6 +2749,11 @@
     "lp2_score": 2.13,
     "overall_score": 3.11,
     "map_id": 26,
+    "cartodb_id": 57,
+    "tracts_201": "18, 19",
+    "tracts_202": "18, 19",
+    "res_units": 1900,
+    "sq_miles": 0.890263,
     "normalizedTractIDs": [
       "18",
       "19"
@@ -2428,6 +2788,11 @@
     "lp2_score": 1.45,
     "overall_score": 3.38,
     "map_id": 77,
+    "cartodb_id": 6,
+    "tracts_201": "76.31, 76.34",
+    "tracts_202": "76.31, 76.34, 76.49",
+    "res_units": 4514,
+    "sq_miles": 3.239483,
     "normalizedTractIDs": [
       "76.31",
       "76.34",
@@ -2463,6 +2828,11 @@
     "lp2_score": 1.51,
     "overall_score": 1.47,
     "map_id": 5,
+    "cartodb_id": 54,
+    "tracts_201": "80.02",
+    "tracts_202": "80.02",
+    "res_units": 1243,
+    "sq_miles": 1.439236,
     "normalizedTractIDs": [
       "80.02"
     ],
@@ -2496,6 +2866,11 @@
     "lp2_score": 1.68,
     "overall_score": 3.22,
     "map_id": 40,
+    "cartodb_id": 47,
+    "tracts_201": "38",
+    "tracts_202": "38",
+    "res_units": 962,
+    "sq_miles": 1.003545,
     "normalizedTractIDs": [
       "38"
     ],
@@ -2529,6 +2904,11 @@
     "lp2_score": 2.54,
     "overall_score": 4.27,
     "map_id": 55,
+    "cartodb_id": 80,
+    "tracts_201": "44",
+    "tracts_202": "44",
+    "res_units": 1277,
+    "sq_miles": 0.600471,
     "normalizedTractIDs": [
       "44"
     ],
@@ -2562,6 +2942,11 @@
     "lp2_score": 1.32,
     "overall_score": 1.23,
     "map_id": 30,
+    "cartodb_id": 16,
+    "tracts_201": "73.09, 89",
+    "tracts_202": "73.09, 89",
+    "res_units": 2018,
+    "sq_miles": 1.731924,
     "normalizedTractIDs": [
       "73.09",
       "89"
@@ -2596,6 +2981,11 @@
     "lp2_score": 2.16,
     "overall_score": 3.92,
     "map_id": 58,
+    "cartodb_id": 45,
+    "tracts_201": "40",
+    "tracts_202": "40",
+    "res_units": 2428,
+    "sq_miles": 0.998428,
     "normalizedTractIDs": [
       "40"
     ],
@@ -2635,6 +3025,11 @@
     "lp2_score": 1.16,
     "overall_score": 2.44,
     "map_id": 76,
+    "cartodb_id": 7,
+    "tracts_201": "74.10, 74.11, 76.17, 76.18",
+    "tracts_202": "74.10, 74.11, 76.17, 76.45, 76.46",
+    "res_units": 9151,
+    "sq_miles": 3.954941,
     "normalizedTractIDs": [
       "74.1",
       "74.11",
@@ -2672,6 +3067,11 @@
     "lp2_score": 2.1,
     "overall_score": 4.1,
     "map_id": 48,
+    "cartodb_id": 41,
+    "tracts_201": "43.01",
+    "tracts_202": "43.01",
+    "res_units": 949,
+    "sq_miles": 0.978324,
     "normalizedTractIDs": [
       "43.01"
     ],
