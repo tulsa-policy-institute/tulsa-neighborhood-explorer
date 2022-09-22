@@ -17,7 +17,10 @@ module.exports = {
       margin: {
         22: '5.5rem',
       },
+      fontFamily: {
+        sans: ['GOTHIC', 'sans-serif'],
+      },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
 }

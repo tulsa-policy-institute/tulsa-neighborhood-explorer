@@ -1,4 +1,3 @@
-
 on:
   schedule:
     - cron:  '0 * * * *' # Hourly. Ref https://crontab.guru/examples.html
@@ -21,6 +20,8 @@ jobs:
       run: yarn run pull:airtable
       env:
         AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+    - name: Scrape
+      run: yarn run pull:airtable
     - uses: mikeal/publish-to-github-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you

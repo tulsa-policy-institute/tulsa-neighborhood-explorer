@@ -1,50 +1,30 @@
 import React, { useContext, useEffect } from 'react'
-import { useParams } from "react-router-dom";
-import bbox from '@turf/bbox';
-import { isMobile } from 'react-device-detect';
+import { useParams } from 'react-router-dom';
+import { extractSlug } from '../util/extract-slug';
 import { MapContext } from './App';
+import { useAssessments } from '../util/use-assessments';
 
 function Profile({ data }) {
   const map = useContext(MapContext);
+  const { assessments: neighborhoods, isLoading } =  useAssessments();
   const { slug } = useParams();
-  const { neighborhoods, neighborhoodsGeoJson } = data;
 
   useEffect(() => {
-    const feature = neighborhoodsGeoJson.features.find(
-      (n) => n.properties.slug === slug
-    );
-    const neighborhoodBounds = bbox(feature);
+    if (!map) return;
 
-    map.setFeatureState({
-      source: 'neighborhoods',
-      id: feature.properties.id,
-    }, {
-      selected: true,
-    });
+    return map.selectBoundary(slug);
+  }, [slug, map])
+  
+  if (isLoading) return 'Loading...';
 
-    map.fitBounds(neighborhoodBounds, {
-      // TODO: add mobile detection
-      padding: isMobile ? 0 : 75,
-    });
-
-    return () => {
-      map.setFeatureState({
-        source: 'neighborhoods',
-        id: feature.properties.id,
-      }, {
-        selected: false,
-      });
-    }
-  }, [slug, neighborhoodsGeoJson, map]);
-
-  const neighborhood = neighborhoods.find(n => n.slug === slug);
+  const neighborhood = neighborhoods.find(n => extractSlug(n) === slug);
 
   return <>
     <div className="top-0 w-full">
       <div className="px-5">
         <h1 className="text-lg md:py-2 md:text-6xl">{neighborhood.neighborhood}</h1>
         <p className="text-sm">
-          Census Tracts: {neighborhood.normalizedTractIDs.join(', ')}
+          {/* Census Tracts: {neighborhood.normalizedTractIDs.join(', ')} */}
         </p>
       </div>
       <div className="bg-gray-50">

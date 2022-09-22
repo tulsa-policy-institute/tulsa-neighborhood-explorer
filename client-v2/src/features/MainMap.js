@@ -1,8 +1,13 @@
 import React, { createContext } from 'react';
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+import useSWR from 'swr';
+import { extractSlug } from '../util/extract-slug';
+import { fetcher } from '../util/fetcher';
 import Map from '../ui/Map';
+import { selectBoundary } from '../util/select-boundaries';
 
 export const MapContext = createContext();
+const NSA_BOUNDARIES_URL = '/data/nsa_boundaries.json';
 
 // issue: it re-renders the map because the data changes (fair)
 // but, the jsx doesn't depend on the data, the didLoad callback does
@@ -13,14 +18,15 @@ export const MapContext = createContext();
 // TODO: https://www.patterns.dev/posts/provider-pattern/
 // TODO: consider using dummy data and set-data for null state: 
 //   https://github.com/chriswhong/nyc-311-digest/blob/36d041768438c28c6bc71372cf0da7b40787137b/src/features/report/ReportMapElements.js#L16
-function MainMap({ neighborhoods, onLoad }) {
+function MainMap({ onLoad }) {
+  const { data: boundaries } = useSWR(NSA_BOUNDARIES_URL, fetcher);
   const navigate = useNavigate();
 
   const didLoad = (map) => {
     map.addSource('neighborhoods', {
       type: 'geojson',
-      data: neighborhoods,
-      promoteId: 'id',
+      data: boundaries,
+      promoteId: 'map_id',
     });
 
     map.addLayer({
@@ -40,8 +46,9 @@ function MainMap({ neighborhoods, onLoad }) {
         hover: true,
         onClick: (e) => {
           const [feature] = e.features;
+          const slug = extractSlug(feature.properties);
 
-          navigate(`/profiles/${feature.properties.slug}`);
+          navigate(`/profiles/${slug}`);
         },
       },
     });
@@ -73,11 +80,16 @@ function MainMap({ neighborhoods, onLoad }) {
       },
     });
 
-    onLoad(map);
+    onLoad({
+      map,
+      selectBoundary: (slug) => {
+        return selectBoundary(boundaries, map, slug);
+      },
+    });
   };
 
   return <>
-    {neighborhoods && <Map
+    {boundaries && <Map
       onLoad={didLoad}
     />}
   </>;

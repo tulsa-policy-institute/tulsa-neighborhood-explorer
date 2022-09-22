@@ -52,7 +52,7 @@ const run = async (opts) => {
 
   const data = await fetchData();
   const normalizedData = normalizeResults(data);
-  const directory = `client-v2/public/census/${path.split('/').slice(0, -1).join('/')}`;
+  const directory = `data/census/${path.split('/').slice(0, -1).join('/')}`;
   const fileName = path.split('/').pop();
 
   mkdir(directory, { recursive: true }, (e) => {
@@ -68,7 +68,7 @@ const run = async (opts) => {
   });
 };
 
-run({
+Promise.all([run({
   path: 'data/2020/acs/acs5',
   variables: [
     // total
@@ -78,19 +78,19 @@ run({
     'B05003_014E', // https://api.census.gov/data/2020/acs/acs5/variables/B05003_014E.json
     'B05003_001E', // https://api.census.gov/data/2020/acs/acs5/variables/B05003_001E.json
   ],
-});
+}),
 run({
   path: 'data/2020/dec/pl',
   variables: ['P1_001N'],
-});
+}),
 run({
   path: 'data/2010/dec/pl',
   variables: ['P001001'],
-});
+}),
 run({
   path: 'data/2000/dec/pl',
   variables: ['PL001001'],
-});
+})]).catch(e => console.log(e));
 
 // sex by age
 // B01001_002E

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "GOTHIC";
+  src: url("/public/fonts/gothic.ttf");
+}
+
 html, body, #root {
   @apply h-full;
 }

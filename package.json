@@ -6,7 +6,8 @@
   "author": "Matt Gardner <wilburnforce@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "pull:data": "node ./scripts/pull-data.js",
+    "pull:census": "node ./scripts/pull-data.js",
+    "transform:data": "node ./scripts/transform-data.js",
     "pull:airtable": "node ./scripts/pull-airtable.js"
   },
   "devDependencies": {
