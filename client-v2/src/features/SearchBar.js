@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import Select from 'react-select';
 import { useNavigate } from "react-router-dom";
+import { extractSlug } from '../util/extract-slug';
 
-function SearchBar({ list = [], className = '' }) {
+function SearchBar({ neighborhoods = [], className = '' }) {
   const [selection, setSelection] = useState(null);
   const navigate = useNavigate();
-  const options = list.map(i => {
+  const options = neighborhoods.map(i => {
     return {
       label: i.neighborhood,
-      value: i.slug,
+      value: extractSlug(i),
     }
   });
 

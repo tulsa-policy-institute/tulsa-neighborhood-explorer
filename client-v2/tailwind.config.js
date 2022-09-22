@@ -1,4 +1,7 @@
 module.exports = {
+  daisyui: {
+    themes: ["corporate"],
+  },
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -18,7 +21,8 @@ module.exports = {
         22: '5.5rem',
       },
       fontFamily: {
-        sans: ['GOTHIC', 'sans-serif'],
+        sans: ['franklin', 'sans-serif', 'franklin'],
+        headings: ['gothic', 'sans-serif'],
       },
     },
   },

@@ -10,7 +10,7 @@ function Index({ neighborhoods }) {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore aperiam odit voluptatibus velit qui optio quam exercitationem incidunt animi rem voluptate necessitatibus, nostrum obcaecati enim, ullam itaque et pariatur.
       </p>
       <SearchBar
-        list={neighborhoods}
+        neighborhoods={neighborhoods}
       />
     </div>
     <div className="basis-full">

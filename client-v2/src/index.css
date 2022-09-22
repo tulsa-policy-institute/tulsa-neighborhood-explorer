@@ -3,8 +3,37 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "GOTHIC";
-  src: url("/public/fonts/gothic.ttf");
+  font-family: franklin;
+  font-style: normal;
+  font-weight: normal;
+  src: url("/public/fonts/frabk.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: franklin;
+  font-style: italic;
+  font-weight: italic;
+  src: url("/public/fonts/frabkit.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: gothic;
+  font-style: normal;
+  font-weight: 100;
+  src: url("/public/fonts/gothic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: gothic;
+  font-style: normal;
+  font-weight: bold;
+  src: url("/public/fonts/gothicb.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: gothic;
+  font-style: italic;
+  src: url("/public/fonts/gothici.ttf") format('truetype');
 }
 
 html, body, #root {
