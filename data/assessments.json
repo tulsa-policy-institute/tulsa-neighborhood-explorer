@@ -16,19 +16,7 @@
     "lp3_score": 0.05,
     "top_performing_1": "Transportation",
     "overall_score": 0.69,
-    "map_id": 67,
-    "normalizedTractIDs": [
-      "90.08"
-    ],
-    "census2000": {
-      "PL001001": 3183
-    },
-    "census2010": {
-      "P001001": 3626
-    },
-    "census2020": {
-      "P1_001N": 3836
-    }
+    "map_id": 67
   },
   {
     "id": "recKamT5emz4vdFDF",
@@ -49,19 +37,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 0.94,
     "overall_score": 1.9,
-    "map_id": 31,
-    "normalizedTractIDs": [
-      "66"
-    ],
-    "census2000": {
-      "PL001001": 3102
-    },
-    "census2010": {
-      "P001001": 2864
-    },
-    "census2020": {
-      "P1_001N": 2694
-    }
+    "map_id": 31
   },
   {
     "id": "recpNtTn6OO1XZybr",
@@ -82,19 +58,7 @@
     "top_performing_1": "Parks & Recreation",
     "lp2_score": 1.91,
     "overall_score": 0.9,
-    "map_id": 11,
-    "normalizedTractIDs": [
-      "5"
-    ],
-    "census2000": {
-      "PL001001": 2613
-    },
-    "census2010": {
-      "P001001": 2333
-    },
-    "census2020": {
-      "P1_001N": 2331
-    }
+    "map_id": 11
   },
   {
     "id": "recOgP2Ti9hJZh2lR",
@@ -115,19 +79,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 1.71,
     "overall_score": 2.89,
-    "map_id": 27,
-    "normalizedTractIDs": [
-      "17"
-    ],
-    "census2000": {
-      "PL001001": 2556
-    },
-    "census2010": {
-      "P001001": 2493
-    },
-    "census2020": {
-      "P1_001N": 2521
-    }
+    "map_id": 27
   },
   {
     "id": "recS5PxSkP9w10WsS",
@@ -148,22 +100,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 1.44,
     "overall_score": 1.06,
-    "map_id": 60,
-    "normalizedTractIDs": [
-      "90.06",
-      "90.1",
-      "90.12",
-      "90.14"
-    ],
-    "census2000": {
-      "PL001001": 6013
-    },
-    "census2010": {
-      "P001001": 6445
-    },
-    "census2020": {
-      "P1_001N": 12145
-    }
+    "map_id": 60
   },
   {
     "id": "recBZSv9Lpu9B2OE8",
@@ -184,19 +121,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 1.81,
     "overall_score": 3.77,
-    "map_id": 49,
-    "normalizedTractIDs": [
-      "42"
-    ],
-    "census2000": {
-      "PL001001": 3119
-    },
-    "census2010": {
-      "P001001": 2851
-    },
-    "census2020": {
-      "P1_001N": 2879
-    }
+    "map_id": 49
   },
   {
     "id": "recrfvHdRnxrPFOpT",
@@ -216,20 +141,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 1.33,
     "overall_score": 1.24,
-    "map_id": 3,
-    "normalizedTractIDs": [
-      "79",
-      "91.01"
-    ],
-    "census2000": {
-      "PL001001": 9109
-    },
-    "census2010": {
-      "P001001": 7319
-    },
-    "census2020": {
-      "P1_001N": 7144
-    }
+    "map_id": 3
   },
   {
     "id": "recHtfVewDyWnr6NI",
@@ -250,21 +162,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.23,
     "overall_score": 2.02,
-    "map_id": 21,
-    "normalizedTractIDs": [
-      "29",
-      "30",
-      "88"
-    ],
-    "census2000": {
-      "PL001001": 7536
-    },
-    "census2010": {
-      "P001001": 7498
-    },
-    "census2020": {
-      "P1_001N": 6552
-    }
+    "map_id": 21
   },
   {
     "id": "recP5Jzg0ESG1qJhT",
@@ -285,19 +183,7 @@
     "top_performing_1": "Parks & Recreation",
     "lp2_score": 1.09,
     "overall_score": 0.54,
-    "map_id": 17,
-    "normalizedTractIDs": [
-      "13"
-    ],
-    "census2000": {
-      "PL001001": 2382
-    },
-    "census2010": {
-      "P001001": 2309
-    },
-    "census2020": {
-      "P1_001N": 2172
-    }
+    "map_id": 17
   },
   {
     "id": "recJUxnP70dX6bcBA",
@@ -318,20 +204,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 2.42,
     "overall_score": 4.65,
-    "map_id": 37,
-    "normalizedTractIDs": [
-      "33",
-      "34"
-    ],
-    "census2000": {
-      "PL001001": 4636
-    },
-    "census2010": {
-      "P001001": 4125
-    },
-    "census2020": {
-      "P1_001N": 4287
-    }
+    "map_id": 37
   },
   {
     "id": "reczcIlX9YcH4z8r7",
@@ -352,13 +225,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 1.96,
     "overall_score": 1.46,
-    "map_id": 43,
-    "normalizedTractIDs": [
-      "73.1"
-    ],
-    "census2000": {},
-    "census2010": {},
-    "census2020": {}
+    "map_id": 43
   },
   {
     "id": "rec68vZUzYXfyx6pH",
@@ -379,19 +246,7 @@
     "top_performing_1": "Parks & Recreation",
     "lp2_score": 1.45,
     "overall_score": 0.67,
-    "map_id": 16,
-    "normalizedTractIDs": [
-      "12"
-    ],
-    "census2000": {
-      "PL001001": 2023
-    },
-    "census2010": {
-      "P001001": 1824
-    },
-    "census2020": {
-      "P1_001N": 1730
-    }
+    "map_id": 16
   },
   {
     "id": "recKDgn7iQxFQaCwJ",
@@ -412,16 +267,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 0.62,
     "overall_score": 1.99,
-    "map_id": 68,
-    "normalizedTractIDs": [
-      "90.17",
-      "90.19"
-    ],
-    "census2000": {},
-    "census2010": {},
-    "census2020": {
-      "P1_001N": 6225
-    }
+    "map_id": 68
   },
   {
     "id": "rec9odQCdpwRcITfl",
@@ -442,19 +288,7 @@
     "top_performing_1": "Land Use",
     "lp2_score": 1.99,
     "overall_score": 4.35,
-    "map_id": 23,
-    "normalizedTractIDs": [
-      "25"
-    ],
-    "census2000": {
-      "PL001001": 3506
-    },
-    "census2010": {
-      "P001001": 3980
-    },
-    "census2020": {
-      "P1_001N": 4984
-    }
+    "map_id": 23
   },
   {
     "id": "rec1Nta78LwNnBqEd",
@@ -475,20 +309,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 2.35,
     "overall_score": 2,
-    "map_id": 10,
-    "normalizedTractIDs": [
-      "114",
-      "10"
-    ],
-    "census2000": {
-      "PL001001": 1494
-    },
-    "census2010": {
-      "P001001": 1421
-    },
-    "census2020": {
-      "P1_001N": 4481
-    }
+    "map_id": 10
   },
   {
     "id": "recMrz4kgAsSBjabU",
@@ -509,19 +330,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 2.25,
     "overall_score": 4.32,
-    "map_id": 56,
-    "normalizedTractIDs": [
-      "43.02"
-    ],
-    "census2000": {
-      "PL001001": 3198
-    },
-    "census2010": {
-      "P001001": 3178
-    },
-    "census2020": {
-      "P1_001N": 3414
-    }
+    "map_id": 56
   },
   {
     "id": "rec0SzuUI7sTJUDbQ",
@@ -542,19 +351,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 1.07,
     "overall_score": 1.61,
-    "map_id": 45,
-    "normalizedTractIDs": [
-      "73.08"
-    ],
-    "census2000": {
-      "PL001001": 3231
-    },
-    "census2010": {
-      "P001001": 3219
-    },
-    "census2020": {
-      "P1_001N": 3360
-    }
+    "map_id": 45
   },
   {
     "id": "recnlnU6rbEJvRA4z",
@@ -581,21 +378,7 @@
     "top_performing_1": "Land Use",
     "lp2_score": 2.158130045,
     "overall_score": 1.9,
-    "map_id": 54,
-    "normalizedTractIDs": [
-      "73.06",
-      "73.12",
-      "73.13"
-    ],
-    "census2000": {
-      "PL001001": 10070
-    },
-    "census2010": {
-      "P001001": 10485
-    },
-    "census2020": {
-      "P1_001N": 13582
-    }
+    "map_id": 54
   },
   {
     "id": "recWyGeloRVIcOr2J",
@@ -616,19 +399,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 1.13,
     "overall_score": 1.52,
-    "map_id": 34,
-    "normalizedTractIDs": [
-      "46"
-    ],
-    "census2000": {
-      "PL001001": 3147
-    },
-    "census2010": {
-      "P001001": 3082
-    },
-    "census2020": {
-      "P1_001N": 3190
-    }
+    "map_id": 34
   },
   {
     "id": "recvH5z5upwxqBNkS",
@@ -649,19 +420,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 2.13,
     "overall_score": 4.16,
-    "map_id": 39,
-    "normalizedTractIDs": [
-      "37"
-    ],
-    "census2000": {
-      "PL001001": 2771
-    },
-    "census2010": {
-      "P001001": 2675
-    },
-    "census2020": {
-      "P1_001N": 2527
-    }
+    "map_id": 39
   },
   {
     "id": "recnXtg3nR1WRStIK",
@@ -679,19 +438,7 @@
     "lowest_performing_1": "Land Use",
     "top_performing_1": "Environment & Natural Resources",
     "overall_score": 1.41,
-    "map_id": 47,
-    "normalizedTractIDs": [
-      "304.02"
-    ],
-    "census2000": {
-      "PL001001": 4032
-    },
-    "census2010": {
-      "P001001": 4266
-    },
-    "census2020": {
-      "P1_001N": 4445
-    }
+    "map_id": 47
   },
   {
     "id": "recFvwh4vdz71a5pr",
@@ -710,19 +457,7 @@
     "lp3_score": 1.96,
     "top_performing_1": "Transportation",
     "lp2_score": 1.46,
-    "map_id": 6,
-    "normalizedTractIDs": [
-      "80.01"
-    ],
-    "census2000": {
-      "PL001001": 2299
-    },
-    "census2010": {
-      "P001001": 1927
-    },
-    "census2020": {
-      "P1_001N": 1975
-    }
+    "map_id": 6
   },
   {
     "id": "recOxCUdSZiAQ8TFP",
@@ -743,19 +478,7 @@
     "top_performing_1": "Parks & Recreation",
     "lp2_score": 0.94,
     "overall_score": 1.06,
-    "map_id": 33,
-    "normalizedTractIDs": [
-      "49"
-    ],
-    "census2000": {
-      "PL001001": 2091
-    },
-    "census2010": {
-      "P001001": 1620
-    },
-    "census2020": {
-      "P1_001N": 1666
-    }
+    "map_id": 33
   },
   {
     "id": "recwfEYpgzoP2KmQ7",
@@ -776,17 +499,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.41,
     "overall_score": 1.73,
-    "map_id": 2,
-    "normalizedTractIDs": [
-      "9400.06"
-    ],
-    "census2000": {},
-    "census2010": {
-      "P001001": 5722
-    },
-    "census2020": {
-      "P1_001N": 5403
-    }
+    "map_id": 2
   },
   {
     "id": "recieP7Pd2awd9PgT",
@@ -807,23 +520,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 2.2,
     "overall_score": 3.38,
-    "map_id": 75,
-    "normalizedTractIDs": [
-      "76.15",
-      "76.16",
-      "76.19",
-      "76.47",
-      "76.48"
-    ],
-    "census2000": {
-      "PL001001": 9902
-    },
-    "census2010": {
-      "P001001": 9257
-    },
-    "census2020": {
-      "P1_001N": 15262
-    }
+    "map_id": 75
   },
   {
     "id": "recGDI0HjgUKLVFnq",
@@ -844,20 +541,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 1.15,
     "overall_score": 3.09,
-    "map_id": 74,
-    "normalizedTractIDs": [
-      "76.12",
-      "76.14"
-    ],
-    "census2000": {
-      "PL001001": 6581
-    },
-    "census2010": {
-      "P001001": 5864
-    },
-    "census2020": {
-      "P1_001N": 6346
-    }
+    "map_id": 74
   },
   {
     "id": "recbFyyrZoOY4S2rk",
@@ -878,19 +562,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.42,
     "overall_score": 1.22,
-    "map_id": 7,
-    "normalizedTractIDs": [
-      "62"
-    ],
-    "census2000": {
-      "PL001001": 2913
-    },
-    "census2010": {
-      "P001001": 2781
-    },
-    "census2020": {
-      "P1_001N": 2687
-    }
+    "map_id": 7
   },
   {
     "id": "recCsz1bjgt52Sc2M",
@@ -911,19 +583,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 2.06,
     "overall_score": 3.36,
-    "map_id": 51,
-    "normalizedTractIDs": [
-      "53"
-    ],
-    "census2000": {
-      "PL001001": 4722
-    },
-    "census2010": {
-      "P001001": 4569
-    },
-    "census2020": {
-      "P1_001N": 4618
-    }
+    "map_id": 51
   },
   {
     "id": "recm2kWu3btdM4JyP",
@@ -944,22 +604,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 1.82,
     "overall_score": 3.42,
-    "map_id": 78,
-    "normalizedTractIDs": [
-      "76.29",
-      "76.32",
-      "76.33",
-      "76.39"
-    ],
-    "census2000": {
-      "PL001001": 12473
-    },
-    "census2010": {
-      "P001001": 14067
-    },
-    "census2020": {
-      "P1_001N": 14411
-    }
+    "map_id": 78
   },
   {
     "id": "rec51CvddzUMVqTl3",
@@ -980,19 +625,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.81,
     "overall_score": 3.29,
-    "map_id": 22,
-    "normalizedTractIDs": [
-      "27"
-    ],
-    "census2000": {
-      "PL001001": 3427
-    },
-    "census2010": {
-      "P001001": 3291
-    },
-    "census2020": {
-      "P1_001N": 2836
-    }
+    "map_id": 22
   },
   {
     "id": "recGy15gFt8YwjpXF",
@@ -1013,20 +646,7 @@
     "top_performing_1": "History, Culture & Creativity",
     "lp2_score": 1.6,
     "overall_score": 2.8,
-    "map_id": 25,
-    "normalizedTractIDs": [
-      "20",
-      "21"
-    ],
-    "census2000": {
-      "PL001001": 5874
-    },
-    "census2010": {
-      "P001001": 5526
-    },
-    "census2020": {
-      "P1_001N": 4922
-    }
+    "map_id": 25
   },
   {
     "id": "recQox1xo9GrMtgTY",
@@ -1047,19 +667,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.35,
     "overall_score": 1.21,
-    "map_id": 73,
-    "normalizedTractIDs": [
-      "76.41",
-      "76.42",
-      "76.5"
-    ],
-    "census2000": {},
-    "census2010": {
-      "P001001": 5891
-    },
-    "census2020": {
-      "P1_001N": 6580
-    }
+    "map_id": 73
   },
   {
     "id": "recEZ4bT77oY9dvPs",
@@ -1080,20 +688,7 @@
     "top_performing_1": "Parks & Recreation",
     "lp2_score": 1.66,
     "overall_score": 0.92,
-    "map_id": 29,
-    "normalizedTractIDs": [
-      "82",
-      "83"
-    ],
-    "census2000": {
-      "PL001001": 3714
-    },
-    "census2010": {
-      "P001001": 3681
-    },
-    "census2020": {
-      "P1_001N": 3904
-    }
+    "map_id": 29
   },
   {
     "id": "rec5Cr4Fvnyw7Q2mr",
@@ -1120,19 +715,7 @@
     "top_performing_1": "Land Use",
     "lp2_score": 1.86,
     "overall_score": 2.54,
-    "map_id": 41,
-    "normalizedTractIDs": [
-      "71.01"
-    ],
-    "census2000": {
-      "PL001001": 4160
-    },
-    "census2010": {
-      "P001001": 3443
-    },
-    "census2020": {
-      "P1_001N": 3608
-    }
+    "map_id": 41
   },
   {
     "id": "recg9nBFgDg9Io1bD",
@@ -1153,19 +736,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 1.19,
     "overall_score": 0.92,
-    "map_id": 8,
-    "normalizedTractIDs": [
-      "2"
-    ],
-    "census2000": {
-      "PL001001": 1295
-    },
-    "census2010": {
-      "P001001": 1473
-    },
-    "census2020": {
-      "P1_001N": 1380
-    }
+    "map_id": 8
   },
   {
     "id": "recuhcaHSnCbW9PbS",
@@ -1186,20 +757,7 @@
     "top_performing_1": "Land Use",
     "lp2_score": 1.51,
     "overall_score": 1.76,
-    "map_id": 53,
-    "normalizedTractIDs": [
-      "73.14",
-      "85.01"
-    ],
-    "census2000": {
-      "PL001001": 2814
-    },
-    "census2010": {
-      "P001001": 3002
-    },
-    "census2020": {
-      "P1_001N": 6530
-    }
+    "map_id": 53
   },
   {
     "id": "recIWuX4FHDVIFTY1",
@@ -1220,19 +778,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 1.26,
     "overall_score": 0.19,
-    "map_id": 13,
-    "normalizedTractIDs": [
-      "3"
-    ],
-    "census2000": {
-      "PL001001": 4233
-    },
-    "census2010": {
-      "P001001": 3919
-    },
-    "census2020": {
-      "P1_001N": 3986
-    }
+    "map_id": 13
   },
   {
     "id": "recZ8qDGEg4Y178Uu",
@@ -1253,20 +799,7 @@
     "top_performing_1": "Parks & Recreation",
     "lp2_score": 2.95,
     "overall_score": 5,
-    "map_id": 36,
-    "normalizedTractIDs": [
-      "32",
-      "45"
-    ],
-    "census2000": {
-      "PL001001": 4322
-    },
-    "census2010": {
-      "P001001": 3960
-    },
-    "census2020": {
-      "P1_001N": 4003
-    }
+    "map_id": 36
   },
   {
     "id": "recwh8aoeoMJcE3sq",
@@ -1286,19 +819,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 1.63,
     "overall_score": 0.62,
-    "map_id": 19,
-    "normalizedTractIDs": [
-      "16"
-    ],
-    "census2000": {
-      "PL001001": 5212
-    },
-    "census2010": {
-      "P001001": 4944
-    },
-    "census2020": {
-      "P1_001N": 5424
-    }
+    "map_id": 19
   },
   {
     "id": "recKTN8JoSn2jwQ6K",
@@ -1319,19 +840,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 2.15,
     "overall_score": 3.61,
-    "map_id": 50,
-    "normalizedTractIDs": [
-      "39"
-    ],
-    "census2000": {
-      "PL001001": 4288
-    },
-    "census2010": {
-      "P001001": 4061
-    },
-    "census2020": {
-      "P1_001N": 4040
-    }
+    "map_id": 50
   },
   {
     "id": "recCNKrvZXJ608utJ",
@@ -1358,19 +867,7 @@
     "top_performing_1": "Land Use",
     "lp2_score": 1.686176409,
     "overall_score": 2.54,
-    "map_id": 28,
-    "normalizedTractIDs": [
-      "72"
-    ],
-    "census2000": {
-      "PL001001": 3647
-    },
-    "census2010": {
-      "P001001": 3908
-    },
-    "census2020": {
-      "P1_001N": 4093
-    }
+    "map_id": 28
   },
   {
     "id": "recrUbvzbzDU5VZW2",
@@ -1391,19 +888,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 1.58,
     "overall_score": 1.11,
-    "map_id": 20,
-    "normalizedTractIDs": [
-      "60"
-    ],
-    "census2000": {
-      "PL001001": 4729
-    },
-    "census2010": {
-      "P001001": 4946
-    },
-    "census2020": {
-      "P1_001N": 5167
-    }
+    "map_id": 20
   },
   {
     "id": "recCpYmamcv1x4B7p",
@@ -1424,20 +909,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.73,
     "overall_score": 1.63,
-    "map_id": 42,
-    "normalizedTractIDs": [
-      "71.02",
-      "73.04"
-    ],
-    "census2000": {
-      "PL001001": 6289
-    },
-    "census2010": {
-      "P001001": 6205
-    },
-    "census2020": {
-      "P1_001N": 6081
-    }
+    "map_id": 42
   },
   {
     "id": "recgEyLYunNCAvWCW",
@@ -1458,19 +930,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.23,
     "overall_score": 0.66,
-    "map_id": 15,
-    "normalizedTractIDs": [
-      "59"
-    ],
-    "census2000": {
-      "PL001001": 2350
-    },
-    "census2010": {
-      "P001001": 2342
-    },
-    "census2020": {
-      "P1_001N": 2693
-    }
+    "map_id": 15
   },
   {
     "id": "recEQT3MrTT0bGWYn",
@@ -1491,15 +951,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 1.51,
     "overall_score": 1.43,
-    "map_id": 14,
-    "normalizedTractIDs": [
-      "113"
-    ],
-    "census2000": {},
-    "census2010": {},
-    "census2020": {
-      "P1_001N": 2735
-    }
+    "map_id": 14
   },
   {
     "id": "recP0739oSI1lnRvr",
@@ -1520,19 +972,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 1.59,
     "overall_score": 1.05,
-    "map_id": 4,
-    "normalizedTractIDs": [
-      "57"
-    ],
-    "census2000": {
-      "PL001001": 2803
-    },
-    "census2010": {
-      "P001001": 2316
-    },
-    "census2020": {
-      "P1_001N": 2229
-    }
+    "map_id": 4
   },
   {
     "id": "recHbDsTUnX5rH8KH",
@@ -1553,17 +993,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 0.16,
     "overall_score": 1.75,
-    "map_id": 1,
-    "normalizedTractIDs": [
-      "9400.05"
-    ],
-    "census2000": {},
-    "census2010": {
-      "P001001": 3921
-    },
-    "census2020": {
-      "P1_001N": 4075
-    }
+    "map_id": 1
   },
   {
     "id": "recRGH2u14dTsUSbg",
@@ -1584,20 +1014,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 1.26,
     "overall_score": 1.86,
-    "map_id": 64,
-    "normalizedTractIDs": [
-      "69.05",
-      "86"
-    ],
-    "census2000": {
-      "PL001001": 8442
-    },
-    "census2010": {
-      "P001001": 8504
-    },
-    "census2020": {
-      "P1_001N": 8366
-    }
+    "map_id": 64
   },
   {
     "id": "recwdVqbQW8Jl95xR",
@@ -1618,20 +1035,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 1.92,
     "overall_score": 3.29,
-    "map_id": 63,
-    "normalizedTractIDs": [
-      "51",
-      "52"
-    ],
-    "census2000": {
-      "PL001001": 5020
-    },
-    "census2010": {
-      "P001001": 4683
-    },
-    "census2020": {
-      "P1_001N": 4936
-    }
+    "map_id": 63
   },
   {
     "id": "recqGLdRHT1zOsizb",
@@ -1652,17 +1056,7 @@
     "top_performing_1": "Land Use",
     "lp2_score": 1.55,
     "overall_score": 2.14,
-    "map_id": 24,
-    "normalizedTractIDs": [
-      "23.01"
-    ],
-    "census2000": {},
-    "census2010": {
-      "P001001": 2835
-    },
-    "census2020": {
-      "P1_001N": 2356
-    }
+    "map_id": 24
   },
   {
     "id": "recAHOnrcggx70Q3V",
@@ -1683,19 +1077,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 1.86,
     "overall_score": 3.76,
-    "map_id": 57,
-    "normalizedTractIDs": [
-      "41.01"
-    ],
-    "census2000": {
-      "PL001001": 2372
-    },
-    "census2010": {
-      "P001001": 2327
-    },
-    "census2020": {
-      "P1_001N": 2292
-    }
+    "map_id": 57
   },
   {
     "id": "rec2QeXB9mWBubplT",
@@ -1716,20 +1098,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 1.87,
     "overall_score": 2.64,
-    "map_id": 32,
-    "normalizedTractIDs": [
-      "47",
-      "48"
-    ],
-    "census2000": {
-      "PL001001": 6555
-    },
-    "census2010": {
-      "P001001": 6291
-    },
-    "census2020": {
-      "P1_001N": 6346
-    }
+    "map_id": 32
   },
   {
     "id": "recJxGkpQqgor2Wq2",
@@ -1750,20 +1119,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 1.69,
     "overall_score": 2.23,
-    "map_id": 66,
-    "normalizedTractIDs": [
-      "69.06",
-      "69.07"
-    ],
-    "census2000": {
-      "PL001001": 4926
-    },
-    "census2010": {
-      "P001001": 4954
-    },
-    "census2020": {
-      "P1_001N": 5082
-    }
+    "map_id": 66
   },
   {
     "id": "recr9kjqqCIjNSjcK",
@@ -1784,20 +1140,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 2.01,
     "overall_score": 4.36,
-    "map_id": 38,
-    "normalizedTractIDs": [
-      "35",
-      "36"
-    ],
-    "census2000": {
-      "PL001001": 4354
-    },
-    "census2010": {
-      "P001001": 4062
-    },
-    "census2020": {
-      "P1_001N": 4085
-    }
+    "map_id": 38
   },
   {
     "id": "rec8MkvJpgP9Kkuvo",
@@ -1818,20 +1161,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.94,
     "overall_score": 2.58,
-    "map_id": 9,
-    "normalizedTractIDs": [
-      "8",
-      "9"
-    ],
-    "census2000": {
-      "PL001001": 3154
-    },
-    "census2010": {
-      "P001001": 2781
-    },
-    "census2020": {
-      "P1_001N": 2547
-    }
+    "map_id": 9
   },
   {
     "id": "rectTSfdDsasSWeve",
@@ -1852,19 +1182,7 @@
     "top_performing_1": "Parks & Recreation",
     "lp2_score": 1.94,
     "overall_score": 4.53,
-    "map_id": 35,
-    "normalizedTractIDs": [
-      "31"
-    ],
-    "census2000": {
-      "PL001001": 2749
-    },
-    "census2010": {
-      "P001001": 2620
-    },
-    "census2020": {
-      "P1_001N": 2468
-    }
+    "map_id": 35
   },
   {
     "id": "recC3fnr2qOpfoy3e",
@@ -1885,24 +1203,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 1.4,
     "overall_score": 1.95,
-    "map_id": 70,
-    "normalizedTractIDs": [
-      "68.01",
-      "68.03",
-      "68.04",
-      "76.08",
-      "76.43",
-      "76.44"
-    ],
-    "census2000": {
-      "PL001001": 5633
-    },
-    "census2010": {
-      "P001001": 11048
-    },
-    "census2020": {
-      "P1_001N": 15986
-    }
+    "map_id": 70
   },
   {
     "id": "recNr3XD5806Lv1vM",
@@ -1923,20 +1224,7 @@
     "top_performing_1": "Parks & Recreation",
     "lp2_score": 1.63,
     "overall_score": 0.86,
-    "map_id": 18,
-    "normalizedTractIDs": [
-      "14",
-      "15"
-    ],
-    "census2000": {
-      "PL001001": 9603
-    },
-    "census2010": {
-      "P001001": 9393
-    },
-    "census2020": {
-      "P1_001N": 9650
-    }
+    "map_id": 18
   },
   {
     "id": "recHzOkXm7hY6pBgB",
@@ -1957,20 +1245,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 2.43,
     "overall_score": 3.7,
-    "map_id": 62,
-    "normalizedTractIDs": [
-      "50.01",
-      "50.02"
-    ],
-    "census2000": {
-      "PL001001": 6135
-    },
-    "census2010": {
-      "P001001": 5681
-    },
-    "census2020": {
-      "P1_001N": 5374
-    }
+    "map_id": 62
   },
   {
     "id": "recNL56NNcb1oj0oR",
@@ -1991,22 +1266,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 0.63,
     "overall_score": 2.94,
-    "map_id": 80,
-    "normalizedTractIDs": [
-      "76.36",
-      "76.38",
-      "76.53",
-      "76.54"
-    ],
-    "census2000": {
-      "PL001001": 5451
-    },
-    "census2010": {
-      "P001001": 7667
-    },
-    "census2020": {
-      "P1_001N": 14782
-    }
+    "map_id": 80
   },
   {
     "id": "recTsPtSleuCCuXy6",
@@ -2027,18 +1287,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 1.78,
     "overall_score": 3.09,
-    "map_id": 79,
-    "normalizedTractIDs": [
-      "75.27",
-      "75.28",
-      "75.3",
-      "76.3"
-    ],
-    "census2000": {},
-    "census2010": {},
-    "census2020": {
-      "P1_001N": 3425
-    }
+    "map_id": 79
   },
   {
     "id": "recwz3TTRgcLlBVSd",
@@ -2059,22 +1308,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 2,
     "overall_score": 3.51,
-    "map_id": 71,
-    "normalizedTractIDs": [
-      "69.01",
-      "76.11",
-      "76.13",
-      "87"
-    ],
-    "census2000": {
-      "PL001001": 12515
-    },
-    "census2010": {
-      "P001001": 11448
-    },
-    "census2020": {
-      "P1_001N": 11872
-    }
+    "map_id": 71
   },
   {
     "id": "recvZ5LmQ7YwYOvy2",
@@ -2095,21 +1329,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.85,
     "overall_score": 2.1,
-    "map_id": 59,
-    "normalizedTractIDs": [
-      "70",
-      "85.02",
-      "90.11"
-    ],
-    "census2000": {
-      "PL001001": 7444
-    },
-    "census2010": {
-      "P001001": 7543
-    },
-    "census2020": {
-      "P1_001N": 9924
-    }
+    "map_id": 59
   },
   {
     "id": "recp1ukYgIsw9plva",
@@ -2130,19 +1350,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 1.32,
     "overall_score": 0.06,
-    "map_id": 12,
-    "normalizedTractIDs": [
-      "4"
-    ],
-    "census2000": {
-      "PL001001": 3886
-    },
-    "census2010": {
-      "P001001": 3939
-    },
-    "census2020": {
-      "P1_001N": 4340
-    }
+    "map_id": 12
   },
   {
     "id": "rec1eABNbeKm5MG4l",
@@ -2163,20 +1371,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 0.53,
     "overall_score": 1.62,
-    "map_id": 46,
-    "normalizedTractIDs": [
-      "304.03",
-      "304.08"
-    ],
-    "census2000": {
-      "PL001001": 1682
-    },
-    "census2010": {
-      "P001001": 1897
-    },
-    "census2020": {
-      "P1_001N": 4576
-    }
+    "map_id": 46
   },
   {
     "id": "recEPYg8oRhZuCNFw",
@@ -2197,18 +1392,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 0.49,
     "overall_score": 2.46,
-    "map_id": 61,
-    "normalizedTractIDs": [
-      "90.13",
-      "90.15",
-      "90.16",
-      "90.18"
-    ],
-    "census2000": {},
-    "census2010": {},
-    "census2020": {
-      "P1_001N": 12217
-    }
+    "map_id": 61
   },
   {
     "id": "recOdm5QWtUzFxpoc",
@@ -2229,20 +1413,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 2.41,
     "overall_score": 3.44,
-    "map_id": 65,
-    "normalizedTractIDs": [
-      "69.02",
-      "69.03"
-    ],
-    "census2000": {
-      "PL001001": 6039
-    },
-    "census2010": {
-      "P001001": 5206
-    },
-    "census2020": {
-      "P1_001N": 5349
-    }
+    "map_id": 65
   },
   {
     "id": "recAAQkJjDPavxwuj",
@@ -2263,19 +1434,7 @@
     "top_performing_1": "Housing & Neighborhoods",
     "lp2_score": 1.95,
     "overall_score": 2.77,
-    "map_id": 52,
-    "normalizedTractIDs": [
-      "84"
-    ],
-    "census2000": {
-      "PL001001": 3380
-    },
-    "census2010": {
-      "P001001": 3510
-    },
-    "census2020": {
-      "P1_001N": 3477
-    }
+    "map_id": 52
   },
   {
     "id": "rec9VdU0kPAmn2G3A",
@@ -2296,19 +1455,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.42,
     "overall_score": 0.91,
-    "map_id": 44,
-    "normalizedTractIDs": [
-      "73.11"
-    ],
-    "census2000": {
-      "PL001001": 2824
-    },
-    "census2010": {
-      "P001001": 2777
-    },
-    "census2020": {
-      "P1_001N": 2885
-    }
+    "map_id": 44
   },
   {
     "id": "recpl7uWMEYBRxnyJ",
@@ -2329,16 +1476,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 0.87,
     "overall_score": 2.89,
-    "map_id": 72,
-    "normalizedTractIDs": [
-      "67.12",
-      "67.13"
-    ],
-    "census2000": {},
-    "census2010": {},
-    "census2020": {
-      "P1_001N": 4365
-    }
+    "map_id": 72
   },
   {
     "id": "recq8zdmvcuBEwAzf",
@@ -2359,20 +1497,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 0.97,
     "overall_score": 1.88,
-    "map_id": 69,
-    "normalizedTractIDs": [
-      "67.01",
-      "67.11"
-    ],
-    "census2000": {
-      "PL001001": 3137
-    },
-    "census2010": {
-      "P001001": 3200
-    },
-    "census2020": {
-      "P1_001N": 6539
-    }
+    "map_id": 69
   },
   {
     "id": "recWR3u1dTLDT4yoe",
@@ -2393,20 +1518,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 2.13,
     "overall_score": 3.11,
-    "map_id": 26,
-    "normalizedTractIDs": [
-      "18",
-      "19"
-    ],
-    "census2000": {
-      "PL001001": 3849
-    },
-    "census2010": {
-      "P001001": 3662
-    },
-    "census2020": {
-      "P1_001N": 3518
-    }
+    "map_id": 26
   },
   {
     "id": "rec8lZxsEnoS6omcw",
@@ -2427,21 +1539,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.45,
     "overall_score": 3.38,
-    "map_id": 77,
-    "normalizedTractIDs": [
-      "76.31",
-      "76.34",
-      "76.49"
-    ],
-    "census2000": {
-      "PL001001": 5505
-    },
-    "census2010": {
-      "P001001": 6568
-    },
-    "census2020": {
-      "P1_001N": 9354
-    }
+    "map_id": 77
   },
   {
     "id": "recTqSnGIwDwDfXw1",
@@ -2462,19 +1560,7 @@
     "top_performing_1": "Environment & Natural Resources",
     "lp2_score": 1.51,
     "overall_score": 1.47,
-    "map_id": 5,
-    "normalizedTractIDs": [
-      "80.02"
-    ],
-    "census2000": {
-      "PL001001": 3212
-    },
-    "census2010": {
-      "P001001": 2791
-    },
-    "census2020": {
-      "P1_001N": 2724
-    }
+    "map_id": 5
   },
   {
     "id": "rec4ahCmmvDQUxAna",
@@ -2495,19 +1581,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 1.68,
     "overall_score": 3.22,
-    "map_id": 40,
-    "normalizedTractIDs": [
-      "38"
-    ],
-    "census2000": {
-      "PL001001": 1931
-    },
-    "census2010": {
-      "P001001": 1867
-    },
-    "census2020": {
-      "P1_001N": 1854
-    }
+    "map_id": 40
   },
   {
     "id": "recdYjozeTETOnMzm",
@@ -2528,19 +1602,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 2.54,
     "overall_score": 4.27,
-    "map_id": 55,
-    "normalizedTractIDs": [
-      "44"
-    ],
-    "census2000": {
-      "PL001001": 2865
-    },
-    "census2010": {
-      "P001001": 2710
-    },
-    "census2020": {
-      "P1_001N": 2102
-    }
+    "map_id": 55
   },
   {
     "id": "recJPCUIwZJOWW3DQ",
@@ -2561,20 +1623,7 @@
     "top_performing_1": "Transportation",
     "lp2_score": 1.32,
     "overall_score": 1.23,
-    "map_id": 30,
-    "normalizedTractIDs": [
-      "73.09",
-      "89"
-    ],
-    "census2000": {
-      "PL001001": 4733
-    },
-    "census2010": {
-      "P001001": 5018
-    },
-    "census2020": {
-      "P1_001N": 5236
-    }
+    "map_id": 30
   },
   {
     "id": "recG7NVEco4kQk10n",
@@ -2595,19 +1644,7 @@
     "top_performing_1": "Communities",
     "lp2_score": 2.16,
     "overall_score": 3.92,
-    "map_id": 58,
-    "normalizedTractIDs": [
-      "40"
-    ],
-    "census2000": {
-      "PL001001": 4503
-    },
-    "census2010": {
-      "P001001": 4333
-    },
-    "census2020": {
-      "P1_001N": 4209
-    }
+    "map_id": 58
   },
   {
     "id": "rec2eFCb72I6jpy93",
@@ -2634,23 +1671,7 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 1.16,
     "overall_score": 2.44,
-    "map_id": 76,
-    "normalizedTractIDs": [
-      "74.1",
-      "74.11",
-      "76.17",
-      "76.45",
-      "76.46"
-    ],
-    "census2000": {
-      "PL001001": 5679
-    },
-    "census2010": {
-      "P001001": 6519
-    },
-    "census2020": {
-      "P1_001N": 14751
-    }
+    "map_id": 76
   },
   {
     "id": "recn1LnZEUxCIKbA4",
@@ -2671,18 +1692,6 @@
     "top_performing_1": "Economic Development",
     "lp2_score": 2.1,
     "overall_score": 4.1,
-    "map_id": 48,
-    "normalizedTractIDs": [
-      "43.01"
-    ],
-    "census2000": {
-      "PL001001": 2357
-    },
-    "census2010": {
-      "P001001": 2137
-    },
-    "census2020": {
-      "P1_001N": 2214
-    }
+    "map_id": 48
   }
 ]

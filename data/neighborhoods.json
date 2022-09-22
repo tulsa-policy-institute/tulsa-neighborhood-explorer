@@ -28,12 +28,7 @@
     },
     "census2020": {
       "P1_001N": 3836
-    },
-    "cartodb_id": 79,
-    "tracts_201": "90.08",
-    "tracts_202": "90.08",
-    "res_units": 1924,
-    "sq_miles": 1.987428
+    }
   },
   {
     "id": "recKamT5emz4vdFDF",
@@ -66,12 +61,7 @@
     },
     "census2020": {
       "P1_001N": 2694
-    },
-    "cartodb_id": 76,
-    "tracts_201": "66",
-    "tracts_202": "66",
-    "res_units": 1081,
-    "sq_miles": 10.88101
+    }
   },
   {
     "id": "recpNtTn6OO1XZybr",
@@ -104,12 +94,7 @@
     },
     "census2020": {
       "P1_001N": 2331
-    },
-    "cartodb_id": 2,
-    "tracts_201": "5",
-    "tracts_202": "5",
-    "res_units": 1197,
-    "sq_miles": 0.673563
+    }
   },
   {
     "id": "recOgP2Ti9hJZh2lR",
@@ -142,12 +127,7 @@
     },
     "census2020": {
       "P1_001N": 2521
-    },
-    "cartodb_id": 58,
-    "tracts_201": "17",
-    "tracts_202": "17",
-    "res_units": 1272,
-    "sq_miles": 0.891005
+    }
   },
   {
     "id": "recS5PxSkP9w10WsS",
@@ -183,12 +163,7 @@
     },
     "census2020": {
       "P1_001N": 12145
-    },
-    "cartodb_id": 55,
-    "tracts_201": "90.04 (part), 90.06, 90.07 (part)",
-    "tracts_202": "90.06, 90.10, 90.12, 90.14",
-    "res_units": 5637,
-    "sq_miles": 2.471829
+    }
   },
   {
     "id": "recBZSv9Lpu9B2OE8",
@@ -221,12 +196,7 @@
     },
     "census2020": {
       "P1_001N": 2879
-    },
-    "cartodb_id": 44,
-    "tracts_201": "42",
-    "tracts_202": "42",
-    "res_units": 1412,
-    "sq_miles": 0.997587
+    }
   },
   {
     "id": "recrfvHdRnxrPFOpT",
@@ -259,12 +229,7 @@
     },
     "census2020": {
       "P1_001N": 7144
-    },
-    "cartodb_id": 21,
-    "tracts_201": "79, 91.01",
-    "tracts_202": "79, 91.01",
-    "res_units": 3170,
-    "sq_miles": 5.968428
+    }
   },
   {
     "id": "recHtfVewDyWnr6NI",
@@ -299,12 +264,7 @@
     },
     "census2020": {
       "P1_001N": 6552
-    },
-    "cartodb_id": 53,
-    "tracts_201": "29, 30, 88",
-    "tracts_202": "29, 30, 88",
-    "res_units": 3190,
-    "sq_miles": 4.523648
+    }
   },
   {
     "id": "recP5Jzg0ESG1qJhT",
@@ -337,12 +297,7 @@
     },
     "census2020": {
       "P1_001N": 2172
-    },
-    "cartodb_id": 63,
-    "tracts_201": "13",
-    "tracts_202": "13",
-    "res_units": 858,
-    "sq_miles": 0.844389
+    }
   },
   {
     "id": "recJUxnP70dX6bcBA",
@@ -376,12 +331,7 @@
     },
     "census2020": {
       "P1_001N": 4287
-    },
-    "cartodb_id": 51,
-    "tracts_201": "33, 34",
-    "tracts_202": "33, 34",
-    "res_units": 2400,
-    "sq_miles": 0.977099
+    }
   },
   {
     "id": "reczcIlX9YcH4z8r7",
@@ -408,12 +358,7 @@
     ],
     "census2000": {},
     "census2010": {},
-    "census2020": {},
-    "cartodb_id": 15,
-    "tracts_201": "73.1",
-    "tracts_202": "73.1",
-    "res_units": 1361,
-    "sq_miles": 0.999345
+    "census2020": {}
   },
   {
     "id": "rec68vZUzYXfyx6pH",
@@ -446,12 +391,7 @@
     },
     "census2020": {
       "P1_001N": 1730
-    },
-    "cartodb_id": 64,
-    "tracts_201": "12",
-    "tracts_202": "12",
-    "res_units": 677,
-    "sq_miles": 1.193665
+    }
   },
   {
     "id": "recKDgn7iQxFQaCwJ",
@@ -481,12 +421,7 @@
     "census2010": {},
     "census2020": {
       "P1_001N": 6225
-    },
-    "cartodb_id": 40,
-    "tracts_201": "90.03 (part), 90.09 (part)",
-    "tracts_202": "90.17, 90.19",
-    "res_units": 2866,
-    "sq_miles": 5.063346
+    }
   },
   {
     "id": "rec9odQCdpwRcITfl",
@@ -519,12 +454,7 @@
     },
     "census2020": {
       "P1_001N": 4984
-    },
-    "cartodb_id": 70,
-    "tracts_201": "25",
-    "tracts_202": "25",
-    "res_units": 2755,
-    "sq_miles": 1.480191
+    }
   },
   {
     "id": "rec1Nta78LwNnBqEd",
@@ -558,12 +488,7 @@
     },
     "census2020": {
       "P1_001N": 4481
-    },
-    "cartodb_id": 73,
-    "tracts_201": "6, 7, 10",
-    "tracts_202": "114, 10",
-    "res_units": 2263,
-    "sq_miles": 1.542452
+    }
   },
   {
     "id": "recMrz4kgAsSBjabU",
@@ -596,12 +521,7 @@
     },
     "census2020": {
       "P1_001N": 3414
-    },
-    "cartodb_id": 35,
-    "tracts_201": "43.02",
-    "tracts_202": "43.02",
-    "res_units": 1801,
-    "sq_miles": 0.987695
+    }
   },
   {
     "id": "rec0SzuUI7sTJUDbQ",
@@ -634,12 +554,7 @@
     },
     "census2020": {
       "P1_001N": 3360
-    },
-    "cartodb_id": 18,
-    "tracts_201": "73.08",
-    "tracts_202": "73.08",
-    "res_units": 1335,
-    "sq_miles": 9.057209
+    }
   },
   {
     "id": "recnlnU6rbEJvRA4z",
@@ -680,12 +595,7 @@
     },
     "census2020": {
       "P1_001N": 13582
-    },
-    "cartodb_id": 13,
-    "tracts_201": "73.05 (part), 73.06, 73.12",
-    "tracts_202": "73.06, 73.12, 73.13",
-    "res_units": 5023,
-    "sq_miles": 2.473237
+    }
   },
   {
     "id": "recWyGeloRVIcOr2J",
@@ -718,12 +628,7 @@
     },
     "census2020": {
       "P1_001N": 3190
-    },
-    "cartodb_id": 33,
-    "tracts_201": "46",
-    "tracts_202": "46",
-    "res_units": 1721,
-    "sq_miles": 0.644516
+    }
   },
   {
     "id": "recvH5z5upwxqBNkS",
@@ -756,12 +661,7 @@
     },
     "census2020": {
       "P1_001N": 2527
-    },
-    "cartodb_id": 49,
-    "tracts_201": "37",
-    "tracts_202": "37",
-    "res_units": 1431,
-    "sq_miles": 0.998479
+    }
   },
   {
     "id": "recnXtg3nR1WRStIK",
@@ -791,12 +691,7 @@
     },
     "census2020": {
       "P1_001N": 4445
-    },
-    "cartodb_id": 67,
-    "tracts_201": "304.02",
-    "tracts_202": "304.02",
-    "res_units": 1660,
-    "sq_miles": 30.927297
+    }
   },
   {
     "id": "recFvwh4vdz71a5pr",
@@ -827,12 +722,7 @@
     },
     "census2020": {
       "P1_001N": 1975
-    },
-    "cartodb_id": 5,
-    "tracts_201": "80.01",
-    "tracts_202": "80.01",
-    "res_units": 764,
-    "sq_miles": 1.736319
+    }
   },
   {
     "id": "recOxCUdSZiAQ8TFP",
@@ -865,12 +755,7 @@
     },
     "census2020": {
       "P1_001N": 1666
-    },
-    "cartodb_id": 48,
-    "tracts_201": "49",
-    "tracts_202": "49",
-    "res_units": 1004,
-    "sq_miles": 3.555993
+    }
   },
   {
     "id": "recwfEYpgzoP2KmQ7",
@@ -901,12 +786,7 @@
     },
     "census2020": {
       "P1_001N": 5403
-    },
-    "cartodb_id": 69,
-    "tracts_201": "9400.06",
-    "tracts_202": "9400.06",
-    "res_units": 2539,
-    "sq_miles": 2.898082
+    }
   },
   {
     "id": "recieP7Pd2awd9PgT",
@@ -943,12 +823,7 @@
     },
     "census2020": {
       "P1_001N": 15262
-    },
-    "cartodb_id": 9,
-    "tracts_201": "76.15, 76.16, 76.19, 76.20",
-    "tracts_202": "76.15, 76.16, 76.19, 76.47, 76.48",
-    "res_units": 7693,
-    "sq_miles": 4.008304
+    }
   },
   {
     "id": "recGDI0HjgUKLVFnq",
@@ -982,12 +857,7 @@
     },
     "census2020": {
       "P1_001N": 6346
-    },
-    "cartodb_id": 74,
-    "tracts_201": "76.12, 76.14",
-    "tracts_202": "76.12, 76.14",
-    "res_units": 1986,
-    "sq_miles": 1.995318
+    }
   },
   {
     "id": "recbFyyrZoOY4S2rk",
@@ -1020,12 +890,7 @@
     },
     "census2020": {
       "P1_001N": 2687
-    },
-    "cartodb_id": 27,
-    "tracts_201": "62",
-    "tracts_202": "62",
-    "res_units": 1428,
-    "sq_miles": 1.759966
+    }
   },
   {
     "id": "recCsz1bjgt52Sc2M",
@@ -1058,12 +923,7 @@
     },
     "census2020": {
       "P1_001N": 4618
-    },
-    "cartodb_id": 30,
-    "tracts_201": "53",
-    "tracts_202": "53",
-    "res_units": 2192,
-    "sq_miles": 0.999198
+    }
   },
   {
     "id": "recm2kWu3btdM4JyP",
@@ -1099,12 +959,7 @@
     },
     "census2020": {
       "P1_001N": 14411
-    },
-    "cartodb_id": 8,
-    "tracts_201": "76.29, 76.32, 76.33, 76.39",
-    "tracts_202": "76.29, 76.32, 76.33, 76.39",
-    "res_units": 6444,
-    "sq_miles": 4.009137
+    }
   },
   {
     "id": "rec51CvddzUMVqTl3",
@@ -1137,12 +992,7 @@
     },
     "census2020": {
       "P1_001N": 2836
-    },
-    "cartodb_id": 65,
-    "tracts_201": "27",
-    "tracts_202": "27",
-    "res_units": 1301,
-    "sq_miles": 1.634598
+    }
   },
   {
     "id": "recGy15gFt8YwjpXF",
@@ -1176,12 +1026,7 @@
     },
     "census2020": {
       "P1_001N": 4922
-    },
-    "cartodb_id": 56,
-    "tracts_201": "20, 21",
-    "tracts_202": "20, 21",
-    "res_units": 2215,
-    "sq_miles": 0.893362
+    }
   },
   {
     "id": "recQox1xo9GrMtgTY",
@@ -1214,12 +1059,7 @@
     },
     "census2020": {
       "P1_001N": 6580
-    },
-    "cartodb_id": 43,
-    "tracts_201": "76.25, 76.41, 76.42",
-    "tracts_202": "76.41, 76.42, 76.50",
-    "res_units": 4961,
-    "sq_miles": 1.975782
+    }
   },
   {
     "id": "recEZ4bT77oY9dvPs",
@@ -1253,12 +1093,7 @@
     },
     "census2020": {
       "P1_001N": 3904
-    },
-    "cartodb_id": 4,
-    "tracts_201": "82, 83",
-    "tracts_202": "82, 83",
-    "res_units": 1610,
-    "sq_miles": 2.007027
+    }
   },
   {
     "id": "rec5Cr4Fvnyw7Q2mr",
@@ -1297,12 +1132,7 @@
     },
     "census2020": {
       "P1_001N": 3608
-    },
-    "cartodb_id": 22,
-    "tracts_201": "71.01",
-    "tracts_202": "71.01",
-    "res_units": 1948,
-    "sq_miles": 1.004526
+    }
   },
   {
     "id": "recg9nBFgDg9Io1bD",
@@ -1335,12 +1165,7 @@
     },
     "census2020": {
       "P1_001N": 1380
-    },
-    "cartodb_id": 37,
-    "tracts_201": "2",
-    "tracts_202": "2",
-    "res_units": 680,
-    "sq_miles": 2.639323
+    }
   },
   {
     "id": "recuhcaHSnCbW9PbS",
@@ -1374,12 +1199,7 @@
     },
     "census2020": {
       "P1_001N": 6530
-    },
-    "cartodb_id": 61,
-    "tracts_201": "73.05 (part), 85.01",
-    "tracts_202": "73.14, 85.01",
-    "res_units": 3066,
-    "sq_miles": 1.512307
+    }
   },
   {
     "id": "recIWuX4FHDVIFTY1",
@@ -1412,12 +1232,7 @@
     },
     "census2020": {
       "P1_001N": 3986
-    },
-    "cartodb_id": 17,
-    "tracts_201": "3",
-    "tracts_202": "3",
-    "res_units": 1510,
-    "sq_miles": 0.993457
+    }
   },
   {
     "id": "recZ8qDGEg4Y178Uu",
@@ -1451,12 +1266,7 @@
     },
     "census2020": {
       "P1_001N": 4003
-    },
-    "cartodb_id": 34,
-    "tracts_201": "32, 45",
-    "tracts_202": "32, 45",
-    "res_units": 1991,
-    "sq_miles": 1.261963
+    }
   },
   {
     "id": "recwh8aoeoMJcE3sq",
@@ -1488,12 +1298,7 @@
     },
     "census2020": {
       "P1_001N": 5424
-    },
-    "cartodb_id": 59,
-    "tracts_201": "16",
-    "tracts_202": "16",
-    "res_units": 2250,
-    "sq_miles": 1.128333
+    }
   },
   {
     "id": "recKTN8JoSn2jwQ6K",
@@ -1526,12 +1331,7 @@
     },
     "census2020": {
       "P1_001N": 4040
-    },
-    "cartodb_id": 46,
-    "tracts_201": "39",
-    "tracts_202": "39",
-    "res_units": 2272,
-    "sq_miles": 0.996462
+    }
   },
   {
     "id": "recCNKrvZXJ608utJ",
@@ -1570,12 +1370,7 @@
     },
     "census2020": {
       "P1_001N": 4093
-    },
-    "cartodb_id": 20,
-    "tracts_201": "72",
-    "tracts_202": "72",
-    "res_units": 1675,
-    "sq_miles": 0.877783
+    }
   },
   {
     "id": "recrUbvzbzDU5VZW2",
@@ -1608,12 +1403,7 @@
     },
     "census2020": {
       "P1_001N": 5167
-    },
-    "cartodb_id": 28,
-    "tracts_201": "60",
-    "tracts_202": "60",
-    "res_units": 1860,
-    "sq_miles": 1.126732
+    }
   },
   {
     "id": "recCpYmamcv1x4B7p",
@@ -1647,12 +1437,7 @@
     },
     "census2020": {
       "P1_001N": 6081
-    },
-    "cartodb_id": 19,
-    "tracts_201": "71.02, 73.04",
-    "tracts_202": "71.02, 73.04",
-    "res_units": 2771,
-    "sq_miles": 1.990458
+    }
   },
   {
     "id": "recgEyLYunNCAvWCW",
@@ -1685,12 +1470,7 @@
     },
     "census2020": {
       "P1_001N": 2693
-    },
-    "cartodb_id": 75,
-    "tracts_201": "59",
-    "tracts_202": "59",
-    "res_units": 1122,
-    "sq_miles": 18.474972
+    }
   },
   {
     "id": "recEQT3MrTT0bGWYn",
@@ -1719,12 +1499,7 @@
     "census2010": {},
     "census2020": {
       "P1_001N": 2735
-    },
-    "cartodb_id": 12,
-    "tracts_201": "1, 111",
-    "tracts_202": "113",
-    "res_units": 1116,
-    "sq_miles": 13.396935
+    }
   },
   {
     "id": "recP0739oSI1lnRvr",
@@ -1757,12 +1532,7 @@
     },
     "census2020": {
       "P1_001N": 2229
-    },
-    "cartodb_id": 29,
-    "tracts_201": "57",
-    "tracts_202": "57",
-    "res_units": 987,
-    "sq_miles": 1.651582
+    }
   },
   {
     "id": "recHbDsTUnX5rH8KH",
@@ -1793,12 +1563,7 @@
     },
     "census2020": {
       "P1_001N": 4075
-    },
-    "cartodb_id": 68,
-    "tracts_201": "9400.05",
-    "tracts_202": "9400.05",
-    "res_units": 1690,
-    "sq_miles": 50.651351
+    }
   },
   {
     "id": "recRGH2u14dTsUSbg",
@@ -1832,12 +1597,7 @@
     },
     "census2020": {
       "P1_001N": 8366
-    },
-    "cartodb_id": 24,
-    "tracts_201": "69.05, 86",
-    "tracts_202": "69.05, 86",
-    "res_units": 4456,
-    "sq_miles": 2.001087
+    }
   },
   {
     "id": "recwdVqbQW8Jl95xR",
@@ -1871,12 +1631,7 @@
     },
     "census2020": {
       "P1_001N": 4936
-    },
-    "cartodb_id": 31,
-    "tracts_201": "51, 52",
-    "tracts_202": "51, 52",
-    "res_units": 2496,
-    "sq_miles": 1.953506
+    }
   },
   {
     "id": "recqGLdRHT1zOsizb",
@@ -1907,12 +1662,7 @@
     },
     "census2020": {
       "P1_001N": 2356
-    },
-    "cartodb_id": 42,
-    "tracts_201": "23.01",
-    "tracts_202": "23.01",
-    "res_units": 1379,
-    "sq_miles": 1.01039
+    }
   },
   {
     "id": "recAHOnrcggx70Q3V",
@@ -1945,12 +1695,7 @@
     },
     "census2020": {
       "P1_001N": 2292
-    },
-    "cartodb_id": 78,
-    "tracts_201": "41.01",
-    "tracts_202": "41.01",
-    "res_units": 1008,
-    "sq_miles": 0.997598
+    }
   },
   {
     "id": "rec2QeXB9mWBubplT",
@@ -1984,12 +1729,7 @@
     },
     "census2020": {
       "P1_001N": 6346
-    },
-    "cartodb_id": 39,
-    "tracts_201": "47, 48",
-    "tracts_202": "47, 48",
-    "res_units": 2783,
-    "sq_miles": 2.571751
+    }
   },
   {
     "id": "recJxGkpQqgor2Wq2",
@@ -2023,12 +1763,7 @@
     },
     "census2020": {
       "P1_001N": 5082
-    },
-    "cartodb_id": 25,
-    "tracts_201": "69.06, 69.07",
-    "tracts_202": "69.06, 69.07",
-    "res_units": 2325,
-    "sq_miles": 2.008292
+    }
   },
   {
     "id": "recr9kjqqCIjNSjcK",
@@ -2062,12 +1797,7 @@
     },
     "census2020": {
       "P1_001N": 4085
-    },
-    "cartodb_id": 50,
-    "tracts_201": "35, 36",
-    "tracts_202": "35, 36",
-    "res_units": 2266,
-    "sq_miles": 1.000383
+    }
   },
   {
     "id": "rec8MkvJpgP9Kkuvo",
@@ -2101,12 +1831,7 @@
     },
     "census2020": {
       "P1_001N": 2547
-    },
-    "cartodb_id": 1,
-    "tracts_201": "8, 9",
-    "tracts_202": "8, 9",
-    "res_units": 1330,
-    "sq_miles": 0.90159
+    }
   },
   {
     "id": "rectTSfdDsasSWeve",
@@ -2139,12 +1864,7 @@
     },
     "census2020": {
       "P1_001N": 2468
-    },
-    "cartodb_id": 52,
-    "tracts_201": "31",
-    "tracts_202": "31",
-    "res_units": 2156,
-    "sq_miles": 0.569773
+    }
   },
   {
     "id": "recC3fnr2qOpfoy3e",
@@ -2182,12 +1902,7 @@
     },
     "census2020": {
       "P1_001N": 15986
-    },
-    "cartodb_id": 26,
-    "tracts_201": "68.01, 68.03, 68.04, 76.08, 76.09",
-    "tracts_202": "68.01, 68.03, 68.04, 76.08, 76.43, 76.44",
-    "res_units": 9099,
-    "sq_miles": 3.016823
+    }
   },
   {
     "id": "recNr3XD5806Lv1vM",
@@ -2221,12 +1936,7 @@
     },
     "census2020": {
       "P1_001N": 9650
-    },
-    "cartodb_id": 60,
-    "tracts_201": "14, 15",
-    "tracts_202": "14, 15",
-    "res_units": 3916,
-    "sq_miles": 2.25002
+    }
   },
   {
     "id": "recHzOkXm7hY6pBgB",
@@ -2260,12 +1970,7 @@
     },
     "census2020": {
       "P1_001N": 5374
-    },
-    "cartodb_id": 32,
-    "tracts_201": "50.01, 50.02",
-    "tracts_202": "50.01, 50.02",
-    "res_units": 3182,
-    "sq_miles": 1.61179
+    }
   },
   {
     "id": "recNL56NNcb1oj0oR",
@@ -2301,12 +2006,7 @@
     },
     "census2020": {
       "P1_001N": 14782
-    },
-    "cartodb_id": 10,
-    "tracts_201": "76.36, 76.37, 76.38",
-    "tracts_202": "76.36, 76.38, 76.53, 76.54",
-    "res_units": 5441,
-    "sq_miles": 8.060609
+    }
   },
   {
     "id": "recTsPtSleuCCuXy6",
@@ -2338,12 +2038,7 @@
     "census2010": {},
     "census2020": {
       "P1_001N": 3425
-    },
-    "cartodb_id": 36,
-    "tracts_201": "75.08 (part), 75.24, 76.30",
-    "tracts_202": "75.27, 75.28, 75.30, 76.30",
-    "res_units": 4673,
-    "sq_miles": 4.964476
+    }
   },
   {
     "id": "recwz3TTRgcLlBVSd",
@@ -2379,12 +2074,7 @@
     },
     "census2020": {
       "P1_001N": 11872
-    },
-    "cartodb_id": 11,
-    "tracts_201": "69.01, 76.11, 76.13, 87",
-    "tracts_202": "69.01, 76.11, 76.13, 87",
-    "res_units": 6497,
-    "sq_miles": 4.041125
+    }
   },
   {
     "id": "recvZ5LmQ7YwYOvy2",
@@ -2419,12 +2109,7 @@
     },
     "census2020": {
       "P1_001N": 9924
-    },
-    "cartodb_id": 23,
-    "tracts_201": "70, 85.02, 90.04 (part)",
-    "tracts_202": "70, 85.02, 90.11",
-    "res_units": 4580,
-    "sq_miles": 3.511134
+    }
   },
   {
     "id": "recp1ukYgIsw9plva",
@@ -2457,12 +2142,7 @@
     },
     "census2020": {
       "P1_001N": 4340
-    },
-    "cartodb_id": 3,
-    "tracts_201": "4",
-    "tracts_202": "4",
-    "res_units": 1622,
-    "sq_miles": 0.98822
+    }
   },
   {
     "id": "rec1eABNbeKm5MG4l",
@@ -2496,12 +2176,7 @@
     },
     "census2020": {
       "P1_001N": 4576
-    },
-    "cartodb_id": 66,
-    "tracts_201": "304.03, 304.05",
-    "tracts_202": "304.03, 304.08",
-    "res_units": 1689,
-    "sq_miles": 7.025769
+    }
   },
   {
     "id": "recEPYg8oRhZuCNFw",
@@ -2533,12 +2208,7 @@
     "census2010": {},
     "census2020": {
       "P1_001N": 12217
-    },
-    "cartodb_id": 71,
-    "tracts_201": "90.07 (part), 90.09",
-    "tracts_202": "90.13, 90.15, 90.16, 90.18",
-    "res_units": 4380,
-    "sq_miles": 5.989299
+    }
   },
   {
     "id": "recOdm5QWtUzFxpoc",
@@ -2572,12 +2242,7 @@
     },
     "census2020": {
       "P1_001N": 5349
-    },
-    "cartodb_id": 77,
-    "tracts_201": "69.02, 69.03",
-    "tracts_202": "69.02, 69.03",
-    "res_units": 2821,
-    "sq_miles": 1.998235
+    }
   },
   {
     "id": "recAAQkJjDPavxwuj",
@@ -2610,12 +2275,7 @@
     },
     "census2020": {
       "P1_001N": 3477
-    },
-    "cartodb_id": 62,
-    "tracts_201": "84",
-    "tracts_202": "84",
-    "res_units": 1678,
-    "sq_miles": 1.004574
+    }
   },
   {
     "id": "rec9VdU0kPAmn2G3A",
@@ -2648,12 +2308,7 @@
     },
     "census2020": {
       "P1_001N": 2885
-    },
-    "cartodb_id": 14,
-    "tracts_201": "73.11",
-    "tracts_202": "73.11",
-    "res_units": 1051,
-    "sq_miles": 1.876023
+    }
   },
   {
     "id": "recpl7uWMEYBRxnyJ",
@@ -2683,12 +2338,7 @@
     "census2010": {},
     "census2020": {
       "P1_001N": 4365
-    },
-    "cartodb_id": 72,
-    "tracts_201": "67.05 (part)",
-    "tracts_202": "67.12, 67.13",
-    "res_units": 1851,
-    "sq_miles": 5.95568
+    }
   },
   {
     "id": "recq8zdmvcuBEwAzf",
@@ -2722,12 +2372,7 @@
     },
     "census2020": {
       "P1_001N": 6539
-    },
-    "cartodb_id": 38,
-    "tracts_201": "67.01, 67.05 (part)",
-    "tracts_202": "67.01, 67.11",
-    "res_units": 2551,
-    "sq_miles": 5.759744
+    }
   },
   {
     "id": "recWR3u1dTLDT4yoe",
@@ -2761,12 +2406,7 @@
     },
     "census2020": {
       "P1_001N": 3518
-    },
-    "cartodb_id": 57,
-    "tracts_201": "18, 19",
-    "tracts_202": "18, 19",
-    "res_units": 1900,
-    "sq_miles": 0.890263
+    }
   },
   {
     "id": "rec8lZxsEnoS6omcw",
@@ -2801,12 +2441,7 @@
     },
     "census2020": {
       "P1_001N": 9354
-    },
-    "cartodb_id": 6,
-    "tracts_201": "76.31, 76.34",
-    "tracts_202": "76.31, 76.34, 76.49",
-    "res_units": 4514,
-    "sq_miles": 3.239483
+    }
   },
   {
     "id": "recTqSnGIwDwDfXw1",
@@ -2839,12 +2474,7 @@
     },
     "census2020": {
       "P1_001N": 2724
-    },
-    "cartodb_id": 54,
-    "tracts_201": "80.02",
-    "tracts_202": "80.02",
-    "res_units": 1243,
-    "sq_miles": 1.439236
+    }
   },
   {
     "id": "rec4ahCmmvDQUxAna",
@@ -2877,12 +2507,7 @@
     },
     "census2020": {
       "P1_001N": 1854
-    },
-    "cartodb_id": 47,
-    "tracts_201": "38",
-    "tracts_202": "38",
-    "res_units": 962,
-    "sq_miles": 1.003545
+    }
   },
   {
     "id": "recdYjozeTETOnMzm",
@@ -2915,12 +2540,7 @@
     },
     "census2020": {
       "P1_001N": 2102
-    },
-    "cartodb_id": 80,
-    "tracts_201": "44",
-    "tracts_202": "44",
-    "res_units": 1277,
-    "sq_miles": 0.600471
+    }
   },
   {
     "id": "recJPCUIwZJOWW3DQ",
@@ -2954,12 +2574,7 @@
     },
     "census2020": {
       "P1_001N": 5236
-    },
-    "cartodb_id": 16,
-    "tracts_201": "73.09, 89",
-    "tracts_202": "73.09, 89",
-    "res_units": 2018,
-    "sq_miles": 1.731924
+    }
   },
   {
     "id": "recG7NVEco4kQk10n",
@@ -2992,12 +2607,7 @@
     },
     "census2020": {
       "P1_001N": 4209
-    },
-    "cartodb_id": 45,
-    "tracts_201": "40",
-    "tracts_202": "40",
-    "res_units": 2428,
-    "sq_miles": 0.998428
+    }
   },
   {
     "id": "rec2eFCb72I6jpy93",
@@ -3040,12 +2650,7 @@
     },
     "census2020": {
       "P1_001N": 14751
-    },
-    "cartodb_id": 7,
-    "tracts_201": "74.10, 74.11, 76.17, 76.18",
-    "tracts_202": "74.10, 74.11, 76.17, 76.45, 76.46",
-    "res_units": 9151,
-    "sq_miles": 3.954941
+    }
   },
   {
     "id": "recn1LnZEUxCIKbA4",
@@ -3078,11 +2683,6 @@
     },
     "census2020": {
       "P1_001N": 2214
-    },
-    "cartodb_id": 41,
-    "tracts_201": "43.01",
-    "tracts_202": "43.01",
-    "res_units": 949,
-    "sq_miles": 0.978324
+    }
   }
 ]
