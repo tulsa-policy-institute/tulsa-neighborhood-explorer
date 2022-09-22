@@ -40,6 +40,7 @@ const transformed = data.assessments.map((assessment) => {
 
   return {
     ...assessment,
+    ...feature.properties,
 
     normalizedTractIDs: normalizedTractIDs,
     census2000: filterForProfileTracts([
