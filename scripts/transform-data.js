@@ -57,5 +57,5 @@ const transformed = data.assessments.map((assessment) => {
   };
 });
 
-fs.writeFileSync(path.resolve('data/assessments.json'), JSON.stringify(transformed, null, 2));
-fs.writeFileSync(path.resolve('data/assessments.min.json'), JSON.stringify(transformed));
+fs.writeFileSync(path.resolve('data/neighborhoods.json'), JSON.stringify(transformed, null, 2));
+fs.writeFileSync(path.resolve('data/neighborhoods.min.json'), JSON.stringify(transformed));
