@@ -16,12 +16,12 @@ jobs:
     - uses: actions/checkout@master
     - name: Build
       run: yarn install
-    - name: Scrape
+    - name: Extract
       run: yarn run pull:airtable
       env:
         AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
-    - name: Scrape
-      run: yarn run pull:airtable
+    - name: Transform
+      run: yarn run transform:data
     - uses: mikeal/publish-to-github-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you
