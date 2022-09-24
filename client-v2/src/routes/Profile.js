@@ -28,10 +28,10 @@ function Profile({ data: neighborhoods }) {
     <main className='flex flex-col gap-4 m-4'>
       <div className='flex flex-row gap-8'>
         <section className='basis-1/2 neighborhood-header'>
-          <h1 className='font-headings text-3xl'>
+          <h1 className='font-headings text-4xl'>
             {neighborhood.neighborhood}
           </h1>
-          <p>Census Tracts: {neighborhood.normalizedTractIDs.join(', ')}</p>
+          <p className='text-xs text-gray-500'>Census Tracts: {neighborhood.normalizedTractIDs.join(', ')}</p>
           <div className='basis-1/2 prose font-body max-h-40 overflow-auto'>
             {neighborhood.overview}
           </div>
@@ -83,9 +83,9 @@ function Profile({ data: neighborhoods }) {
                 <div className='stat-title'>{neighborhood.top_performing_1}</div>
                 <div
                   className="radial-progress text-green-800 m-1"
-                  style={{"--value": neighborhood.tp1_score / 5 * 100, "--size": "6rem", "--thickness": "2px"}}
+                  style={{"--value": neighborhood.tp1_score / 5 * 100, "--size": "6rem", "--thickness": "5px"}}
                 >
-                  <span className='stat-value text-black'>{neighborhood.tp1_score?.toFixed(2)}</span>
+                  <span className='stat-value text-black'>{(neighborhood.tp1_score / 5 * 100)?.toFixed(0)}%</span>
                 </div>
                 <div className="stat-desc prose wrap whitespace-normal text-md">{neighborhood.tp1_description}</div>
               </div>
@@ -93,9 +93,9 @@ function Profile({ data: neighborhoods }) {
                 <div className='stat-title'>{neighborhood.top_performing_2}</div>
                 <div
                   className="radial-progress text-green-800 m-1"
-                  style={{"--value": neighborhood.tp2_score / 5 * 100, "--size": "6rem", "--thickness": "2px"}}
+                  style={{"--value": neighborhood.tp2_score / 5 * 100, "--size": "6rem", "--thickness": "5px"}}
                 >
-                  <span className='stat-value text-black'>{neighborhood.tp2_score?.toFixed(2)}</span>
+                  <span className='stat-value text-black'>{(neighborhood.tp2_score / 5 * 100)?.toFixed(0)}%</span>
                 </div>
                 <div className="stat-desc prose wrap whitespace-normal text-md">{neighborhood.tp2_description}</div>
               </div>
@@ -103,9 +103,9 @@ function Profile({ data: neighborhoods }) {
                 <div className='stat-title'>{neighborhood.top_performing_3}</div>
                 <div
                   className="radial-progress text-green-800 m-1"
-                  style={{"--value": neighborhood.tp3_score / 5 * 100, "--size": "6rem", "--thickness": "2px"}}
+                  style={{"--value": neighborhood.tp3_score / 5 * 100, "--size": "6rem", "--thickness": "5px"}}
                 >
-                  <span className='stat-value text-black'>{neighborhood.tp2_score?.toFixed(2)}</span>
+                  <span className='stat-value text-black'>{(neighborhood.tp2_score / 5 * 100)?.toFixed(0)}%</span>
                 </div>
                 <div className="stat-desc prose wrap whitespace-normal text-md">{neighborhood.tp3_description}</div>
               </div>
@@ -120,9 +120,9 @@ function Profile({ data: neighborhoods }) {
                 <div className='stat-title'>{neighborhood.lowest_performing_1}</div>
                 <div
                   className="radial-progress text-green-800 m-1"
-                  style={{"--value": neighborhood.lp1_score / 5 * 100, "--size": "6rem", "--thickness": "2px"}}
+                  style={{"--value": neighborhood.lp1_score / 5 * 100, "--size": "6rem", "--thickness": "5px"}}
                 >
-                  <span className='stat-value text-black'>{neighborhood.lp1_score?.toFixed(2)}</span>
+                  <span className='stat-value text-black'>{(neighborhood.lp1_score / 5 * 100)?.toFixed(0)}%</span>
                 </div>
                 <div className="stat-desc prose wrap whitespace-normal text-md">{neighborhood.lp1_description}</div>
               </div>
@@ -130,9 +130,9 @@ function Profile({ data: neighborhoods }) {
                 <div className='stat-title'>{neighborhood.lowest_performing_2}</div>
                 <div
                   className="radial-progress text-green-800 m-1"
-                  style={{"--value": neighborhood.lp2_score / 5 * 100, "--size": "6rem", "--thickness": "2px"}}
+                  style={{"--value": neighborhood.lp2_score / 5 * 100, "--size": "6rem", "--thickness": "5px"}}
                 >
-                  <span className='stat-value text-black'>{neighborhood.lp2_score?.toFixed(2)}</span>
+                  <span className='stat-value text-black'>{(neighborhood.lp2_score / 5 * 100)?.toFixed(0)}%</span>
                 </div>
                 <div className="stat-desc prose wrap whitespace-normal text-md">{neighborhood.lp2_description}</div>
               </div>
@@ -140,9 +140,9 @@ function Profile({ data: neighborhoods }) {
                 <div className='stat-title'>{neighborhood.lowest_performing_3}</div>
                 <div
                   className="radial-progress text-green-800 m-1"
-                  style={{"--value": neighborhood.lp3_score / 5 * 100, "--size": "6rem", "--thickness": "2px"}}
+                  style={{"--value": neighborhood.lp3_score / 5 * 100, "--size": "6rem", "--thickness": "5px"}}
                 >
-                  <span className='stat-value text-black'>{neighborhood.lp3_score?.toFixed(2)}</span>
+                  <span className='stat-value text-black'>{(neighborhood.lp3_score / 5 * 100)?.toFixed(0)}%</span>
                 </div>
                 <div className="stat-desc prose wrap whitespace-normal text-md">{neighborhood.lp3_description}</div>
               </div>
