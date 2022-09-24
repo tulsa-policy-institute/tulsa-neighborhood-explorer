@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
-import maplibregl from 'maplibre-gl'
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import maplibregl from '!maplibre-gl'
 import { ProtocolCache } from 'pmtiles';
 import 'maplibre-gl/dist/maplibre-gl.css'
 
