@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Header = () => (
-  <div className="navbar bg-base-100 shadow-md z-10">
+  <div className="navbar bg-base-100 shadow-md z-20">
     <div className="flex-1">
       <Link to="/">
         <img

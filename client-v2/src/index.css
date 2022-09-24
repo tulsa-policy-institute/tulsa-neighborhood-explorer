@@ -16,6 +16,13 @@
   src: url("/public/fonts/frabkit.ttf") format('truetype');
 }
 
+/* @font-face {
+  font-family: franklin;
+  font-style: bold;
+  font-weight: bold;
+  src: url("/public/fonts/frahv.ttf") format('truetype');
+} */
+
 @font-face {
   font-family: gothic;
   font-style: normal;
