@@ -17,11 +17,11 @@ function Profile({ data: neighborhoods }) {
   return <>
     <div className='invisible drop-shadow sm:visible sm:w-full bg-gray-50 fixed z-10'>
       <ul className="tabs">
-        <li className='tab tab-bordered tab-active'><a>Assessment</a></li>
-        <li className='tab tab-bordered'><a>Built Environment</a></li>
-        <li className='tab tab-bordered'><a>Floodplain</a></li>
-        <li className='tab tab-bordered'><a>Projects</a></li>
-        <li className='tab tab-bordered'><a>Resources</a></li>
+        <li className='tab tab-bordered tab-active'>Assessment</li>
+        <li className='tab tab-bordered'>Built Environment</li>
+        <li className='tab tab-bordered'>Floodplain</li>
+        <li className='tab tab-bordered'>Projects</li>
+        <li className='tab tab-bordered'>Resources</li>
       </ul>
     </div>
     <div className='mb-10'></div>
